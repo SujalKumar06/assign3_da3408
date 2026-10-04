@@ -96,8 +96,14 @@ def validity_filters(df: DataFrame) -> DataFrame:
     )
 
 
+def normalize_zeros(df: DataFrame) -> DataFrame:
+    return df.withColumns({
+        c: F.when(F.col(c) == 0.0, F.lit(0.0)).otherwise(F.col(c)) for c in config.ZERO_NORMALIZED_COLUMNS
+    })
+
+
 def dedup(df: DataFrame) -> DataFrame:
-    return df.dropDuplicates(config.DEDUP_ON)
+    return normalize_zeros(df).dropDuplicates(config.DEDUP_ON)
 
 
 def format_timestamps(df: DataFrame) -> DataFrame:

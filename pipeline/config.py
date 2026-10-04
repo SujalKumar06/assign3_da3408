@@ -73,6 +73,8 @@ RATECODE_ID_RANGE = (1, 6)
 LOCATION_ID_RANGE = (1, 263)
 
 DEDUP_ON = TRIP_COLUMNS
+# -0.0 becomes 0.0 in these before dedup, so both engines treat them as the same value.
+ZERO_NORMALIZED_COLUMNS = [name for name, kind in TRIP_SCHEMA if kind == "double"]
 
 AVG_SPEED_MPH_RANGE = (0.5, 80.0)
 
