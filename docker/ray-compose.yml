@@ -1,41 +1,43 @@
+name: a3-ray
+
 services:
   ray-head:
     build:
       context: ..
       dockerfile: docker/Dockerfile
     image: a3-cluster:latest
-    container_name: ray_head
+    container_name: a3_ray_head
     hostname: ray-head
-    command: ray start --head --num-cpus=0 --object-store-memory=300000000 --dashboard-host=0.0.0.0 --block
+    command: ray start --head --num-cpus=0 --object-store-memory=500000000 --dashboard-host=0.0.0.0 --block
     ports:
       - "8265:8265"
     volumes:
       - ..:/app
-    shm_size: 512m
-    mem_limit: 2g
+    shm_size: 1g
+    mem_limit: 4g
 
   ray-worker-a:
     image: a3-cluster:latest
-    container_name: ray_worker_a
+    container_name: a3_ray_worker_a
     hostname: ray-worker-a
-    command: ray start --address=ray-head:6379 --num-cpus=2 --object-store-memory=400000000 --block
+    command: ray start --address=ray-head:6379 --num-cpus=6 --object-store-memory=2500000000 --block
     depends_on:
       - ray-head
     volumes:
       - ..:/app
-    shm_size: 1g
-    cpus: 2
-    mem_limit: 2g
+    shm_size: 3g
+    cpus: 6
+    mem_limit: 8g
 
   ray-worker-b:
     image: a3-cluster:latest
-    container_name: ray_worker_b
+    container_name: a3_ray_worker_b
     hostname: ray-worker-b
-    command: ray start --address=ray-head:6379 --num-cpus=2 --object-store-memory=400000000 --block
+    command: ray start --address=ray-head:6379 --num-cpus=6 --object-store-memory=2500000000 --block
     depends_on:
       - ray-head
     volumes:
       - ..:/app
-    shm_size: 1g
-    cpus: 2
-    mem_limit: 2g
+    shm_size: 3g
+    cpus: 6
+    mem_limit: 8g
