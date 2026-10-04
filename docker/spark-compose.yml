@@ -1,0 +1,58 @@
+services:
+  spark-master:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: a3-cluster:latest
+    container_name: spark_master
+    hostname: spark-master
+    command: spark-class org.apache.spark.deploy.master.Master
+    ports:
+      - "9090:8080"
+      - "7077:7077"
+      - "4040:4040"
+    volumes:
+      - ..:/app
+    environment:
+      - SPARK_MASTER_HOST=spark-master
+      - SPARK_MASTER_PORT=7077
+      - SPARK_MASTER_WEBUI_PORT=8080
+    mem_limit: 2g
+
+  spark-worker-a:
+    image: a3-cluster:latest
+    container_name: spark_worker_a
+    hostname: spark-worker-a
+    command: spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
+    ports:
+      - "9091:8080"
+    depends_on:
+      - spark-master
+    volumes:
+      - ..:/app
+    environment:
+      - SPARK_WORKER_CORES=2
+      - SPARK_WORKER_MEMORY=1536m
+      - SPARK_WORKER_WEBUI_PORT=8080
+      - SPARK_LOCAL_DIRS=/app/data/tmp/spark
+    cpus: 2
+    mem_limit: 2g
+
+  spark-worker-b:
+    image: a3-cluster:latest
+    container_name: spark_worker_b
+    hostname: spark-worker-b
+    command: spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
+    ports:
+      - "9092:8080"
+    depends_on:
+      - spark-master
+    volumes:
+      - ..:/app
+    environment:
+      - SPARK_WORKER_CORES=2
+      - SPARK_WORKER_MEMORY=1536m
+      - SPARK_WORKER_WEBUI_PORT=8080
+      - SPARK_LOCAL_DIRS=/app/data/tmp/spark
+    cpus: 2
+    mem_limit: 2g

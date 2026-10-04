@@ -218,7 +218,8 @@ def main() -> None:
     parser.add_argument("--address", help="Ray cluster address (default: start a local Ray)")
     parser.add_argument("--num-cpus", type=int, default=2)
     parser.add_argument("--join", choices=["shuffle", "broadcast"], default="shuffle")
-    parser.add_argument("--shuffle-partitions", type=int, default=8)
+    parser.add_argument("--shuffle-partitions", type=int, default=16)
+    parser.add_argument("--block-mb", type=int, default=32, help="max block size; smaller blocks need less memory per task")
     parser.add_argument("--stage-counts", action="store_true")
     args = parser.parse_args()
 
@@ -237,6 +238,7 @@ def main() -> None:
         ray.init(num_cpus=args.num_cpus, include_dashboard=False, logging_level="WARNING")
     ctx = DataContext.get_current()
     ctx.shuffle_strategy = ShuffleStrategy.HASH_SHUFFLE_V2
+    ctx.target_max_block_size = args.block_mb * 1024 * 1024
     ctx.enable_progress_bars = False
     try:
         raw = read_trips(paths)
@@ -261,6 +263,7 @@ def main() -> None:
         record.update({
             "framework": "ray",
             "join": args.join,
+            "block_mb": args.block_mb,
             "address": args.address or f"local[{args.num_cpus}]",
             "input_files": len(paths),
             "timestamp": stamp,
