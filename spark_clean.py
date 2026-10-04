@@ -193,7 +193,7 @@ def main() -> None:
     parser.add_argument("--output", default=str(config.OUTPUT_DIR / "spark"))
     parser.add_argument("--master", default="local[2]")
     parser.add_argument("--join", choices=["shuffle", "broadcast"], default="shuffle")
-    parser.add_argument("--shuffle-partitions", type=int, default=8)
+    parser.add_argument("--shuffle-partitions", type=int, default=16)
     parser.add_argument("--stage-counts", action="store_true")
     args = parser.parse_args()
 
