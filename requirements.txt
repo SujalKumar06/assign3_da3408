@@ -1,0 +1,9 @@
+pyspark==4.2.0
+ray[data]==2.58.0
+pyarrow==24.0.0
+pandas==2.3.3
+numpy==2.5.1
+matplotlib==3.11.0
+psutil==7.2.2
+mlflow==3.15.1
+pytest==9.1.1
