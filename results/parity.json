@@ -1,0 +1,51 @@
+{
+  "schema_match": true,
+  "spark_rows": 111016594,
+  "ray_rows": 111016594,
+  "rows_only_in_spark": 0,
+  "rows_only_in_ray": 0,
+  "stage_counts": {
+    "checked": true,
+    "match": true,
+    "stages": [
+      {
+        "stage": "raw",
+        "spark": 126188813,
+        "ray": 126188813,
+        "match": true
+      },
+      {
+        "stage": "drop_nulls",
+        "spark": 118072836,
+        "ray": 118072836,
+        "match": true
+      },
+      {
+        "stage": "validity_filters",
+        "spark": 111083668,
+        "ray": 111083668,
+        "match": true
+      },
+      {
+        "stage": "dedup",
+        "spark": 111083664,
+        "ray": 111083664,
+        "match": true
+      },
+      {
+        "stage": "join",
+        "spark": 111083664,
+        "ray": 111083664,
+        "match": true
+      },
+      {
+        "stage": "speed_filter",
+        "spark": 111016594,
+        "ray": 111016594,
+        "match": true
+      }
+    ]
+  },
+  "timestamp": "20261005-051930",
+  "parity": true
+}

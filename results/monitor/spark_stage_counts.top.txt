@@ -1,0 +1,2541 @@
+04:50:34
+top - 04:50:34 up  1:53,  1 user,  load average: 8.07, 10.84, 8.29
+Tasks: 457 total,   2 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 26.3 us,  2.3 sy,  0.0 ni, 71.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,  17669.7 free,   7851.0 used,   5715.9 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  23535.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  61903 root      20   0 9939016 258864  26472 S 300.0   0.8   0:03.82 java
+  62012 sujal     20   0   61968  36912  36592 R 100.0   0.1   0:00.48 git
+  62048 sujal     20   0   14840   5712   3544 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.51 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:50:37
+top - 04:50:38 up  1:53,  1 user,  load average: 8.07, 10.84, 8.29
+Tasks: 459 total,   2 running, 456 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 14.9 us,  2.3 sy,  0.0 ni, 82.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,  16966.4 free,   8991.0 used,   5696.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  22395.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0 9479168 277280  25620 S 209.1   0.9   0:04.48 java
+  32088 root      20   0       0      0      0 R  27.3   0.0   0:53.78 kworker+
+  12667 sujal     20   0 1448.4g 458548 169148 S  18.2   1.4   4:18.47 code
+   6596 sujal     20   0 5358260 459572 173660 S   9.1   1.4   3:32.26 gnome-s+
+  11584 sujal     20   0   48.4g 199076 160148 S   9.1   0.6   7:56.49 code
+  13803 sujal     20   0 5629452 343424 128476 S   9.1   1.1   0:55.85 claude
+  62300 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.51 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:50:41
+top - 04:50:41 up  1:53,  1 user,  load average: 7.82, 10.75, 8.28
+Tasks: 459 total,   1 running, 457 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 12.2 us,  2.3 sy,  0.0 ni, 85.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,  16759.1 free,   8760.2 used,   5717.2 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  22626.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  61903 root      20   0   11.9g 581500  27140 S 363.6   1.8   0:17.68 java
+  62079 root      20   0   13.7g 318120  25684 S  45.5   1.0   0:05.53 java
+  61988 root      20   0 1118760 129952  56256 S  27.3   0.4   0:02.88 python3
+   8833 sujal     20   0   12.1g 895672 373088 S  18.2   2.8   5:37.71 firefox
+  62092 root      20   0   13.7g 310576  25620 S  18.2   1.0   0:05.65 java
+   6341 sujal     20   0   25.5g 270940 167568 S   9.1   0.8   3:23.71 Xorg
+  11584 sujal     20   0   48.4g 215840 176896 S   9.1   0.7   7:57.21 code
+  12667 sujal     20   0 1448.4g 459500 170044 S   9.1   1.4   4:19.13 code
+  61471 root      20   0 5996908 256744  26428 S   9.1   0.8   0:04.34 java
+  62786 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+04:50:44
+top - 04:50:44 up  1:53,  1 user,  load average: 9.12, 10.97, 8.36
+Tasks: 458 total,   2 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 61.8 us,  3.4 sy,  0.0 ni, 34.3 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,  16522.1 free,   8995.5 used,   5718.7 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  22391.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g 345136  25684 S 518.2   1.1   0:06.43 java
+  62092 root      20   0   13.7g 329428  25620 S 427.3   1.0   0:06.41 java
+  61903 root      20   0   11.9g 799136  27276 S 345.5   2.5   0:31.73 java
+   8833 sujal     20   0   12.1g 900180 373404 S  36.4   2.8   5:38.65 firefox
+   6341 sujal     20   0   25.6g 270940 167568 S  18.2   0.8   3:23.90 Xorg
+   6596 sujal     20   0 5358260 459652 173660 R   9.1   1.4   3:32.80 gnome-s+
+  11584 sujal     20   0   48.4g 215232 176600 S   9.1   0.7   7:57.48 code
+  12667 sujal     20   0 1448.4g 457656 169788 S   9.1   1.4   4:19.38 code
+  13126 sujal     20   0   10.7g 255364 113536 S   9.1   0.8   0:32.01 Isolate+
+  62929 sujal     20   0   14840   5716   3548 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+04:50:47
+top - 04:50:48 up  1:53,  1 user,  load average: 9.12, 10.97, 8.36
+Tasks: 458 total,   1 running, 456 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 69.5 us,  1.1 sy,  0.0 ni, 29.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,  12998.4 free,  12382.1 used,   5856.7 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  19004.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   2.1g  25764 S 563.6   6.8   0:25.25 java
+  62079 root      20   0   13.8g   1.8g  25816 S 545.5   5.9   0:24.71 java
+  34729 root      20   0       0      0      0 I   9.1   0.0   0:22.47 kworker+
+  62999 sujal     20   0   14840   5712   3548 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:50:51
+top - 04:50:51 up  1:53,  1 user,  load average: 9.59, 11.03, 8.40
+Tasks: 458 total,   3 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 77.7 us,  4.8 sy,  0.0 ni, 17.0 id,  0.5 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,  11790.0 free,  13127.7 used,   6299.5 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  18259.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.8g   2.4g  25892 S 645.5   7.7   0:44.47 java
+  62092 root      20   0   13.8g   2.3g  25764 S 590.9   7.4   0:45.00 java
+  11584 sujal     20   0   48.4g 198980 160220 S  81.8   0.6   7:58.24 code
+  12667 sujal     20   0 1448.4g 462640 167484 R  63.6   1.4   4:20.71 code
+  32088 root      20   0       0      0      0 D  27.3   0.0   0:54.86 kworker+
+   6596 sujal     20   0 5358260 459448 173660 R  18.2   1.4   3:33.01 gnome-s+
+  34729 root      20   0       0      0      0 I  18.2   0.0   0:22.50 kworker+
+    201 root      20   0       0      0      0 I   9.1   0.0   1:29.98 kworker+
+    557 root      20   0       0      0      0 I   9.1   0.0   1:38.34 kworker+
+   6341 sujal     20   0   25.6g 270940 167568 S   9.1   0.8   3:24.09 Xorg
+  11493 sujal     20   0 1450.2g 276404 188976 S   9.1   0.9   1:00.01 code
+  63042 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+04:50:54
+top - 04:50:54 up  1:53,  1 user,  load average: 9.59, 11.03, 8.40
+Tasks: 457 total,   2 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 79.0 us,  7.2 sy,  0.0 ni, 13.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,  11313.1 free,  13574.4 used,   6764.2 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17812.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   2.3g  25764 S 609.1   7.4   1:04.79 java
+  62079 root      20   0   13.8g   2.4g  25892 S 590.9   7.8   1:04.25 java
+  34729 root      20   0       0      0      0 R  90.9   0.0   0:22.97 kworker+
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:50:57
+top - 04:50:57 up  1:53,  1 user,  load average: 10.10, 11.12, 8.44
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 71.1 us,  1.7 sy,  0.0 ni, 27.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,  10687.5 free,  13399.8 used,   7126.7 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17987.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.8g   2.5g  26284 S 609.1   8.1   1:24.12 java
+  62092 root      20   0   13.8g   2.4g  26232 S 600.0   8.0   1:24.66 java
+  63119 sujal     20   0   14840   5740   3572 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:01
+top - 04:51:01 up  1:53,  1 user,  load average: 10.49, 11.18, 8.47
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 73.8 us,  1.6 sy,  0.0 ni, 24.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,  10134.3 free,  13473.0 used,   7606.3 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17913.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   2.5g  26280 S 672.7   8.0   1:44.53 java
+  62079 root      20   0   13.8g   2.5g  26284 S 627.3   8.2   1:43.92 java
+  13803 sujal     20   0 5629452 331092 128476 S   9.1   1.0   0:56.23 claude
+  61903 root      20   0   11.9g 813516  27276 S   9.1   2.5   0:35.17 java
+  63151 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:04
+top - 04:51:04 up  1:53,  1 user,  load average: 10.49, 11.18, 8.47
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 77.8 us,  1.7 sy,  0.0 ni, 19.9 id,  0.0 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,   9602.7 free,  13565.3 used,   8045.7 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17821.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.9g   2.5g  26280 S 627.3   8.2   2:04.24 java
+  62079 root      20   0   13.8g   2.5g  26284 S 618.2   8.3   2:03.68 java
+  61903 root      20   0   11.9g 816516  27276 S  27.3   2.5   0:35.59 java
+  63185 sujal     20   0   14840   5712   3544 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:07
+top - 04:51:07 up  1:53,  1 user,  load average: 10.86, 11.24, 8.51
+Tasks: 457 total,   3 running, 453 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 80.3 us,  2.8 sy,  0.0 ni, 16.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   9120.4 free,  13625.6 used,   8488.2 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17761.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.8g   2.5g  26284 S 627.3   8.3   2:23.46 java
+  62092 root      20   0   13.9g   2.5g  26280 S 572.7   8.1   2:24.04 java
+   8833 sujal     20   0   12.1g 909628 364804 S  45.5   2.8   5:39.81 firefox
+   6596 sujal     20   0 5358264 459544 173660 R  18.2   1.4   3:33.28 gnome-s+
+  61903 root      20   0   11.9g 821404  27276 S  18.2   2.6   0:36.24 java
+  34314 sujal     20   0 2647144 126284  97208 S   9.1   0.4   0:01.00 Isolate+
+  63218 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:10
+top - 04:51:11 up  1:53,  1 user,  load average: 11.19, 11.31, 8.54
+Tasks: 459 total,   3 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 72.2 us,  2.3 sy,  0.0 ni, 25.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   9199.7 free,  13124.2 used,   8907.9 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  18262.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.9g   2.4g  26332 S 609.1   7.7   2:43.16 java
+  62092 root      20   0   13.9g   2.1g  26280 S 609.1   6.9   2:43.78 java
+  61903 root      20   0   11.9g 817296  27276 S  45.5   2.5   0:36.54 java
+  63278 sujal     20   0 2592268  74736  58380 R  27.3   0.2   0:00.03 Web Con+
+   8833 sujal     20   0   12.1g 890724 364040 S  18.2   2.8   5:40.46 firefox
+  63276 sujal     20   0   14840   5720   3552 R  18.2   0.0   0:00.02 top
+    614 root      20   0       0      0      0 I   9.1   0.0   0:00.19 kworker+
+   9166 sujal     20   0  462164  34552  25300 S   9.1   0.1   0:00.13 forkser+
+  13803 sujal     20   0 5629452 330328 128476 S   9.1   1.0   0:56.29 claude
+  32408 sujal     20   0 3253672 525688 124308 S   9.1   1.6   0:34.96 Isolate+
+  56651 root       0 -20       0      0      0 I   9.1   0.0   0:00.04 kworker+
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+04:51:14
+top - 04:51:14 up  1:53,  1 user,  load average: 11.19, 11.31, 8.54
+Tasks: 458 total,  10 running, 447 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 79.5 us,  8.6 sy,  0.0 ni, 11.4 id,  0.5 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8682.2 free,  13632.3 used,   9335.0 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17754.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.9g   2.2g  26280 S 618.2   7.3   3:03.82 java
+  62079 root      20   0   13.9g   2.4g  26332 S 563.6   7.8   3:03.20 java
+    557 root      20   0       0      0      0 R 100.0   0.0   1:39.18 kworker+
+   8833 sujal     20   0   12.1g 896356 365124 S  72.7   2.8   5:40.95 firefox
+  13126 sujal     20   0   10.7g 233388 113372 S  72.7   0.7   0:32.54 Isolate+
+   6596 sujal     20   0 5358260 459584 173660 S  18.2   1.4   3:33.54 gnome-s+
+   6341 sujal     20   0   25.5g 270940 167568 R   9.1   0.8   3:24.49 Xorg
+  61903 root      20   0   11.9g 819308  27276 S   9.1   2.5   0:37.11 java
+  63348 sujal     20   0   14840   5720   3552 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:17
+top - 04:51:17 up  1:53,  1 user,  load average: 12.21, 11.52, 8.63
+Tasks: 458 total,   2 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 12.0 us,  1.1 sy,  0.0 ni, 85.7 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8214.8 free,  13240.3 used,   9755.1 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  18146.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  61903 root      20   0   11.9g 856360  27268 S 275.0   2.7   0:38.35 java
+  62092 root      20   0   13.9g   2.3g  26280 S 133.3   7.3   3:17.95 java
+  62079 root      20   0   13.9g   2.4g  26332 S 125.0   7.8   3:18.46 java
+   8833 sujal     20   0   12.1g 901240 365120 S  33.3   2.8   5:42.08 firefox
+   6596 sujal     20   0 5358260 459444 173660 S   8.3   1.4   3:33.84 gnome-s+
+  13126 sujal     20   0   10.7g 262480 113372 S   8.3   0.8   0:33.37 Isolate+
+  61229 root      20   0 8078916 293164  26652 S   8.3   0.9   0:06.12 java
+  63388 sujal     20   0   14840   5716   3548 R   8.3   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:20
+top - 04:51:21 up  1:53,  1 user,  load average: 12.60, 11.61, 8.67
+Tasks: 458 total,   1 running, 456 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 68.7 us,  5.6 sy,  0.0 ni, 25.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8582.3 free,  12824.7 used,   9799.8 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  18562.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.9g   1.8g  26412 S 718.2   5.8   3:36.59 java
+  62092 root      20   0   13.9g   1.4g  26280 S 554.5   4.6   3:34.61 java
+  63436 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:24
+top - 04:51:24 up  1:53,  1 user,  load average: 12.60, 11.61, 8.67
+Tasks: 458 total,   2 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.5 us,  2.7 sy,  0.0 ni, 22.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7166.5 free,  13826.5 used,  10239.2 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17560.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.9g   1.9g  26412 S 609.1   6.3   3:56.21 java
+  62092 root      20   0   13.9g   2.8g  26280 S 600.0   9.1   3:54.24 java
+  12667 sujal     20   0 1448.4g 469680 173068 R   9.1   1.5   4:21.01 code
+  63463 sujal     20   0   14840   5712   3548 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:27
+top - 04:51:27 up  1:53,  1 user,  load average: 12.63, 11.63, 8.70
+Tasks: 458 total,   1 running, 456 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 72.0 us,  3.8 sy,  0.0 ni, 24.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6213.1 free,  14344.1 used,  10656.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17042.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.9g   2.8g  26412 S 550.0   9.2   4:15.95 java
+  62092 root      20   0   13.9g   2.6g  26280 S 550.0   8.5   4:13.94 java
+    201 root      20   0       0      0      0 D  41.7   0.0   1:30.29 kworker+
+  32088 root      20   0       0      0      0 I  25.0   0.0   0:56.75 kworker+
+  63491 sujal     20   0   14840   5732   3564 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:30
+top - 04:51:31 up  1:54,  1 user,  load average: 12.58, 11.64, 8.71
+Tasks: 458 total,   1 running, 456 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 73.1 us,  1.7 sy,  0.0 ni, 25.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6041.5 free,  14519.0 used,  11084.4 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  16867.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.9g   2.5g  26280 S 618.2   8.0   4:33.81 java
+  62079 root      20   0   13.9g   2.8g  26412 S 609.1   9.2   4:35.82 java
+   1741 root      20   0 2904132  72664  37896 S   9.1   0.2   0:24.03 contain+
+  63517 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:34
+top - 04:51:34 up  1:54,  1 user,  load average: 12.58, 11.64, 8.71
+Tasks: 458 total,   1 running, 456 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 73.9 us,  2.2 sy,  0.0 ni, 23.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5521.9 free,  14143.0 used,  11542.1 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17243.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.9g   2.6g  26280 S 600.0   8.4   4:53.53 java
+  62079 root      20   0   13.9g   2.8g  26412 S 590.9   9.2   4:55.51 java
+   8833 sujal     20   0   12.1g 903892 365124 S   9.1   2.8   5:44.11 firefox
+  12460 sujal     20   0 1449.9g 130724  89404 S   9.1   0.4   0:08.15 code
+  61463 root      20   0 5930348 265088  26788 S   9.1   0.8   0:04.44 java
+  61903 root      20   0   12.0g 886112  27788 S   9.1   2.8   0:42.93 java
+  63553 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:37
+top - 04:51:37 up  1:54,  1 user,  load average: 12.53, 11.65, 8.73
+Tasks: 458 total,   1 running, 456 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 75.0 us,  1.1 sy,  0.0 ni, 23.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5100.6 free,  14104.8 used,  12001.8 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17282.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.9g   2.8g  26412 S 609.1   9.2   5:15.18 java
+  62092 root      20   0   13.9g   2.6g  26280 S 609.1   8.4   5:13.20 java
+  11584 sujal     20   0   48.4g 193752 156448 S  27.3   0.6   8:00.62 code
+    836 systemd+  20   0   17752   7380   6460 S   9.1   0.0   0:01.87 systemd+
+  63583 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:40
+top - 04:51:40 up  1:54,  1 user,  load average: 12.49, 11.65, 8.75
+Tasks: 458 total,   1 running, 456 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 83.3 us,  2.8 sy,  0.0 ni, 13.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   4699.5 free,  14052.7 used,  12474.8 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17334.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.9g   2.8g  26412 S 541.7   9.2   5:34.93 java
+  62092 root      20   0   13.9g   2.5g  26280 S 541.7   8.3   5:32.95 java
+  61903 root      20   0   11.9g 877316  27788 S  66.7   2.7   0:43.42 java
+  61463 root      20   0 5930348 265088  26788 S   8.3   0.8   0:04.46 java
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:43
+top - 04:51:44 up  1:54,  1 user,  load average: 12.49, 11.65, 8.75
+Tasks: 457 total,   2 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 76.7 us,  3.1 sy,  0.0 ni, 20.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   4232.5 free,  14067.9 used,  12988.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17318.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.8g   2.8g  26412 S 600.0   9.2   5:54.61 java
+  62092 root      20   0   13.8g   2.5g  26280 S 550.0   8.3   5:52.58 java
+   8833 sujal     20   0   12.2g 906140 367160 S  33.3   2.8   5:45.01 firefox
+   6341 sujal     20   0   25.6g 270940 167568 S  16.7   0.8   3:25.60 Xorg
+   6596 sujal     20   0 5358260 459632 173660 S  16.7   1.4   3:34.82 gnome-s+
+  13803 sujal     20   0 5629452 328316 128476 S   8.3   1.0   0:56.55 claude
+  61903 root      20   0   11.8g 869836  27788 S   8.3   2.7   0:43.66 java
+  63635 sujal     20   0   14840   5708   3544 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:47
+top - 04:51:47 up  1:54,  1 user,  load average: 12.45, 11.66, 8.77
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 40.8 us,  2.9 sy,  0.0 ni, 56.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   3801.2 free,  14091.2 used,  13372.3 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17295.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   2.6g  26280 S 454.5   8.6   6:12.10 java
+  61229 root      20   0 8078916 293300  26652 S   9.1   0.9   0:06.15 java
+  61903 root      20   0   11.8g 887348  27788 S   9.1   2.8   0:44.65 java
+  63665 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:50
+top - 04:51:50 up  1:54,  1 user,  load average: 12.81, 11.75, 8.81
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 65.1 us, 13.2 sy,  0.0 ni, 21.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   4975.8 free,  12816.5 used,  13473.2 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  18570.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.8g   1.7g  26412 S 558.3   5.6   6:16.17 java
+  62092 root      20   0   13.8g   2.0g  26280 S 558.3   6.4   6:25.36 java
+  61903 root      20   0   11.8g 902080  27788 S  50.0   2.8   0:47.24 java
+  63723 sujal     20   0   14840   5732   3564 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:53
+top - 04:51:54 up  1:54,  1 user,  load average: 12.81, 11.75, 8.81
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.2 us,  2.2 sy,  0.0 ni, 23.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8040.6 free,  13462.4 used,   9760.3 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17924.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.8g   2.5g  26412 S 618.2   8.0   6:35.11 java
+  62092 root      20   0   13.8g   2.3g  26280 S 609.1   7.4   6:44.21 java
+  63795 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:51:57
+top - 04:51:57 up  1:54,  1 user,  load average: 12.91, 11.78, 8.84
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 73.8 us,  1.6 sy,  0.0 ni, 24.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6811.7 free,  14253.9 used,  10197.7 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17133.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.8g   2.4g  26412 S 550.0   7.9   6:54.85 java
+  62092 root      20   0   13.8g   2.9g  26280 S 550.0   9.6   7:03.95 java
+  63821 sujal     20   0   14840   5728   3560 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:00
+top - 04:52:00 up  1:54,  1 user,  load average: 12.84, 11.79, 8.86
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.4 us,  1.1 sy,  0.0 ni, 24.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6028.1 free,  14589.7 used,  10644.7 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  16797.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.8g   2.8g  26412 S 600.0   9.0   7:14.56 java
+  62092 root      20   0   13.8g   2.9g  26280 S 600.0   9.6   7:23.67 java
+  63846 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:03
+top - 04:52:03 up  1:54,  1 user,  load average: 12.84, 11.79, 8.86
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 77.0 us,  3.4 sy,  0.0 ni, 19.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5614.7 free,  14571.6 used,  11062.4 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  16815.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   2.9g  26280 S 672.7   9.6   7:43.46 java
+  62079 root      20   0   13.8g   2.8g  26412 S 590.9   9.0   7:34.28 java
+  61903 root      20   0   11.9g 924172  27776 S  27.3   2.9   0:49.59 java
+  63881 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:07
+top - 04:52:07 up  1:54,  1 user,  load average: 12.77, 11.79, 8.87
+Tasks: 457 total,   2 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 77.2 us,  1.1 sy,  0.0 ni, 21.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5562.6 free,  14605.9 used,  11518.1 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  16781.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.8g   2.8g  26412 S 581.8   9.0   7:54.18 java
+  62092 root      20   0   13.8g   2.5g  26280 S 572.7   8.1   8:03.30 java
+  32088 root      20   0       0      0      0 R  45.5   0.0   0:57.13 kworker+
+  63959 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:10
+top - 04:52:10 up  1:54,  1 user,  load average: 12.71, 11.80, 8.89
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 75.1 us,  1.1 sy,  0.0 ni, 23.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5076.0 free,  14205.2 used,  11968.1 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17181.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   2.6g  26280 S 566.7   8.5   8:23.00 java
+  62079 root      20   0   13.8g   2.8g  26412 S 550.0   9.0   8:13.91 java
+  63983 sujal     20   0   14840   5712   3548 R  16.7   0.0   0:00.02 top
+  61903 root      20   0   11.9g 924220  27776 S   8.3   2.9   0:49.71 java
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:13
+top - 04:52:13 up  1:54,  1 user,  load average: 12.71, 11.80, 8.89
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 78.5 us,  2.3 sy,  0.0 ni, 19.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   4665.3 free,  14157.7 used,  12426.4 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17229.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   2.6g  26280 S 558.3   8.5   8:42.78 java
+  62079 root      20   0   13.8g   2.8g  26412 S 533.3   9.1   8:33.71 java
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     14 root      20   0       0      0      0 S   0.0   0.0   0:00.15 ksoftir+
+04:52:16
+top - 04:52:17 up  1:54,  1 user,  load average: 12.73, 11.82, 8.91
+Tasks: 456 total,   1 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 75.8 us,  1.7 sy,  0.0 ni, 22.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   4358.1 free,  14007.9 used,  12883.3 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17379.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   2.7g  26412 S 609.1   8.8   8:53.38 java
+  62092 root      20   0   13.7g   2.5g  26280 S 609.1   8.1   9:02.47 java
+  64036 sujal     20   0   14840   5740   3572 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:20
+top - 04:52:20 up  1:54,  1 user,  load average: 12.67, 11.82, 8.93
+Tasks: 456 total,   1 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 75.4 us,  1.1 sy,  0.0 ni, 23.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   3975.9 free,  13932.1 used,  13341.3 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17454.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   2.7g  26412 S 600.0   8.8   9:13.11 java
+  62092 root      20   0   13.7g   2.5g  26360 S 590.9   8.1   9:22.17 java
+  64067 sujal     20   0   14840   5720   3552 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:23
+top - 04:52:23 up  1:54,  1 user,  load average: 12.67, 11.82, 8.93
+Tasks: 457 total,   2 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 52.2 us,  7.3 sy,  0.0 ni, 40.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   3601.6 free,  14300.2 used,  13785.2 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17086.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.7g   2.5g  26360 S 558.3   8.1   9:41.95 java
+  62079 root      20   0   13.7g   2.7g  26412 S 183.3   8.8   9:29.50 java
+  34729 root      20   0       0      0      0 R  91.7   0.0   0:23.74 kworker+
+  64124 sujal     20   0   14840   5724   3560 R   8.3   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:26
+top - 04:52:27 up  1:54,  1 user,  load average: 12.38, 11.77, 8.93
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 66.3 us, 13.2 sy,  0.0 ni, 20.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   4061.0 free,  13243.1 used,  13944.7 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  18143.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   2.1g  26412 S 591.7   6.9   9:36.32 java
+  62092 root      20   0   13.7g   2.5g  26360 S 591.7   8.0   9:56.23 java
+  61903 root      20   0   11.9g 929472  27776 S  50.0   2.9   0:51.24 java
+  13803 sujal     20   0 5629452 328488 128476 S   8.3   1.0   0:56.86 claude
+  61463 root      20   0 5930348 265144  26788 S   8.3   0.8   0:04.64 java
+  64171 sujal     20   0   14840   5732   3564 R   8.3   0.0   0:00.03 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:30
+top - 04:52:30 up  1:55,  1 user,  load average: 12.51, 11.81, 8.96
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 64.8 us, 10.6 sy,  0.0 ni, 24.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5011.6 free,  15933.2 used,  10303.9 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  15453.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   3.8g  26412 S 600.0  12.3   9:54.66 java
+  62092 root      20   0   13.7g   4.0g  26360 S 581.8  12.9  10:13.93 java
+  64248 sujal     20   0   14840   5724   3560 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:33
+top - 04:52:33 up  1:55,  1 user,  load average: 12.51, 11.81, 8.96
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 73.0 us,  2.2 sy,  0.0 ni, 24.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   3509.5 free,  17301.0 used,  10438.3 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  14085.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   4.5g  26412 S 600.0  14.8  10:14.32 java
+  62092 root      20   0   13.7g   4.0g  26408 S 590.9  13.0  10:33.54 java
+  64286 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:36
+top - 04:52:36 up  1:55,  1 user,  load average: 12.95, 11.91, 9.01
+Tasks: 457 total,   3 running, 453 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 77.2 us,  2.2 sy,  0.0 ni, 20.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1997.9 free,  18093.5 used,  11157.5 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13293.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   4.6g  26412 S 645.5  15.2  10:34.20 java
+  62092 root      20   0   13.7g   4.6g  26408 S 609.1  15.0  10:53.37 java
+   8833 sujal     20   0   12.2g 926700 367704 R  54.5   2.9   5:47.68 firefox
+   6341 sujal     20   0   25.5g 271092 167720 S  18.2   0.8   3:26.16 Xorg
+   6596 sujal     20   0 5358264 459504 173660 R  18.2   1.4   3:35.58 gnome-s+
+  10366 sujal     20   0 3084096 420812 115204 S   9.1   1.3   0:29.78 Isolate+
+  60850 root      20   0       0      0      0 I   9.1   0.0   0:00.09 kworker+
+  64311 sujal     20   0   14840   5712   3544 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.52 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:40
+top - 04:52:40 up  1:55,  1 user,  load average: 12.95, 11.93, 9.03
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.2 us,  3.4 sy,  0.0 ni, 22.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1060.2 free,  18100.9 used,  12087.5 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13286.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.7g   4.6g  26124 S 572.7  15.1  11:13.04 java
+  62079 root      20   0   13.7g   4.3g  26312 S 563.6  14.0  10:53.95 java
+    937 root     -51   0       0      0      0 S   9.1   0.0   0:35.04 irq/112+
+  11493 sujal     20   0 1450.2g 275816 188972 S   9.1   0.9   1:00.18 code
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.53 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:43
+top - 04:52:43 up  1:55,  1 user,  load average: 12.95, 11.93, 9.03
+Tasks: 457 total,   2 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 66.3 us, 16.3 sy,  0.0 ni, 17.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   2797.9 free,  16189.2 used,  12697.4 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  15197.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   3.4g  27144 S 575.0  11.0  11:13.79 java
+  62092 root      20   0   13.7g   2.9g  26124 S 533.3   9.4  11:32.97 java
+    201 root      20   0       0      0      0 R  91.7   0.0   1:33.74 kworker+
+  64410 sujal     20   0   14840   5716   3548 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.53 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:46
+top - 04:52:46 up  1:55,  1 user,  load average: 12.88, 11.93, 9.05
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 66.1 us,  6.8 sy,  0.0 ni, 27.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1782.7 free,  17363.7 used,  12102.1 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  14023.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.7g   3.7g  26124 S 609.1  12.2  11:52.28 java
+  62079 root      20   0   13.7g   4.4g  26312 S 509.1  14.3  11:33.16 java
+   8833 sujal     20   0   12.2g 914852 367732 S   9.1   2.8   5:50.18 firefox
+  64473 sujal     20   0   14840   5712   3548 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.53 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:49
+top - 04:52:50 up  1:55,  1 user,  load average: 12.97, 11.97, 9.07
+Tasks: 457 total,   1 running, 455 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 71.1 us,  9.4 sy,  0.0 ni, 17.8 id,  1.7 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    737.7 free,  17933.1 used,  12576.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13453.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.7g   4.2g  26124 S 600.0  13.8  12:12.03 java
+  62079 root      20   0   13.7g   4.6g  26312 S 566.7  15.1  11:50.96 java
+  32088 root      20   0       0      0      0 I  50.0   0.0   0:59.45 kworker+
+  34729 root      20   0       0      0      0 I  16.7   0.0   0:24.77 kworker+
+  30117 root      20   0       0      0      0 I   8.3   0.0   0:45.73 kworker+
+  61903 root      20   0   11.9g 945420  27776 S   8.3   2.9   0:54.49 java
+  64508 sujal     20   0   14840   5728   3560 R   8.3   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.55 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:53
+top - 04:52:53 up  1:55,  1 user,  load average: 12.97, 11.97, 9.07
+Tasks: 456 total,   2 running, 453 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 73.6 us,  7.3 sy,  0.0 ni, 17.4 id,  1.1 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,    346.6 free,  18572.2 used,  12330.0 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12814.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.7g   4.4g  26468 S 600.0  14.3  12:31.78 java
+  62079 root      20   0   13.7g   4.7g  26312 S 590.9  15.3  12:10.76 java
+  32088 root      20   0       0      0      0 R  27.3   0.0   0:59.52 kworker+
+  34729 root      20   0       0      0      0 I  18.2   0.0   0:24.86 kworker+
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.57 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:56
+top - 04:52:56 up  1:55,  1 user,  load average: 12.97, 11.98, 9.09
+Tasks: 456 total,   1 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 70.2 us,  5.5 sy,  0.0 ni, 23.8 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1162.6 free,  17845.5 used,  12240.7 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13541.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   4.7g  26312 S 600.0  15.3  12:30.66 java
+  62092 root      20   0   13.7g   4.4g  26124 S 600.0  14.3  12:51.68 java
+  64578 sujal     20   0   14840   5720   3552 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.61 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:52:59
+top - 04:53:00 up  1:55,  1 user,  load average: 13.05, 12.02, 9.12
+Tasks: 456 total,   1 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 49.2 us, 17.9 sy,  0.0 ni, 31.3 id,  1.7 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   2063.6 free,  18330.4 used,  11292.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13056.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   4.7g  26772 S 590.9  15.3  12:50.46 java
+  62092 root      20   0   13.7g   4.4g  26124 S 190.9  14.3  13:10.50 java
+  32088 root      20   0       0      0      0 I  54.5   0.0   0:59.83 kworker+
+    143 root      20   0       0      0      0 S   9.1   0.0   0:08.70 kswapd0
+    201 root      20   0       0      0      0 I   9.1   0.0   1:34.32 kworker+
+   9430 sujal     20   0 2769980 232144 115792 S   9.1   0.7   0:18.47 Privile+
+  45403 root      20   0       0      0      0 I   9.1   0.0   0:13.29 kworker+
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.63 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:53:03
+top - 04:53:03 up  1:55,  1 user,  load average: 13.05, 12.02, 9.12
+Tasks: 456 total,   1 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 24.6 us,  8.6 sy,  0.0 ni, 61.1 id,  5.7 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   2768.0 free,  17825.4 used,  10654.7 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13561.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   4.7g  26312 S 400.0  15.3  13:09.46 java
+  47787 root      20   0       0      0      0 I  27.3   0.0   0:21.15 kworker+
+  12996 sujal     20   0 2674644 156212 105880 S   9.1   0.5   0:06.21 Isolate+
+  30117 root      20   0       0      0      0 I   9.1   0.0   0:46.48 kworker+
+  64641 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.66 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:53:06
+top - 04:53:06 up  1:55,  1 user,  load average: 13.13, 12.05, 9.15
+Tasks: 456 total,   1 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 67.4 us,  4.0 sy,  0.0 ni, 27.4 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   2500.5 free,  17985.4 used,  10762.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13401.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.5g  26396 S 609.1  14.7  13:27.65 java
+  62079 root      20   0   13.8g   4.8g  26388 S 563.6  15.6  13:27.36 java
+  64678 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.67 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:53:09
+top - 04:53:09 up  1:55,  1 user,  load average: 13.04, 12.05, 9.16
+Tasks: 456 total,   1 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.1 us,  1.1 sy,  0.0 ni, 24.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   2083.7 free,  17918.7 used,  11245.9 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13468.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   4.7g  26388 S 609.1  15.3  13:47.09 java
+  62092 root      20   0   13.8g   4.5g  26396 S 609.1  14.6  13:47.39 java
+  64705 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.68 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:53:12
+top - 04:53:13 up  1:55,  1 user,  load average: 13.04, 12.05, 9.16
+Tasks: 456 total,   1 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 73.2 us,  1.7 sy,  0.0 ni, 25.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1863.9 free,  17565.1 used,  11818.3 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13821.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   4.6g  26388 S 609.1  15.0  14:06.81 java
+  62092 root      20   0   13.8g   4.2g  26396 S 609.1  13.5  14:07.11 java
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.69 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     14 root      20   0       0      0      0 S   0.0   0.0   0:00.15 ksoftir+
+04:53:16
+top - 04:53:16 up  1:55,  1 user,  load average: 13.11, 12.08, 9.19
+Tasks: 456 total,   1 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 77.5 us,  4.5 sy,  0.0 ni, 16.9 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1524.6 free,  17497.2 used,  12225.8 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13889.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   4.6g  26388 S 636.4  15.0  14:26.56 java
+  62092 root      20   0   13.7g   4.1g  26396 S 627.3  13.3  14:26.76 java
+   8833 sujal     20   0   12.2g 913908 367728 S  27.3   2.8   5:50.56 firefox
+   6596 sujal     20   0 5356212 459464 173660 S  18.2   1.4   3:36.45 gnome-s+
+  12667 sujal     20   0 1448.4g 449504 154540 S   9.1   1.4   4:21.27 code
+  32088 root      20   0       0      0      0 I   9.1   0.0   1:00.01 kworker+
+  61903 root      20   0   11.9g 960276  27716 S   9.1   3.0   0:56.29 java
+  64777 sujal     20   0   14840   5720   3556 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.72 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:53:19
+top - 04:53:19 up  1:55,  1 user,  load average: 13.03, 12.08, 9.20
+Tasks: 456 total,   2 running, 453 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 70.4 us,  4.5 sy,  0.0 ni, 24.6 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1155.7 free,  17443.2 used,  12647.7 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13943.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   4.6g  26388 S 609.1  15.0  14:46.38 java
+  62092 root      20   0   13.7g   4.0g  26396 S 609.1  13.2  14:46.56 java
+  32088 root      20   0       0      0      0 I  45.5   0.0   1:00.19 kworker+
+   8833 sujal     20   0   12.2g 915680 367796 R  36.4   2.8   5:51.57 firefox
+  61903 root      20   0   11.9g 961332  27716 S  27.3   3.0   0:56.59 java
+  30117 root      20   0       0      0      0 I  18.2   0.0   0:47.49 kworker+
+   6596 sujal     20   0 5356212 459464 173660 S   9.1   1.4   3:36.70 gnome-s+
+  47787 root      20   0       0      0      0 I   9.1   0.0   0:22.35 kworker+
+  64820 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.73 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:53:22
+top - 04:53:23 up  1:55,  1 user,  load average: 13.03, 12.08, 9.20
+Tasks: 455 total,   1 running, 453 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 77.5 us,  5.5 sy,  0.0 ni, 15.9 id,  0.5 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :  31386.9 total,    954.8 free,  17515.6 used,  12775.4 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13871.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.7g   4.1g  26396 S 636.4  13.2  15:06.28 java
+  62079 root      20   0   13.7g   4.6g  26388 S 627.3  15.0  15:06.19 java
+   8833 sujal     20   0   12.2g 922560 367796 S  81.8   2.9   5:53.52 firefox
+   6596 sujal     20   0 5358260 459464 173660 S  18.2   1.4   3:37.12 gnome-s+
+   6341 sujal     20   0   25.5g 270940 167568 S   9.1   0.8   3:27.28 Xorg
+  13803 sujal     20   0 5629452 314192 128476 S   9.1   1.0   0:57.37 claude
+  64853 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.76 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:53:26
+top - 04:53:26 up  1:55,  1 user,  load average: 12.94, 12.08, 9.22
+Tasks: 455 total,   1 running, 453 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.4 us,  1.1 sy,  0.0 ni, 24.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    897.2 free,  17556.0 used,  12796.5 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13830.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   4.6g  26388 S 600.0  15.0  15:26.01 java
+  62092 root      20   0   13.7g   4.0g  26396 S 600.0  13.2  15:26.09 java
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.80 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     14 root      20   0       0      0      0 S   0.0   0.0   0:00.15 ksoftir+
+04:53:29
+top - 04:53:29 up  1:56,  1 user,  load average: 12.95, 12.10, 9.24
+Tasks: 455 total,   2 running, 452 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 72.6 us,  3.9 sy,  0.0 ni, 22.3 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    905.9 free,  17562.7 used,  12799.9 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13824.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.7g   4.1g  26396 S 558.3  13.2  15:45.83 java
+  62079 root      20   0   13.7g   4.6g  26388 S 550.0  15.0  15:45.76 java
+  11584 sujal     20   0   48.4g 214932 173544 S  75.0   0.7   8:01.08 code
+  11569 sujal     20   0 1454.1g 548628 175600 S  25.0   1.7   2:38.94 code
+   6341 sujal     20   0   25.6g 270936 167564 S   8.3   0.8   3:27.54 Xorg
+  13803 sujal     20   0 5629452 314140 128476 S   8.3   1.0   0:57.42 claude
+  64907 sujal     20   0   14840   5728   3564 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.84 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:53:32
+top - 04:53:33 up  1:56,  1 user,  load average: 12.95, 12.10, 9.24
+Tasks: 455 total,   1 running, 453 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 77.2 us,  8.2 sy,  0.0 ni, 14.1 id,  0.0 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :  31386.9 total,   1114.7 free,  17437.1 used,  12715.3 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13949.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.7g   4.1g  26396 S 609.1  13.3  16:05.71 java
+  62079 root      20   0   13.7g   4.6g  26388 S 600.0  15.0  16:05.62 java
+  11584 sujal     20   0   48.4g 219340 176440 S  45.5   0.7   8:02.50 code
+   6341 sujal     20   0   25.5g 270936 167564 S   9.1   0.8   3:27.72 Xorg
+  61404 root      20   0 1233872  12152   7236 S   9.1   0.0   0:00.59 contain+
+  64942 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.86 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:53:36
+top - 04:53:36 up  1:56,  1 user,  load average: 12.95, 12.11, 9.26
+Tasks: 455 total,   2 running, 452 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.9 us,  1.1 sy,  0.0 ni, 24.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1035.6 free,  17860.9 used,  12786.8 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13525.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.7g   4.6g  26388 S 627.3  14.9  16:25.34 java
+  62092 root      20   0   13.7g   4.1g  26396 S 627.3  13.3  16:25.43 java
+  47787 root      20   0       0      0      0 R  81.8   0.0   0:22.67 kworker+
+  64975 sujal     20   0   14840   5708   3548 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.90 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:53:39
+top - 04:53:39 up  1:56,  1 user,  load average: 12.88, 12.11, 9.27
+Tasks: 455 total,   1 running, 453 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 68.6 us,  1.6 sy,  0.0 ni, 29.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    983.7 free,  17446.9 used,  12811.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13940.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.7g   4.0g  26396 S 558.3  13.2  16:45.26 java
+  62079 root      20   0   13.7g   4.6g  26388 S 475.0  14.9  16:44.92 java
+  65002 sujal     20   0   14840   5712   3552 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.93 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:53:42
+top - 04:53:42 up  1:56,  1 user,  load average: 12.88, 12.11, 9.27
+Tasks: 455 total,   2 running, 452 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 30.6 us,  4.6 sy,  0.0 ni, 64.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   4796.0 free,  13271.5 used,  13174.5 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  18115.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  61903 root      20   0   11.9g 993052  27716 S 318.2   3.1   0:58.87 java
+  62092 root      20   0   13.7g   2.2g  26396 S 109.1   7.1  16:59.64 java
+  62079 root      20   0   13.7g   2.3g  26388 S  81.8   7.5  16:58.01 java
+  65033 sujal     20   0   14840   5712   3548 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.95 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:53:46
+top - 04:53:46 up  1:56,  1 user,  load average: 12.89, 12.12, 9.29
+Tasks: 456 total,   4 running, 451 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 71.5 us, 16.2 sy,  0.0 ni, 11.7 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   3203.4 free,  14019.6 used,  13977.9 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17367.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.7g   2.8g  27036 S 627.3   9.3  17:19.20 java
+  62079 root      20   0   13.7g   2.6g  27156 S 600.0   8.5  17:17.51 java
+  11584 sujal     20   0   48.4g 214920 172028 S  90.9   0.7   8:03.69 code
+    201 root      20   0       0      0      0 I  27.3   0.0   1:34.94 kworker+
+  30117 root      20   0       0      0      0 R  18.2   0.0   0:47.85 kworker+
+    143 root      20   0       0      0      0 S   9.1   0.0   0:09.61 kswapd0
+   6341 sujal     20   0   25.6g 270936 167564 R   9.1   0.8   3:28.10 Xorg
+  11569 sujal     20   0 1454.1g 552448 175092 S   9.1   1.7   2:39.36 code
+  61229 root      20   0 8078916 293956  26652 S   9.1   0.9   0:06.31 java
+  65201 sujal     20   0   14840   5716   3552 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.95 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+04:53:49
+top - 04:53:49 up  1:56,  1 user,  load average: 12.89, 12.12, 9.29
+Tasks: 456 total,   2 running, 453 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 57.1 us, 22.5 sy,  0.0 ni, 14.8 id,  5.5 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   3138.6 free,  14184.1 used,  13878.3 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17202.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.7g   2.9g  26396 S 618.2   9.3  17:38.74 java
+  62079 root      20   0   13.7g   2.6g  26804 S 609.1   8.5  17:36.98 java
+  30117 root      20   0       0      0      0 R  81.8   0.0   0:48.22 kworker+
+  45403 root      20   0       0      0      0 I  36.4   0.0   0:13.58 kworker+
+   8833 sujal     20   0   12.1g 920356 367792 S   9.1   2.9   5:55.69 firefox
+  65237 sujal     20   0   14840   5696   3528 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.95 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:53:52
+top - 04:53:52 up  1:56,  1 user,  load average: 12.89, 12.14, 9.31
+Tasks: 456 total,   3 running, 452 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 69.5 us, 23.2 sy,  0.0 ni,  7.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    914.2 free,  14792.0 used,  15909.8 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  16594.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.7g   2.9g  26732 S 572.7   9.3  17:58.25 java
+  62079 root      20   0   13.7g   2.6g  26388 S 563.6   8.5  17:56.55 java
+  13126 sujal     20   0   10.7g 242000 113500 R  90.9   0.8   0:40.59 Isolate+
+  45403 root      20   0       0      0      0 D  81.8   0.0   0:14.55 kworker+
+   8833 sujal     20   0   12.1g 921508 367792 S  36.4   2.9   5:55.94 firefox
+  34729 root      20   0       0      0      0 I  27.3   0.0   0:26.59 kworker+
+    122 root      20   0       0      0      0 S  18.2   0.0   0:04.61 kcompac+
+  30117 root      20   0       0      0      0 R  18.2   0.0   0:48.72 kworker+
+   6341 sujal     20   0   25.5g 270936 167564 S   9.1   0.8   3:28.27 Xorg
+   6596 sujal     20   0 5358260 459560 173660 S   9.1   1.4   3:37.94 gnome-s+
+  32088 root      20   0       0      0      0 D   9.1   0.0   1:01.73 kworker+
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:05.96 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+04:53:55
+top - 04:53:56 up  1:56,  1 user,  load average: 12.26, 12.02, 9.29
+Tasks: 455 total,   1 running, 453 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 63.3 us, 13.3 sy,  0.0 ni, 22.2 id,  0.6 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,    739.4 free,  17022.9 used,  13417.4 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  14364.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.9g   4.0g  26396 S 591.7  12.9  18:13.29 java
+  62079 root      20   0   14.0g   4.0g  26412 S 475.0  13.1  18:14.85 java
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.01 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     14 root      20   0       0      0      0 S   0.0   0.0   0:00.15 ksoftir+
+04:53:59
+top - 04:53:59 up  1:56,  1 user,  load average: 12.26, 12.02, 9.29
+Tasks: 455 total,   2 running, 452 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 79.2 us, 10.4 sy,  0.0 ni, 10.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    811.2 free,  17869.0 used,  12499.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13517.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   14.0g   4.4g  26396 S 550.0  14.2  18:32.95 java
+  62079 root      20   0   14.0g   4.5g  26412 S 541.7  14.8  18:34.60 java
+   8833 sujal     20   0   12.1g 922412 367792 S  75.0   2.9   5:56.85 firefox
+  13126 sujal     20   0   10.7g 248228 113500 S  33.3   0.8   0:41.34 Isolate+
+  61903 root      20   0   11.9g 992.2m  27696 S  25.0   3.2   1:01.01 java
+   6341 sujal     20   0   25.5g 270936 167564 S  16.7   0.8   3:28.48 Xorg
+    303 root     -51   0       0      0      0 S   8.3   0.0   0:02.59 irq/51-+
+   6596 sujal     20   0 5358260 459560 173660 S   8.3   1.4   3:38.21 gnome-s+
+  61407 root      20   0 1233872  12444   7244 S   8.3   0.0   0:00.50 contain+
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.06 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:02
+top - 04:54:02 up  1:56,  1 user,  load average: 12.80, 12.14, 9.34
+Tasks: 454 total,   3 running, 450 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.6 us,  7.2 sy,  0.0 ni, 18.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    836.5 free,  18071.5 used,  12269.8 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13315.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.9g   4.5g  26412 S 636.4  14.5  18:54.44 java
+  62092 root      20   0   13.8g   4.7g  29660 S 618.2  15.2  18:52.78 java
+   8833 sujal     20   0   12.1g 928960 367796 S  18.2   2.9   5:58.33 firefox
+  13126 sujal     20   0   10.7g 255656 113688 S   9.1   0.8   0:42.42 Isolate+
+  61903 root      20   0   11.9g 995.5m  27696 S   9.1   3.2   1:01.36 java
+  65375 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.11 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:05
+top - 04:54:06 up  1:56,  1 user,  load average: 13.54, 12.30, 9.41
+Tasks: 454 total,   2 running, 451 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 62.4 us, 21.0 sy,  0.0 ni, 10.5 id,  5.5 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,   1054.8 free,  17910.3 used,  12197.9 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13476.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   13.9g   4.5g  26732 S 566.7  14.5  19:14.23 java
+  62092 root      20   0   13.8g   4.7g  28236 S 566.7  15.2  19:12.56 java
+  47789 root      20   0       0      0      0 D  66.7   0.0   0:11.95 kworker+
+    201 root      20   0       0      0      0 R  25.0   0.0   1:35.37 kworker+
+  32088 root      20   0       0      0      0 D  25.0   0.0   1:02.82 kworker+
+   6341 sujal     20   0   25.5g 270940 167568 S  16.7   0.8   3:29.06 Xorg
+   8833 sujal     20   0   12.1g 933332 367796 S  16.7   2.9   5:59.54 firefox
+  45403 root      20   0       0      0      0 I  16.7   0.0   0:15.72 kworker+
+   6596 sujal     20   0 5358260 459560 173660 S   8.3   1.4   3:38.96 gnome-s+
+  13126 sujal     20   0   10.7g 263092 113944 S   8.3   0.8   0:43.56 Isolate+
+  47787 root      20   0       0      0      0 I   8.3   0.0   0:25.77 kworker+
+  61404 root      20   0 1233872  12236   7236 S   8.3   0.0   0:00.96 contain+
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.16 systemd
+04:54:08
+top - 04:54:08 up  1:56,  1 user,  load average: 13.54, 12.30, 9.41
+Tasks: 454 total,   4 running, 449 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 66.7 us, 17.2 sy,  0.0 ni, 11.1 id,  5.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    972.1 free,  17854.5 used,  12336.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13532.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.7g   4.5g  26396 S 636.4  14.8  19:26.34 java
+  62079 root      20   0   13.9g   4.5g  26412 S 609.1  14.6  19:28.05 java
+    201 root      20   0       0      0      0 R  36.4   0.0   1:35.56 kworker+
+  32088 root      20   0       0      0      0 R  36.4   0.0   1:03.05 kworker+
+  47789 root      20   0       0      0      0 R  36.4   0.0   0:12.18 kworker+
+  65464 sujal     20   0   14840   5724   3560 R  18.2   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   9.1   0.0   0:06.20 systemd
+  11620 sujal     20   0 1449.9g 138956  91980 S   9.1   0.4   0:14.95 code
+  61903 root      20   0   11.9g   1.0g  27696 S   9.1   3.2   1:02.54 java
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:11
+top - 04:54:11 up  1:56,  1 user,  load average: 13.50, 12.31, 9.43
+Tasks: 454 total,   1 running, 452 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 69.4 us, 12.0 sy,  0.0 ni, 18.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    915.0 free,  18547.3 used,  12275.1 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12839.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.7g   4.5g  26396 S 609.1  14.8  19:45.77 java
+  62079 root      20   0   13.9g   4.5g  26412 S 545.5  14.8  19:47.59 java
+  65501 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.24 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:14
+top - 04:54:15 up  1:56,  1 user,  load average: 13.70, 12.37, 9.47
+Tasks: 454 total,   1 running, 452 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 69.9 us, 11.6 sy,  0.0 ni, 17.3 id,  1.2 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1582.8 free,  17811.3 used,  11789.5 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13575.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.6g  26396 S 575.0  14.9  19:53.56 java
+  62079 root      20   0   13.9g   4.6g  26412 S 550.0  14.8  19:58.24 java
+    201 root      20   0       0      0      0 I  25.0   0.0   1:36.99 kworker+
+  30117 root      20   0       0      0      0 I  16.7   0.0   0:49.58 kworker+
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.26 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:18
+top - 04:54:18 up  1:56,  1 user,  load average: 13.70, 12.37, 9.47
+Tasks: 455 total,   1 running, 453 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 72.0 us,  7.1 sy,  0.0 ni, 18.7 id,  2.2 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    991.9 free,  18351.2 used,  11840.4 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13035.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.7g  26396 S 654.5  15.3  20:13.35 java
+  62079 root      20   0   14.0g   4.9g  26412 S 627.3  15.9  20:17.99 java
+    201 root      20   0       0      0      0 I  36.4   0.0   1:37.13 kworker+
+    557 root      20   0       0      0      0 I  27.3   0.0   1:40.76 kworker+
+  61404 root      20   0 1233872  12160   7236 S   9.1   0.0   0:01.11 contain+
+  65571 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.28 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:21
+top - 04:54:21 up  1:56,  1 user,  load average: 13.64, 12.38, 9.49
+Tasks: 456 total,   1 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.3 us,  3.2 sy,  0.0 ni, 22.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    884.4 free,  18438.2 used,  11840.2 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12948.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   4.8g  26412 S 566.7  15.7  20:37.83 java
+  62092 root      20   0   13.8g   4.7g  26396 S 558.3  15.3  20:33.13 java
+  61903 root      20   0   11.9g   1.0g  27696 S   8.3   3.2   1:03.35 java
+  65607 sujal     20   0   14840   5704   3544 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.33 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:24
+top - 04:54:24 up  1:56,  1 user,  load average: 13.75, 12.43, 9.52
+Tasks: 456 total,   3 running, 452 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 79.8 us,  9.0 sy,  0.0 ni, 10.1 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    760.1 free,  18559.2 used,  11843.3 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12827.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   4.8g  26412 S 566.7  15.7  20:57.62 java
+  62092 root      20   0   13.8g   4.7g  26396 S 558.3  15.3  20:52.92 java
+   8833 sujal     20   0   12.1g 938328 367796 R  41.7   2.9   6:01.96 firefox
+  65646 sujal     20   0   14840   5728   3564 R  16.7   0.0   0:00.03 top
+      1 root      20   0   23972  14824   9272 S   8.3   0.0   0:06.36 systemd
+   6341 sujal     20   0   25.5g 270940 167568 S   8.3   0.8   3:29.62 Xorg
+   6596 sujal     20   0 5358260 459528 173660 S   8.3   1.4   3:39.69 gnome-s+
+  61229 root      20   0 8078916 294108  26652 S   8.3   0.9   0:06.35 java
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:28
+top - 04:54:28 up  1:57,  1 user,  load average: 13.75, 12.43, 9.52
+Tasks: 456 total,   6 running, 449 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 81.7 us,  9.4 sy,  0.0 ni,  8.4 id,  0.5 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    681.7 free,  19075.5 used,  11841.5 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12311.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   4.8g  26412 S 566.7  15.8  21:17.48 java
+  62092 root      20   0   13.8g   4.7g  26396 S 550.0  15.3  21:12.69 java
+    201 root      20   0       0      0      0 R 100.0   0.0   1:37.64 kworker+
+   8833 sujal     20   0   12.1g 939628 367796 S  33.3   2.9   6:03.12 firefox
+   6341 sujal     20   0   25.5g 270940 167568 S  16.7   0.8   3:29.87 Xorg
+   6596 sujal     20   0 5358260 459592 173660 R  16.7   1.4   3:40.02 gnome-s+
+      1 root      20   0   23972  14824   9272 S   8.3   0.0   0:06.39 systemd
+  45403 root      20   0       0      0      0 R   8.3   0.0   0:15.95 kworker+
+  65678 sujal     20   0   14840   5716   3548 R   8.3   0.0   0:00.02 top
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:31
+top - 04:54:31 up  1:57,  1 user,  load average: 13.93, 12.49, 9.55
+Tasks: 456 total,   1 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 80.1 us,  3.8 sy,  0.0 ni, 16.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1173.5 free,  18392.9 used,  11625.7 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12994.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.7g  26396 S 618.2  15.3  21:32.34 java
+  62079 root      20   0   14.0g   4.8g  26412 S 609.1  15.8  21:37.11 java
+  12667 sujal     20   0 1448.4g 442520 145308 S   9.1   1.4   4:21.67 code
+  61463 root      20   0 5930348 265316  26788 S   9.1   0.8   0:04.96 java
+  65713 sujal     20   0   14840   5736   3572 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.40 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:34
+top - 04:54:34 up  1:57,  1 user,  load average: 13.86, 12.50, 9.57
+Tasks: 456 total,   1 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 76.3 us,  1.6 sy,  0.0 ni, 22.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1090.4 free,  18378.0 used,  11705.1 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13008.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   4.8g  26412 S 566.7  15.8  21:56.96 java
+  62092 root      20   0   13.8g   4.7g  26396 S 550.0  15.4  21:52.26 java
+    122 root      20   0       0      0      0 S  25.0   0.0   0:04.89 kcompac+
+    143 root      20   0       0      0      0 S  16.7   0.0   0:10.07 kswapd0
+   6341 sujal     20   0   25.6g 270940 167568 S  16.7   0.8   3:30.23 Xorg
+     37 root      20   0       0      0      0 S   8.3   0.0   0:00.07 ksoftir+
+    303 root     -51   0       0      0      0 S   8.3   0.0   0:02.72 irq/51-+
+  11569 sujal     20   0 1454.0g 540132 158988 S   8.3   1.7   2:39.89 code
+  11584 sujal     20   0   48.4g 198616 161196 S   8.3   0.6   8:07.12 code
+  12460 sujal     20   0 1449.9g 129788  89404 S   8.3   0.4   0:08.37 code
+  61903 root      20   0   11.9g   1.0g  27696 S   8.3   3.3   1:04.15 java
+  65743 sujal     20   0   14840   5732   3564 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.40 systemd
+04:54:38
+top - 04:54:38 up  1:57,  1 user,  load average: 13.86, 12.50, 9.57
+Tasks: 456 total,   1 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.3 us,  2.7 sy,  0.0 ni, 23.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1015.7 free,  18514.8 used,  11633.7 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12872.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26396 S 654.5  16.0  22:12.14 java
+  62079 root      20   0   14.0g   4.8g  26412 S 609.1  15.8  22:16.82 java
+    937 root     -51   0       0      0      0 S   9.1   0.0   0:35.10 irq/112+
+   6596 sujal     20   0 5358260 459516 173660 S   9.1   1.4   3:40.31 gnome-s+
+  61404 root      20   0 1233872  12120   7236 S   9.1   0.0   0:01.31 contain+
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.43 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:41
+top - 04:54:41 up  1:57,  1 user,  load average: 14.03, 12.55, 9.60
+Tasks: 456 total,   1 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 71.4 us,  2.7 sy,  0.0 ni, 25.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1062.5 free,  18509.2 used,  11591.2 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12877.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   4.8g  26412 S 590.9  15.8  22:36.49 java
+  62092 root      20   0   13.9g   4.9g  26396 S 590.9  16.0  22:31.78 java
+  32408 sujal     20   0 3253672 527376 124308 S   9.1   1.6   0:35.82 Isolate+
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.46 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:44
+top - 04:54:44 up  1:57,  1 user,  load average: 13.94, 12.56, 9.62
+Tasks: 456 total,   1 running, 454 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.3 us,  7.7 sy,  0.0 ni, 17.5 id,  0.5 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1085.8 free,  18449.2 used,  11627.7 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12937.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26396 S 618.2  16.0  22:51.59 java
+  62079 root      20   0   14.0g   4.8g  26412 S 609.1  15.8  22:56.29 java
+  47787 root      20   0       0      0      0 I  45.5   0.0   0:26.27 kworker+
+  32088 root      20   0       0      0      0 I  18.2   0.0   1:03.60 kworker+
+  11651 sujal     20   0 1449.9g 295708 100540 S   9.1   0.9   0:20.18 code
+  61404 root      20   0 1233872  12004   7236 S   9.1   0.0   0:01.37 contain+
+  65833 sujal     20   0   14840   5712   3548 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.49 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:47
+top - 04:54:48 up  1:57,  1 user,  load average: 13.94, 12.56, 9.62
+Tasks: 456 total,   2 running, 453 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 70.2 us, 12.2 sy,  0.0 ni, 16.6 id,  0.6 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,   1085.5 free,  18883.5 used,  11631.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12503.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26396 S 636.4  16.0  23:11.38 java
+  62079 root      20   0   14.0g   4.8g  26412 S 609.1  15.8  23:16.06 java
+  47789 root      20   0       0      0      0 R 100.0   0.0   0:13.40 kworker+
+      1 root      20   0   23972  14824   9272 S   9.1   0.0   0:06.51 systemd
+  10684 root      20   0       0      0      0 I   9.1   0.0   0:00.51 kworker+
+  61903 root      20   0   11.8g   1.0g  27696 S   9.1   3.2   1:04.36 java
+  65868 sujal     20   0   14840   5716   3548 R   9.1   0.0   0:00.01 top
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:51
+top - 04:54:51 up  1:57,  1 user,  load average: 14.11, 12.62, 9.66
+Tasks: 456 total,   2 running, 453 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 75.0 us,  2.2 sy,  0.0 ni, 22.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1082.1 free,  18451.2 used,  11629.4 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12935.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26396 S 618.2  16.0  23:31.12 java
+  62079 root      20   0   14.0g   4.8g  26412 S 590.9  15.8  23:35.82 java
+  11584 sujal     20   0   48.4g 194920 157596 S 100.0   0.6   8:07.52 code
+  12667 sujal     20   0 1448.4g 437308 141468 S  36.4   1.4   4:21.90 code
+   6341 sujal     20   0   25.5g 270940 167568 R  18.2   0.8   3:30.31 Xorg
+   6596 sujal     20   0 5358260 459444 173660 S   9.1   1.4   3:40.34 gnome-s+
+  65899 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.55 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:54
+top - 04:54:54 up  1:57,  1 user,  load average: 13.94, 12.61, 9.67
+Tasks: 455 total,   3 running, 451 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 68.0 us,  5.6 sy,  0.0 ni, 24.7 id,  1.1 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,   1081.2 free,  18491.3 used,  11593.4 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12895.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   4.8g  26412 S 600.0  15.8  23:55.64 java
+  62092 root      20   0   13.9g   4.9g  26396 S 590.9  16.1  23:50.90 java
+  11651 sujal     20   0 1449.9g 294488 100540 R  18.2   0.9   0:20.24 code
+  11569 sujal     20   0 1454.0g 529152 157916 S   9.1   1.6   2:40.35 code
+  61407 root      20   0 1233872  12152   7244 S   9.1   0.0   0:01.00 contain+
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.58 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:54:57
+top - 04:54:58 up  1:57,  1 user,  load average: 13.94, 12.61, 9.67
+Tasks: 455 total,   4 running, 450 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 82.1 us,  2.2 sy,  0.0 ni, 15.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1035.0 free,  18516.1 used,  11634.0 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12870.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26396 S 590.9  16.0  24:10.70 java
+  62079 root      20   0   14.0g   4.8g  26412 S 572.7  15.8  24:15.45 java
+  13126 sujal     20   0   10.7g 239636 113944 R 118.2   0.7   0:46.45 Isolate+
+  61903 root      20   0   11.8g   1.0g  27696 S 109.1   3.2   1:04.74 java
+   8833 sujal     20   0   12.1g 939276 367796 S  36.4   2.9   6:04.84 firefox
+   6596 sujal     20   0 5358260 459540 173660 S   9.1   1.4   3:40.60 gnome-s+
+  47787 root      20   0       0      0      0 I   9.1   0.0   0:26.46 kworker+
+  65959 sujal     20   0   14840   5708   3544 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.59 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:55:01
+top - 04:55:01 up  1:57,  1 user,  load average: 13.78, 12.60, 9.68
+Tasks: 448 total,   1 running, 446 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 72.9 us,  4.5 sy,  0.0 ni, 22.0 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1158.2 free,  18447.0 used,  11575.8 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12939.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   4.8g  26412 S 609.1  15.8  24:35.30 java
+  62092 root      20   0   13.9g   4.9g  26396 S 609.1  16.0  24:30.55 java
+  11584 sujal     20   0   48.4g 191724 154748 S  18.2   0.6   8:08.19 code
+  61404 root      20   0 1233872  11820   7236 S   9.1   0.0   0:01.52 contain+
+  61903 root      20   0   11.8g   1.0g  27696 S   9.1   3.2   1:04.84 java
+  66000 sujal     20   0   14840   5724   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.63 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:55:04
+top - 04:55:04 up  1:57,  1 user,  load average: 13.78, 12.60, 9.68
+Tasks: 448 total,   1 running, 446 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 44.9 us,  1.7 sy,  0.0 ni, 53.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1215.9 free,  18993.3 used,  11389.8 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12393.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   4.9g  26412 S 545.5  16.1  24:53.84 java
+  62092 root      20   0   13.8g   4.9g  26396 S 218.2  16.0  24:45.86 java
+  66055 sujal     20   0   14840   5728   3564 R  18.2   0.0   0:00.02 top
+  32408 sujal     20   0 3253656 527468 124308 S   9.1   1.6   0:35.85 Isolate+
+  61404 root      20   0 1233872  12220   7236 S   9.1   0.0   0:01.56 contain+
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.66 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:55:07
+top - 04:55:07 up  1:57,  1 user,  load average: 13.48, 12.56, 9.68
+Tasks: 448 total,   1 running, 446 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 32.4 us,  1.1 sy,  0.0 ni, 65.9 id,  0.0 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,   2187.7 free,  17584.9 used,  11388.5 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13802.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   4.9g  26412 S 436.4  16.1  25:09.10 java
+  62092 root      20   0   13.8g   3.9g  26396 S 109.1  12.7  24:51.07 java
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.66 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     14 root      20   0       0      0      0 S   0.0   0.0   0:00.15 ksoftir+
+04:55:10
+top - 04:55:11 up  1:57,  1 user,  load average: 12.80, 12.43, 9.66
+Tasks: 448 total,   1 running, 446 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 19.3 us,  0.6 sy,  0.0 ni, 79.0 id,  0.0 wa,  0.0 hi,  1.1 si,  0.0 st 
+MiB Mem :  31386.9 total,   2825.5 free,  17089.8 used,  11245.8 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  14297.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   4.9g  26412 S 318.2  16.1  25:22.32 java
+  66112 sujal     20   0   14840   5708   3548 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.68 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     14 root      20   0       0      0      0 S   0.0   0.0   0:00.15 ksoftir+
+04:55:14
+top - 04:55:14 up  1:57,  1 user,  load average: 12.80, 12.43, 9.66
+Tasks: 448 total,   2 running, 445 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 36.5 us, 29.9 sy,  0.0 ni, 22.3 id, 11.2 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6163.4 free,  13932.6 used,  11065.4 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17454.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   2.7g  26396 S 515.4   8.8  25:01.19 java
+  62079 root      20   0   14.0g   2.8g  26412 S 484.6   9.2  25:33.26 java
+    143 root      20   0       0      0      0 R  30.8   0.0   0:10.57 kswapd0
+  61903 root      20   0   11.8g   1.0g  27696 S   7.7   3.2   1:05.69 java
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.68 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:55:17
+top - 04:55:17 up  1:57,  1 user,  load average: 12.98, 12.47, 9.69
+Tasks: 474 total,   6 running, 467 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 75.3 us,  3.2 sy,  0.0 ni, 21.0 id,  0.5 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6108.1 free,  14233.8 used,  10819.0 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  17153.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   2.3g  26420 S 358.3   7.5  25:44.43 java
+  62092 root      20   0   13.8g   2.6g  26404 S 350.0   8.6  25:11.85 java
+  66222 root      20   0   57448  44336   5460 R  75.0   0.1   0:00.37 python3
+  66244 root      20   0   57448  44336   5460 R  75.0   0.1   0:00.58 python3
+  66234 root      20   0   57448  44292   5416 R  58.3   0.1   0:00.56 python3
+  66241 root      20   0   57448  44268   5388 S  58.3   0.1   0:00.34 python3
+  66218 root      20   0   57448  44336   5460 R  50.0   0.1   0:00.28 python3
+  66248 root      20   0   57448  43940   5060 S  41.7   0.1   0:00.33 python3
+  66256 root      20   0   57448  43972   5096 S  33.3   0.1   0:00.15 python3
+  66259 root      20   0   57448  43940   5060 R  33.3   0.1   0:00.22 python3
+  66225 root      20   0   57448  44268   5388 S  25.0   0.1   0:00.32 python3
+  66360 sujal     20   0   14840   5728   3564 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.68 systemd
+04:55:20
+top - 04:55:21 up  1:57,  1 user,  load average: 13.94, 12.68, 9.77
+Tasks: 474 total,   7 running, 466 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 78.1 us,  2.1 sy,  0.0 ni, 19.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   2427.4 free,  18180.6 used,  10553.0 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  13206.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.3g  26404 S 433.3  14.1  25:23.37 java
+  62079 root      20   0   14.0g   4.3g  26420 S 400.0  14.1  25:56.44 java
+  66249 root      20   0   57448  44336   5460 R  75.0   0.1   0:00.85 python3
+  66241 root      20   0   57448  44268   5388 R  58.3   0.1   0:01.53 python3
+  66253 root      20   0   57448  44268   5388 R  50.0   0.1   0:00.81 python3
+  66213 root      20   0   57448  43972   5096 S  41.7   0.1   0:01.69 python3
+  66226 root      20   0   57448  44336   5460 R  41.7   0.1   0:00.78 python3
+  66257 root      20   0   57448  43940   5060 R  41.7   0.1   0:00.78 python3
+  66252 root      20   0   57448  44336   5460 R  33.3   0.1   0:00.45 python3
+  66245 root      20   0   57448  44268   5388 S  16.7   0.1   0:00.88 python3
+  66408 sujal     20   0   14840   5728   3564 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.68 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+04:55:24
+top - 04:55:24 up  1:57,  1 user,  load average: 13.94, 12.68, 9.77
+Tasks: 474 total,   4 running, 469 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 73.0 us, 11.1 sy,  0.0 ni, 15.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   2283.0 free,  18738.2 used,  10139.7 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12648.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.3g  26404 S 525.0  14.1  25:39.09 java
+  62079 root      20   0   14.0g   4.9g  26420 S 408.3  15.9  26:09.88 java
+  66256 root      20   0   57448  43972   5096 R  75.0   0.1   0:01.16 python3
+  66222 root      20   0   57448  44336   5460 R  66.7   0.1   0:01.35 python3
+  66248 root      20   0   57448  44268   5388 R  66.7   0.1   0:01.59 python3
+  66215 root      20   0   57448  44268   5388 S  33.3   0.1   0:02.34 python3
+  66233 root      20   0   57448  44224   5344 S  16.7   0.1   0:01.27 python3
+  66245 root      20   0   57448  44268   5388 S  16.7   0.1   0:01.45 python3
+  61404 root      20   0 1233872  12280   7236 S   8.3   0.0   0:01.65 contain+
+  66240 root      20   0   57448  44336   5460 S   8.3   0.1   0:01.56 python3
+  66446 sujal     20   0   14840   5732   3564 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.70 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+04:55:27
+top - 04:55:27 up  1:57,  1 user,  load average: 13.95, 12.70, 9.79
+Tasks: 474 total,   3 running, 470 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.2 us,  2.7 sy,  0.0 ni, 23.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1893.9 free,  18828.0 used,  10439.2 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12558.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 536.4  16.2  26:25.31 java
+  62092 root      20   0   13.8g   4.3g  26404 S 509.1  14.1  25:53.60 java
+  66226 root      20   0   57448  44336   5460 R  90.9   0.1   0:01.43 python3
+  66222 root      20   0   57448  44336   5460 R  18.2   0.1   0:02.68 python3
+  66257 root      20   0   57448  43940   5060 S  18.2   0.1   0:01.79 python3
+  66479 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.73 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:55:30
+top - 04:55:30 up  1:58,  1 user,  load average: 14.35, 12.81, 9.84
+Tasks: 474 total,   8 running, 465 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 76.4 us,  2.2 sy,  0.0 ni, 20.9 id,  0.0 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :  31386.9 total,   1151.3 free,  18905.8 used,  11103.9 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  12481.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.3g  26404 S 418.2  14.1  26:07.69 java
+  62079 root      20   0   14.0g   5.0g  26420 S 400.0  16.2  26:39.92 java
+  66225 root      20   0   57448  44268   5388 R  81.8   0.1   0:02.80 python3
+  66252 root      20   0   57448  44336   5460 R  81.8   0.1   0:02.29 python3
+  66238 root      20   0   57448  44336   5460 R  72.7   0.1   0:01.27 python3
+  66221 root      20   0   57448  44268   5388 R  54.5   0.1   0:02.05 python3
+  66248 root      20   0   57448  44268   5388 S  45.5   0.1   0:02.87 python3
+  66249 root      20   0   57448  44336   5460 S  36.4   0.1   0:01.78 python3
+  66256 root      20   0   57448  44336   5460 S  27.3   0.1   0:01.85 python3
+  66214 root      20   0   57448  44268   5388 R   9.1   0.1   0:01.88 python3
+  66244 root      20   0   57448  44336   5460 S   9.1   0.1   0:03.56 python3
+  66259 root      20   0   57448  44268   5388 R   9.1   0.1   0:01.67 python3
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.74 systemd
+04:55:34
+top - 04:55:34 up  1:58,  1 user,  load average: 14.35, 12.81, 9.84
+Tasks: 474 total,   5 running, 468 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 70.8 us,  9.7 sy,  0.0 ni, 18.9 id,  0.5 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    953.2 free,  19650.9 used,  10556.9 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11736.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 636.4  16.2  26:53.95 java
+  62092 root      20   0   13.8g   4.9g  26404 S 354.5  16.0  26:19.62 java
+  66234 root      20   0   57448  44292   5416 R  63.6   0.1   0:04.06 python3
+  66252 root      20   0   57448  44336   5460 R  63.6   0.1   0:03.29 python3
+  66213 root      20   0   57448  44336   5460 S  45.5   0.1   0:02.89 python3
+  66249 root      20   0   57448  44336   5460 R  45.5   0.1   0:02.91 python3
+  66229 root      20   0   57448  44268   5388 R  36.4   0.1   0:02.49 python3
+  66256 root      20   0   57448  44336   5460 S  18.2   0.1   0:02.31 python3
+    557 root      20   0       0      0      0 I   9.1   0.0   1:41.63 kworker+
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.77 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:55:37
+top - 04:55:37 up  1:58,  1 user,  load average: 14.72, 12.91, 9.89
+Tasks: 474 total,   5 running, 468 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 71.6 us, 14.8 sy,  0.0 ni, 13.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    726.9 free,  20024.1 used,  10409.3 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11362.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 490.9  16.2  27:07.43 java
+  62092 root      20   0   13.8g   4.9g  26404 S 436.4  16.0  26:32.98 java
+  66245 root      20   0   57448  44268   5388 R  90.9   0.1   0:04.16 python3
+  66234 root      20   0   57448  44292   5416 R  72.7   0.1   0:05.95 python3
+  66238 root      20   0   57448  44336   5460 R  72.7   0.1   0:03.02 python3
+  66230 root      20   0   57448  44336   5460 R  63.6   0.1   0:03.96 python3
+  66248 root      20   0   57448  44268   5388 S  63.6   0.1   0:03.60 python3
+    557 root      20   0       0      0      0 I  45.5   0.0   1:41.92 kworker+
+  47787 root      20   0       0      0      0 I   9.1   0.0   0:28.90 kworker+
+  61407 root      20   0 1233872  12160   7244 S   9.1   0.0   0:01.18 contain+
+  66221 root      20   0   57448  44268   5388 S   9.1   0.1   0:03.98 python3
+  66653 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.81 systemd
+04:55:40
+top - 04:55:40 up  1:58,  1 user,  load average: 14.83, 12.96, 9.93
+Tasks: 474 total,   5 running, 468 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 76.1 us,  5.3 sy,  0.0 ni, 18.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    578.6 free,  20489.9 used,  10527.8 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  10897.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26404 S 508.3  16.0  26:47.48 java
+  62079 root      20   0   14.0g   5.0g  26420 S 433.3  16.2  27:22.28 java
+  66257 root      20   0   57448  44268   5388 R  75.0   0.1   0:03.42 python3
+  66252 root      20   0   57448  44336   5460 S  50.0   0.1   0:04.36 python3
+  66240 root      20   0   57448  44336   5460 R  33.3   0.1   0:02.97 python3
+  66259 root      20   0   57448  44268   5388 R  25.0   0.1   0:02.88 python3
+  66241 root      20   0   57448  44268   5388 S  16.7   0.1   0:03.73 python3
+  66685 sujal     20   0   14840   5716   3548 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:55:43
+top - 04:55:44 up  1:58,  1 user,  load average: 14.83, 12.96, 9.93
+Tasks: 474 total,   4 running, 469 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.9 us,  4.4 sy,  0.0 ni, 20.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    618.0 free,  19996.2 used,  10543.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11390.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26404 S 550.0  16.0  27:03.36 java
+  62079 root      20   0   14.0g   5.0g  26420 S 441.7  16.2  27:36.53 java
+  66233 root      20   0   57448  44224   5344 R  66.7   0.1   0:04.05 python3
+  66215 root      20   0   57448  44268   5388 R  58.3   0.1   0:05.31 python3
+  66213 root      20   0   57448  44336   5460 R  50.0   0.1   0:03.94 python3
+      1 root      20   0   23972  14824   9272 S   8.3   0.0   0:06.90 systemd
+  61404 root      20   0 1233872  12232   7236 S   8.3   0.0   0:01.88 contain+
+  66712 sujal     20   0   14840   5732   3564 R   8.3   0.0   0:00.02 top
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:55:47
+top - 04:55:47 up  1:58,  1 user,  load average: 14.12, 12.85, 9.90
+Tasks: 474 total,   4 running, 469 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 63.9 us,  3.8 sy,  0.0 ni, 32.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    915.1 free,  19751.8 used,  10493.5 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11635.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 518.2  16.2  27:52.41 java
+  62092 root      20   0   13.8g   4.9g  26404 S 463.6  16.0  27:18.72 java
+  66229 root      20   0   57448  44268   5388 R  45.5   0.1   0:04.00 python3
+  66252 root      20   0   57448  44336   5460 R  45.5   0.1   0:05.04 python3
+  66221 root      20   0   57448  44268   5388 R  27.3   0.1   0:05.08 python3
+  66249 root      20   0   57448  44336   5460 S  18.2   0.1   0:05.07 python3
+  61407 root      20   0 1233872  12456   7244 S   9.1   0.0   0:01.34 contain+
+  66213 root      20   0   57448  44336   5460 S   9.1   0.1   0:04.41 python3
+  66757 sujal     20   0   14840   5716   3548 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.93 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:55:50
+top - 04:55:50 up  1:58,  1 user,  load average: 13.55, 12.75, 9.89
+Tasks: 474 total,   6 running, 467 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 68.0 us,  9.7 sy,  0.0 ni, 21.7 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1179.6 free,  19573.9 used,  10406.2 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11813.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26404 S 463.6  16.0  27:33.76 java
+  62079 root      20   0   14.0g   5.0g  26420 S 445.5  16.2  28:08.18 java
+  66229 root      20   0   57448  44268   5388 R  81.8   0.1   0:04.96 python3
+  66241 root      20   0   57448  44268   5388 R  81.8   0.1   0:04.98 python3
+  66244 root      20   0   57448  44336   5460 R  81.8   0.1   0:05.01 python3
+  66226 root      20   0   57448  44336   5460 R  72.7   0.1   0:04.64 python3
+  66213 root      20   0   57448  44336   5460 R  18.2   0.1   0:04.74 python3
+  32088 root      20   0       0      0      0 I   9.1   0.0   1:06.84 kworker+
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.95 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:55:53
+top - 04:55:54 up  1:58,  1 user,  load average: 13.55, 12.75, 9.89
+Tasks: 474 total,   5 running, 468 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.2 us,  2.2 sy,  0.0 ni, 23.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    989.7 free,  19602.7 used,  10567.1 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11784.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26404 S 533.3  16.0  27:49.08 java
+  62079 root      20   0   14.0g   5.0g  26420 S 425.0  16.2  28:20.95 java
+  66257 root      20   0   57448  44268   5388 R  83.3   0.1   0:05.65 python3
+  66214 root      20   0   57448  44268   5388 R  75.0   0.1   0:04.52 python3
+  66218 root      20   0   57448  44336   5460 R  75.0   0.1   0:04.71 python3
+  66256 root      20   0   57448  44336   5460 S  50.0   0.1   0:05.15 python3
+  66213 root      20   0   57448  44336   5460 S   8.3   0.1   0:05.38 python3
+  66233 root      20   0   57448  44224   5344 R   8.3   0.1   0:05.38 python3
+  66830 sujal     20   0   14840   5732   3564 R   8.3   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.95 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:55:57
+top - 04:55:57 up  1:58,  1 user,  load average: 13.66, 12.79, 9.92
+Tasks: 474 total,   5 running, 468 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.7 us,  8.1 sy,  0.0 ni, 16.7 id,  0.5 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1039.2 free,  20104.9 used,  10453.7 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11282.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 554.5  16.2  28:37.27 java
+  62092 root      20   0   13.8g   4.9g  26404 S 554.5  16.0  28:05.57 java
+  32088 root      20   0       0      0      0 R 100.0   0.0   1:07.29 kworker+
+  66218 root      20   0   57448  44336   5460 S  63.6   0.1   0:05.08 python3
+  66238 root      20   0   57448  44336   5460 R  45.5   0.1   0:05.06 python3
+  66241 root      20   0   57448  44268   5388 R  36.4   0.1   0:05.59 python3
+  66869 sujal     20   0   14840   5732   3564 R  18.2   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.97 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:56:00
+top - 04:56:00 up  1:58,  1 user,  load average: 14.01, 12.87, 9.96
+Tasks: 474 total,  11 running, 462 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 72.6 us,  4.8 sy,  0.0 ni, 22.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1326.6 free,  19527.7 used,  10305.2 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11859.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26404 S 375.0  16.0  28:19.41 java
+  62079 root      20   0   14.0g   5.0g  26420 S 366.7  16.2  28:52.38 java
+  66225 root      20   0   57448  44268   5388 R  83.3   0.1   0:07.59 python3
+  66213 root      20   0   57448  44336   5460 R  75.0   0.1   0:05.91 python3
+  66244 root      20   0   57448  44336   5460 R  75.0   0.1   0:06.01 python3
+  66257 root      20   0   57448  44268   5388 R  66.7   0.1   0:06.70 python3
+  66241 root      20   0   57448  44268   5388 R  41.7   0.1   0:06.15 python3
+  66218 root      20   0   57448  44336   5460 R  25.0   0.1   0:05.75 python3
+  66245 root      20   0   57448  44268   5388 R  16.7   0.1   0:06.62 python3
+  66233 root      20   0   57448  44224   5344 R   8.3   0.1   0:05.78 python3
+  66238 root      20   0   57448  44336   5460 R   8.3   0.1   0:05.10 python3
+  66919 sujal     20   0   14840   5716   3552 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:06.98 systemd
+04:56:03
+top - 04:56:04 up  1:58,  1 user,  load average: 14.01, 12.87, 9.96
+Tasks: 473 total,  10 running, 462 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 75.1 us,  4.9 sy,  0.0 ni, 19.5 id,  0.0 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :  31386.9 total,   1280.1 free,  19537.4 used,  10342.0 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11849.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26404 S 454.5  16.0  28:33.89 java
+  62079 root      20   0   14.0g   5.0g  26420 S 300.0  16.2  29:04.12 java
+  66222 root      20   0   57448  44336   5460 R  81.8   0.1   0:08.69 python3
+  66230 root      20   0   57448  44336   5460 R  81.8   0.1   0:07.20 python3
+  66241 root      20   0   57448  44268   5388 R  72.7   0.1   0:06.75 python3
+  66245 root      20   0   57448  44268   5388 R  72.7   0.1   0:07.74 python3
+  66229 root      20   0   57448  44268   5388 R  63.6   0.1   0:07.32 python3
+  66214 root      20   0   57448  44268   5388 R  36.4   0.1   0:05.44 python3
+  66248 root      20   0   57448  44268   5388 R  36.4   0.1   0:06.01 python3
+  66215 root      20   0   57448  44268   5388 R  27.3   0.1   0:06.78 python3
+  66253 root      20   0   57448  44268   5388 R  27.3   0.1   0:06.87 python3
+      1 root      20   0   23972  14824   9272 S   9.1   0.0   0:07.00 systemd
+  47789 root      20   0       0      0      0 I   9.1   0.0   0:14.69 kworker+
+04:56:07
+top - 04:56:07 up  1:58,  1 user,  load average: 13.45, 12.78, 9.94
+Tasks: 473 total,   5 running, 467 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 76.4 us,  8.9 sy,  0.0 ni, 14.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1129.1 free,  19639.5 used,  10391.1 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11747.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 508.3  16.2  29:17.65 java
+  62092 root      20   0   13.8g   4.9g  26404 S 366.7  16.0  28:48.51 java
+  66234 root      20   0   57448  44292   5416 R  83.3   0.1   0:07.78 python3
+  66244 root      20   0   57448  44336   5460 R  83.3   0.1   0:06.69 python3
+  66215 root      20   0   57448  44268   5388 S  75.0   0.1   0:07.86 python3
+  66252 root      20   0   57448  44336   5460 R  41.7   0.1   0:07.39 python3
+  66256 root      20   0   57448  44336   5460 R  33.3   0.1   0:06.49 python3
+  47789 root      20   0       0      0      0 I  25.0   0.0   0:14.80 kworker+
+    201 root      20   0       0      0      0 I  16.7   0.0   1:39.68 kworker+
+  66995 sujal     20   0   14840   5728   3564 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:07.02 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+04:56:10
+top - 04:56:10 up  1:58,  1 user,  load average: 13.17, 12.73, 9.94
+Tasks: 473 total,   6 running, 466 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 75.1 us,  5.5 sy,  0.0 ni, 19.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    863.5 free,  19693.9 used,  10602.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11693.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 490.9  16.2  29:34.18 java
+  62092 root      20   0   13.8g   4.9g  26404 S 400.0  16.0  29:01.96 java
+  66244 root      20   0   57448  44336   5460 R  81.8   0.1   0:09.04 python3
+  66256 root      20   0   57448  44336   5460 R  81.8   0.1   0:07.02 python3
+  66240 root      20   0   57448  44336   5460 R  72.7   0.1   0:07.37 python3
+  66226 root      20   0   57448  44336   5460 R  63.6   0.1   0:07.07 python3
+  66257 root      20   0   57448  44268   5388 R  63.6   0.1   0:07.81 python3
+      1 root      20   0   23972  14824   9272 S   9.1   0.0   0:07.05 systemd
+  61404 root      20   0 1233872  12088   7260 S   9.1   0.0   0:01.97 contain+
+  66230 root      20   0   57448  44336   5460 S   9.1   0.1   0:07.56 python3
+  67051 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.02 top
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+04:56:13
+top - 04:56:14 up  1:58,  1 user,  load average: 13.17, 12.73, 9.94
+Tasks: 474 total,  11 running, 462 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 78.5 us,  5.4 sy,  0.0 ni, 16.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    666.2 free,  19929.8 used,  10562.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11457.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 354.5  16.2  29:48.14 java
+  62092 root      20   0   13.8g   4.9g  26404 S 345.5  16.0  29:15.33 java
+  66229 root      20   0   57448  44268   5388 R  72.7   0.1   0:08.40 python3
+  66257 root      20   0   57448  44268   5388 R  72.7   0.1   0:08.26 python3
+  66222 root      20   0   57448  44336   5460 R  63.6   0.1   0:09.72 python3
+  66248 root      20   0   57448  44268   5388 R  63.6   0.1   0:07.16 python3
+  66249 root      20   0   57448  44336   5460 R  63.6   0.1   0:08.81 python3
+  66252 root      20   0   57448  44336   5460 R  54.5   0.1   0:08.13 python3
+  66241 root      20   0   57448  44268   5388 R  45.5   0.1   0:07.59 python3
+  66244 root      20   0   57448  44336   5460 R  36.4   0.1   0:10.95 python3
+  66253 root      20   0   57448  44268   5388 R  27.3   0.1   0:07.54 python3
+   8833 sujal     20   0   12.1g 945216 367796 R  18.2   2.9   6:07.58 firefox
+      1 root      20   0   23972  14824   9272 S   9.1   0.0   0:07.09 systemd
+04:56:17
+top - 04:56:17 up  1:58,  1 user,  load average: 13.16, 12.73, 9.96
+Tasks: 474 total,   6 running, 467 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 76.6 us,  8.7 sy,  0.0 ni, 14.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    794.6 free,  20213.8 used,  10586.3 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11173.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 550.0  16.2  30:03.73 java
+  62092 root      20   0   13.8g   4.9g  26404 S 383.3  16.0  29:29.79 java
+  47789 root      20   0       0      0      0 R  83.3   0.0   0:15.76 kworker+
+  66252 root      20   0   57448  44336   5460 R  75.0   0.1   0:08.70 python3
+  66213 root      20   0   57448  44336   5460 R  66.7   0.1   0:08.08 python3
+  66248 root      20   0   57448  44268   5388 S  66.7   0.1   0:08.05 python3
+  66234 root      20   0   57448  44292   5416 R  16.7   0.1   0:07.89 python3
+  61404 root      20   0 1233872  12268   7260 S   8.3   0.0   0:02.04 contain+
+  66241 root      20   0   57448  44268   5388 R   8.3   0.1   0:08.18 python3
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:07.11 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:56:20
+top - 04:56:20 up  1:58,  1 user,  load average: 13.15, 12.74, 9.98
+Tasks: 474 total,   5 running, 468 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 71.1 us,  1.7 sy,  0.0 ni, 27.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1377.3 free,  19566.2 used,  10213.2 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11820.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26404 S 463.6  16.0  29:45.69 java
+  62079 root      20   0   14.0g   5.0g  26420 S 372.7  16.2  30:20.30 java
+  66213 root      20   0   57448  44336   5460 R  81.8   0.1   0:08.60 python3
+  66248 root      20   0   57448  44268   5388 R  72.7   0.1   0:08.29 python3
+  66233 root      20   0   57448  44224   5344 S  45.5   0.1   0:08.44 python3
+  66245 root      20   0   57448  44268   5388 R  45.5   0.1   0:09.05 python3
+  61407 root      20   0 1233872  12356   7244 S   9.1   0.0   0:01.65 contain+
+  66226 root      20   0   57448  44336   5460 S   9.1   0.1   0:08.33 python3
+  66256 root      20   0   57448  44336   5460 R   9.1   0.1   0:08.66 python3
+  67192 sujal     20   0   14840   5712   3544 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:07.14 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+04:56:23
+top - 04:56:23 up  1:58,  1 user,  load average: 13.15, 12.74, 9.98
+Tasks: 474 total,  10 running, 463 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 79.6 us,  2.2 sy,  0.0 ni, 18.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1322.5 free,  19491.4 used,  10342.8 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11895.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26404 S 366.7  16.0  30:01.95 java
+  62079 root      20   0   14.0g   5.0g  26420 S 308.3  16.2  30:33.11 java
+  66234 root      20   0   57448  44292   5416 R  83.3   0.1   0:09.39 python3
+  66249 root      20   0   57448  44336   5460 R  75.0   0.1   0:09.34 python3
+  66241 root      20   0   57448  44268   5388 R  66.7   0.1   0:09.08 python3
+  66245 root      20   0   57448  44268   5388 R  66.7   0.1   0:09.51 python3
+  66222 root      20   0   57448  44336   5460 R  50.0   0.1   0:10.10 python3
+  66233 root      20   0   57448  44224   5344 R  50.0   0.1   0:09.51 python3
+  66248 root      20   0   57448  44268   5388 R  41.7   0.1   0:09.66 python3
+  66253 root      20   0   57448  44268   5388 R  41.7   0.1   0:09.08 python3
+  66229 root      20   0   57448  44268   5388 R  16.7   0.1   0:09.92 python3
+    122 root      20   0       0      0      0 S   8.3   0.0   0:05.48 kcompac+
+  21120 root      20   0       0      0      0 I   8.3   0.0   0:00.19 kworker+
+04:56:27
+top - 04:56:27 up  1:58,  1 user,  load average: 12.89, 12.69, 9.98
+Tasks: 474 total,   6 running, 467 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.1 us,  2.7 sy,  0.0 ni, 23.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1288.5 free,  19558.6 used,  10316.4 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11828.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26404 S 500.0  16.0  30:15.21 java
+  62079 root      20   0   14.0g   5.0g  26420 S 472.7  16.2  30:45.92 java
+  66259 root      20   0   57448  44268   5388 R  90.9   0.1   0:08.90 python3
+  66238 root      20   0   57448  44336   5460 R  81.8   0.1   0:09.41 python3
+  66222 root      20   0   57448  44336   5460 R  72.7   0.1   0:10.98 python3
+  66214 root      20   0   57448  44268   5388 S  54.5   0.1   0:09.57 python3
+  66233 root      20   0   57448  44224   5344 S  54.5   0.1   0:10.72 python3
+  66215 root      20   0   57448  44268   5388 R  18.2   0.1   0:09.68 python3
+  66253 root      20   0   57448  44268   5388 R   9.1   0.1   0:10.08 python3
+  67283 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:07.17 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+04:56:30
+top - 04:56:30 up  1:59,  1 user,  load average: 12.58, 12.63, 9.97
+Tasks: 474 total,   5 running, 468 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 79.4 us,  2.1 sy,  0.0 ni, 18.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1069.3 free,  19629.9 used,  10463.9 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11757.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26404 S 483.3  16.0  30:30.52 java
+  62079 root      20   0   14.0g   5.0g  26420 S 400.0  16.2  31:00.33 java
+  66218 root      20   0   57448  44336   5460 R  83.3   0.1   0:09.02 python3
+  66221 root      20   0   57448  44268   5388 R  75.0   0.1   0:10.37 python3
+  66245 root      20   0   57448  44268   5388 R  66.7   0.1   0:10.88 python3
+  66225 root      20   0   57448  44268   5388 R  58.3   0.1   0:12.54 python3
+   6596 sujal     20   0 5358260 459400 173660 S   8.3   1.4   3:41.39 gnome-s+
+   6725 sujal     20   0  459196   8164   7244 S   8.3   0.0   0:00.29 gsd-hou+
+  66213 root      20   0   57448  44336   5460 S   8.3   0.1   0:10.17 python3
+  67311 sujal     20   0   14840   5728   3564 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:07.19 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+04:56:33
+top - 04:56:33 up  1:59,  1 user,  load average: 12.58, 12.63, 9.97
+Tasks: 474 total,   4 running, 469 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 75.3 us,  2.7 sy,  0.0 ni, 21.5 id,  0.0 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :  31386.9 total,    879.6 free,  20089.0 used,  10632.4 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11297.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 600.0  16.2  31:16.45 java
+  62092 root      20   0   13.8g   4.9g  26404 S 463.6  16.0  30:46.26 java
+  66257 root      20   0   57448  44268   5388 R  90.9   0.1   0:10.69 python3
+  66256 root      20   0   57448  44336   5460 R  81.8   0.1   0:10.41 python3
+  66252 root      20   0   57448  44336   5460 R  63.6   0.1   0:10.50 python3
+      1 root      20   0   23972  14824   9272 S   9.1   0.0   0:07.22 systemd
+     24 root      rt   0       0      0      0 S   9.1   0.0   0:00.71 migrati+
+  67365 sujal     20   0   14840   5716   3548 R   9.1   0.0   0:00.02 top
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:56:36
+top - 04:56:37 up  1:59,  1 user,  load average: 12.54, 12.62, 9.98
+Tasks: 475 total,   7 running, 467 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 75.5 us,  2.7 sy,  0.0 ni, 21.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,    866.9 free,  19706.6 used,  10589.8 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11680.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26404 S 527.3  16.0  30:59.72 java
+  62079 root      20   0   14.0g   5.0g  26420 S 363.6  16.2  31:29.32 java
+  66240 root      20   0   57448  44336   5460 R  90.9   0.1   0:10.87 python3
+  66226 root      20   0   57448  44336   5460 R  81.8   0.1   0:10.47 python3
+  66248 root      20   0   57448  44268   5388 R  81.8   0.1   0:11.49 python3
+  66241 root      20   0   57448  44268   5388 R  63.6   0.1   0:10.00 python3
+  66214 root      20   0   57448  44268   5388 R  54.5   0.1   0:10.33 python3
+  66229 root      20   0   57448  44268   5388 R  54.5   0.1   0:11.47 python3
+  67418 sujal     20   0   14840   5712   3548 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:07.24 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:56:40
+top - 04:56:40 up  1:59,  1 user,  load average: 12.17, 12.54, 9.97
+Tasks: 475 total,   4 running, 470 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 74.9 us,  3.2 sy,  0.0 ni, 21.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1308.3 free,  19687.9 used,  10166.9 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11698.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 491.7  16.2  31:45.09 java
+  62092 root      20   0   13.8g   4.9g  26404 S 391.7  16.0  31:11.78 java
+  66248 root      20   0   57448  44268   5388 R  75.0   0.1   0:11.89 python3
+  66234 root      20   0   57448  44292   5416 R  66.7   0.1   0:13.02 python3
+  66218 root      20   0   57448  44336   5460 S  58.3   0.1   0:10.11 python3
+  66222 root      20   0   57448  44336   5460 R  50.0   0.1   0:12.42 python3
+  66238 root      20   0   57448  44336   5460 S  50.0   0.1   0:11.57 python3
+  11651 sujal     20   0 1449.9g 293564 100540 S   8.3   0.9   0:20.34 code
+  67451 sujal     20   0   14840   5708   3544 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:07.27 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:56:43
+top - 04:56:43 up  1:59,  1 user,  load average: 12.17, 12.54, 9.97
+Tasks: 475 total,   6 running, 468 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 73.7 us,  1.6 sy,  0.0 ni, 24.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1307.0 free,  19674.4 used,  10181.8 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11712.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26404 S 590.9  16.0  31:26.67 java
+  62079 root      20   0   14.0g   5.0g  26420 S 427.3  16.2  32:02.06 java
+  66215 root      20   0   57448  44268   5388 R  63.6   0.1   0:11.98 python3
+  66225 root      20   0   57448  44268   5388 R  63.6   0.1   0:14.63 python3
+  66248 root      20   0   57448  44268   5388 R  63.6   0.1   0:12.15 python3
+  66233 root      20   0   57448  44224   5344 R  18.2   0.1   0:11.88 python3
+  61903 root      20   0   11.8g   1.0g  27696 S   9.1   3.3   1:08.39 java
+  66229 root      20   0   57448  44268   5388 R   9.1   0.1   0:12.21 python3
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:07.28 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:56:46
+top - 04:56:47 up  1:59,  1 user,  load average: 11.68, 12.44, 9.95
+Tasks: 475 total,   7 running, 467 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 75.9 us,  4.3 sy,  0.0 ni, 19.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1066.7 free,  19601.1 used,  10495.4 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11785.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26404 S 441.7  16.0  31:44.06 java
+  62079 root      20   0   14.0g   5.0g  26420 S 391.7  16.2  32:14.60 java
+  66225 root      20   0   57448  44268   5388 R  75.0   0.1   0:16.62 python3
+  66252 root      20   0   57448  44336   5460 R  75.0   0.1   0:12.39 python3
+  66233 root      20   0   57448  44224   5344 R  66.7   0.1   0:12.61 python3
+  66240 root      20   0   57448  44336   5460 R  50.0   0.1   0:12.36 python3
+  66222 root      20   0   57448  44336   5460 R  25.0   0.1   0:12.84 python3
+  66245 root      20   0   57448  44268   5388 R  25.0   0.1   0:13.13 python3
+  61404 root      20   0 1233872  11992   7260 S   8.3   0.0   0:02.17 contain+
+  67547 sujal     20   0   14840   5716   3552 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:07.31 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+04:56:50
+top - 04:56:50 up  1:59,  1 user,  load average: 11.30, 12.35, 9.94
+Tasks: 475 total,   7 running, 467 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 75.9 us,  9.1 sy,  0.0 ni, 14.4 id,  0.0 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :  31386.9 total,   1184.6 free,  19672.7 used,  10306.3 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11714.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62092 root      20   0   13.8g   4.9g  26404 S 472.7  16.0  31:58.49 java
+  62079 root      20   0   14.0g   5.0g  26420 S 272.7  16.2  32:26.38 java
+  66244 root      20   0   57448  44336   5460 S  81.8   0.1   0:11.85 python3
+  66214 root      20   0   57448  44268   5388 R  72.7   0.1   0:12.46 python3
+  66215 root      20   0   57448  44268   5388 R  72.7   0.1   0:13.85 python3
+  66221 root      20   0   57448  44268   5388 R  63.6   0.1   0:12.50 python3
+  66252 root      20   0   57448  44336   5460 R  54.5   0.1   0:14.58 python3
+  66229 root      20   0   57448  44268   5388 R  45.5   0.1   0:13.88 python3
+  66225 root      20   0   57448  44268   5388 R  27.3   0.1   0:18.71 python3
+  61988 root      20   0 1118760 129976  56256 S   9.1   0.4   0:03.24 python3
+  66257 root      20   0   57448  44268   5388 S   9.1   0.1   0:12.36 python3
+  67612 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:07.33 systemd
+04:56:53
+top - 04:56:53 up  1:59,  1 user,  load average: 11.30, 12.35, 9.94
+Tasks: 475 total,   5 running, 469 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 54.4 us,  4.4 sy,  0.0 ni, 41.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1038.8 free,  19794.7 used,  10329.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11592.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 427.3  16.2  32:38.37 java
+  62092 root      20   0   13.8g   4.9g  26404 S 218.2  16.0  32:09.82 java
+  66244 root      20   0   57448  44336   5460 R 100.0   0.1   0:14.09 python3
+  66214 root      20   0   57448  44268   5388 R  63.6   0.1   0:13.73 python3
+  66248 root      20   0   57448  44268   5388 R  63.6   0.1   0:13.52 python3
+  66259 root      20   0   57448  44268   5388 S  54.5   0.1   0:11.70 python3
+  66257 root      20   0   57448  44268   5388 S  36.4   0.1   0:13.52 python3
+  66233 root      20   0   57448  44224   5344 R  27.3   0.1   0:13.40 python3
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:07.35 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:56:56
+top - 04:56:56 up  1:59,  1 user,  load average: 10.56, 12.17, 9.89
+Tasks: 475 total,   2 running, 472 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 40.9 us,  2.8 sy,  0.0 ni, 56.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1069.8 free,  19723.8 used,  10371.2 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11663.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 436.4  16.2  32:53.13 java
+  62092 root      20   0   13.8g   4.9g  26404 S 100.0  16.0  32:14.74 java
+  66221 root      20   0   57448  44268   5388 R  81.8   0.1   0:13.66 python3
+  66233 root      20   0   57448  44224   5344 S  63.6   0.1   0:14.07 python3
+  66248 root      20   0   57448  44268   5388 S  45.5   0.1   0:14.13 python3
+      1 root      20   0   23972  14824   9272 S   9.1   0.0   0:07.38 systemd
+  61463 root      20   0 5930348 265504  26788 S   9.1   0.8   0:05.26 java
+  67682 sujal     20   0   14840   5728   3560 R   9.1   0.0   0:00.02 top
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:56:59
+top - 04:57:00 up  1:59,  1 user,  load average: 10.19, 12.07, 9.87
+Tasks: 475 total,   4 running, 470 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 32.4 us,  0.6 sy,  0.0 ni, 67.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1299.0 free,  19604.8 used,  10261.5 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11782.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 400.0  16.2  33:06.56 java
+  62092 root      20   0   13.8g   4.9g  26404 S 100.0  16.0  32:18.12 java
+  66259 root      20   0   57448  44268   5388 R  90.9   0.1   0:12.93 python3
+  66233 root      20   0   57448  44224   5344 R  81.8   0.1   0:14.53 python3
+  66253 root      20   0   57448  44268   5388 R  63.6   0.1   0:14.68 python3
+  13803 sujal     20   0 5629452 314600 128476 S  27.3   1.0   0:58.89 claude
+  67709 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:07.38 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:57:03
+top - 04:57:03 up  1:59,  1 user,  load average: 10.19, 12.07, 9.87
+Tasks: 475 total,   2 running, 472 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 18.9 us,  1.1 sy,  0.0 ni, 80.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   1629.9 free,  19515.6 used,  10019.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11871.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 300.0  16.2  33:19.55 java
+  12667 sujal     20   0 1448.4g 434460 138764 S   9.1   1.4   4:22.18 code
+  67743 sujal     20   0   14840   5720   3556 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:07.38 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+04:57:06
+top - 04:57:06 up  1:59,  1 user,  load average: 9.54, 11.90, 9.83
+Tasks: 475 total,   1 running, 473 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  6.3 us,  0.6 sy,  0.0 ni, 93.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   2439.8 free,  19466.2 used,   9259.1 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  11920.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  62079 root      20   0   14.0g   5.0g  26420 S 100.0  16.2  33:26.62 java
+  67771 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:07.38 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     14 root      20   0       0      0      0 S   0.0   0.0   0:00.16 ksoftir+
+04:57:09
+top - 04:57:10 up  1:59,  1 user,  load average: 9.25, 11.81, 9.81
+Tasks: 447 total,   1 running, 445 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.1 us, 10.3 sy,  0.0 ni, 88.0 id,  0.0 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,  16944.6 free,   8971.4 used,   5679.6 buff/cache     
+MiB Swap:   8192.0 total,   8191.4 free,      0.6 used.  22415.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    122 root      20   0       0      0      0 S  81.8   0.0   0:06.01 kcompac+
+  13803 sujal     20   0 5629452 317148 128476 S  27.3   1.0   0:58.99 claude
+   6596 sujal     20   0 5358260 459508 173660 S   9.1   1.4   3:41.43 gnome-s+
+  32408 sujal     20   0 3253656 528376 124308 S   9.1   1.6   0:36.12 Isolate+
+  61903 root      20   0   11.8g   1.0g  27696 S   9.1   3.3   1:10.07 java
+  67928 sujal     20   0   14840   5736   3572 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14824   9272 S   0.0   0.0   0:07.38 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+

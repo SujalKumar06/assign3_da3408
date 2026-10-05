@@ -1,0 +1,10 @@
+{
+  "mode": "timed",
+  "wall_seconds": 185.925,
+  "output_rows": 111016594,
+  "framework": "spark",
+  "join": "shuffle",
+  "master": "spark://spark-master:7077",
+  "input_files": 38,
+  "timestamp": "20261004-232711"
+}

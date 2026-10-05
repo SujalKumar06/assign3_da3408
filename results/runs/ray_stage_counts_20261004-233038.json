@@ -1,0 +1,47 @@
+{
+  "mode": "stage_counts",
+  "stages": [
+    {
+      "stage": "raw",
+      "rows": 126188813,
+      "removed": null,
+      "seconds": 11.942
+    },
+    {
+      "stage": "drop_nulls",
+      "rows": 118072836,
+      "removed": 8115977,
+      "seconds": 26.466
+    },
+    {
+      "stage": "validity_filters",
+      "rows": 111083668,
+      "removed": 6989168,
+      "seconds": 25.058
+    },
+    {
+      "stage": "dedup",
+      "rows": 111083664,
+      "removed": 4,
+      "seconds": 80.024
+    },
+    {
+      "stage": "join",
+      "rows": 111083664,
+      "removed": 0,
+      "seconds": 187.127
+    },
+    {
+      "stage": "speed_filter",
+      "rows": 111016594,
+      "removed": 67070,
+      "seconds": 132.929
+    }
+  ],
+  "framework": "ray",
+  "join": "shuffle",
+  "block_mb": 32,
+  "address": "auto",
+  "input_files": 38,
+  "timestamp": "20261004-233038"
+}

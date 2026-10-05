@@ -1,0 +1,2268 @@
+05:08:24
+top - 05:08:24 up  2:10,  1 user,  load average: 2.94, 5.48, 7.93
+Tasks: 506 total,  13 running, 492 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  6.4 us,  1.7 sy,  0.0 ni, 90.8 id,  0.6 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,  17027.4 free,  12629.4 used,   6514.0 buff/cache     
+MiB Swap:   8192.0 total,   4866.2 free,   3325.8 used.  18757.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 248816 root      20   0 6761508 227572  99344 S 118.2   0.7   0:02.19 python
+ 249294 root      35  15 7707248 202000  93716 S 100.0   0.6   0:00.70 ray::Li+
+ 249396 root      20   0   71244  42888  24568 R  90.9   0.1   0:00.10 python3+
+ 249397 root      20   0   71244  42896  24704 R  90.9   0.1   0:00.10 python3+
+ 249398 root      20   0   66780  38776  24024 R  81.8   0.1   0:00.09 python3+
+ 249295 root      35  15 5771108 128124  70724 R  72.7   0.4   0:00.34 ray::ID+
+  73811 root      20   0 8763448   2.5g   2.4g S  63.6   8.2   0:56.52 raylet
+  73812 root      20   0 8869888   2.5g   2.4g R  54.5   8.1   0:59.42 raylet
+ 249399 root      20   0   62708  33916  23008 R  54.5   0.1   0:00.06 python3+
+ 249400 root      20   0   53180  31356  21328 R  45.5   0.1   0:00.05 python3+
+ 249401 root      20   0   52040  22288  14432 R  36.4   0.1   0:00.04 python3+
+ 249402 root      20   0   16204  12484   5876 R  27.3   0.0   0:00.03 python3+
+  72973 root      20   0  908532 103120   9624 S  18.2   0.3   0:08.99 gcs_ser+
+05:08:27
+top - 05:08:27 up  2:10,  1 user,  load average: 4.31, 5.72, 7.99
+Tasks: 509 total,   2 running, 506 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  7.4 us,  2.3 sy, 10.9 ni, 79.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   9353.9 free,  19758.8 used,   7005.1 buff/cache     
+MiB Swap:   8192.0 total,   4867.0 free,   3325.0 used.  11628.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 254580 root      35  15 6873480 177800  85044 R 109.1   0.6   0:00.56 ray::ID+
+ 248816 root      20   0 6762532 235484 100204 S 100.0   0.7   0:04.30 python
+ 252958 root      35  15 7188628 279512  96380 S 100.0   0.9   0:00.73 ray::Re+
+  12667 sujal     20   0 1448.4g 396400 131264 S   9.1   1.2   4:54.74 code
+  72973 root      20   0  908532  95316   9696 S   9.1   0.3   0:09.15 gcs_ser+
+  73642 root      20   0 2150272 133644 107896 S   9.1   0.4   0:05.37 raylet
+  73809 root      20   0  450924  41404  37596 S   9.1   0.1   0:08.59 python3+
+  73810 root      20   0  450924  41628  37876 S   9.1   0.1   0:06.93 python3+
+ 254675 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.04 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:08:30
+top - 05:08:31 up  2:11,  1 user,  load average: 4.12, 5.66, 7.96
+Tasks: 508 total,   4 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  8.7 us, 37.8 sy, 15.1 ni, 32.0 id,  6.4 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5986.7 free,  21307.3 used,   8819.2 buff/cache     
+MiB Swap:   8192.0 total,   4867.1 free,   3324.9 used.  10079.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 249396 root      35  15 8742660   1.3g 547820 S 109.1   4.2   0:02.78 ray::Re+
+ 249399 root      35  15 8750824   1.3g 577304 R 109.1   4.1   0:02.94 ray::Re+
+ 249416 root      35  15 8677224   1.3g 526836 S 109.1   4.3   0:02.83 ray::Re+
+ 252958 root      35  15 8532532   1.3g 533580 S 109.1   4.1   0:01.94 ray::Re+
+  88279 root      35  15 5734632   2.4g   2.4g S 100.0   7.8   0:08.18 ray::ID+
+  88330 root      35  15 5734628   2.2g   2.1g S  90.9   7.0   0:05.18 ray::ID+
+ 249398 root      35  15 8750816   1.1g 596580 S  36.4   3.7   0:02.72 ray::Re+
+  32088 root      20   0       0      0      0 I  27.3   0.0   1:20.29 kworker+
+ 141626 root      20   0       0      0      0 R  27.3   0.0   0:05.03 kworker+
+ 249402 root      35  15 8685244   1.3g 664552 S  27.3   4.2   0:03.05 ray::Re+
+ 248816 root      20   0 6836264 236636 100396 S  18.2   0.7   0:07.04 python
+  72765 root      20   0 1233872  11868   7408 S   9.1   0.0   0:01.73 contain+
+  73200 root      20   0 3464696 210984  95520 S   9.1   0.7   0:06.81 ray-das+
+05:08:34
+top - 05:08:34 up  2:11,  1 user,  load average: 4.12, 5.66, 7.96
+Tasks: 508 total,   1 running, 506 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 10.1 us, 38.8 sy, 16.5 ni, 26.6 id,  7.4 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :  31386.9 total,   6140.6 free,  21736.5 used,   8234.6 buff/cache     
+MiB Swap:   8192.0 total,   4867.5 free,   3324.5 used.   9650.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 254580 root      35  15 8475056   1.0g 864940 S  41.7   3.4   0:02.52 ray::Re+
+ 248816 root      20   0 6911020 241216 100424 S  33.3   0.8   0:09.28 python
+ 249415 root      35  15 8677016   1.4g 933136 S  33.3   4.7   0:03.58 ray::Re+
+  87368 root      35  15 5734628   2.4g   2.3g S  25.0   7.8   0:06.23 ray::ID+
+  88201 root      35  15 5734628 736768 701292 S  25.0   2.3   0:03.91 ray::ID+
+ 249400 root      35  15 8677276   1.3g 826768 S  25.0   4.3   0:03.52 ray::Re+
+  30117 root      20   0       0      0      0 D  16.7   0.0   1:02.21 kworker+
+    444 root       0 -20       0      0      0 I   8.3   0.0   0:00.23 kworker+
+  32088 root      20   0       0      0      0 D   8.3   0.0   1:20.78 kworker+
+  74869 root      35  15 5306240 224784  88376 S   8.3   0.7   0:07.53 ray::_S+
+  88329 root      35  15 5734616   2.4g   2.4g S   8.3   7.8   0:14.31 ray::ID+
+ 141626 root      20   0       0      0      0 I   8.3   0.0   0:05.33 kworker+
+ 282931 sujal     20   0   14840   5716   3548 R   8.3   0.0   0:00.02 top
+05:08:37
+top - 05:08:37 up  2:11,  1 user,  load average: 5.39, 5.90, 8.03
+Tasks: 507 total,   2 running, 504 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  5.1 us,  1.1 sy,  6.7 ni, 87.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6933.0 free,  21661.7 used,   7517.8 buff/cache     
+MiB Swap:   8192.0 total,   4866.3 free,   3325.7 used.   9725.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 249398 root      35  15 8750816   2.2g   1.3g R 227.3   7.3   0:04.78 ray::Re+
+ 248816 root      20   0 6911020 242464 100852 S  63.6   0.8   0:10.69 python
+  72765 root      20   0 1233872  12060   7408 S   9.1   0.0   0:01.80 contain+
+  73811 root      20   0 8763448   2.5g   2.4g S   9.1   8.1   0:57.29 raylet
+ 294947 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.12 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:08:39
+top - 05:08:40 up  2:11,  1 user,  load average: 5.12, 5.83, 7.99
+Tasks: 506 total,   2 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  5.2 us,  5.8 sy,  2.9 ni, 86.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7110.2 free,  20970.4 used,   8031.3 buff/cache     
+MiB Swap:   8192.0 total,   4867.0 free,   3325.0 used.  10416.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 248816 root      20   0 6911020 242628 100852 S  54.5   0.8   0:11.91 python
+ 249403 root      35  15 8677196   2.1g   1.3g R  36.4   6.7   0:04.73 ray::ID+
+  73811 root      20   0 8781880   2.6g   2.4g S  27.3   8.6   0:59.51 raylet
+ 249398 root      35  15 8742604   2.6g   1.7g S  27.3   8.6   0:05.51 ray::ID+
+  73812 root      20   0 8869888   2.5g   2.4g S  18.2   8.3   1:02.35 raylet
+  73097 root      20   0  795952  78896  49444 S   9.1   0.2   0:06.08 python3+
+  73202 root      20   0  724180  64652  48280 S   9.1   0.2   0:01.16 ray-das+
+  73205 root      20   0 2397628 208656  93200 S   9.1   0.6   0:06.59 ray-das+
+  73809 root      20   0  450924  41400  37596 S   9.1   0.1   0:09.01 python3+
+ 122624 root      35  15 5734628   2.3g   2.2g S   9.1   7.4   0:05.82 ray::ID+
+ 249401 root      35  15 8677096   1.9g   1.2g S   9.1   6.3   0:04.97 ray::ID+
+ 301433 sujal     20   0   14840   5724   3556 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.14 systemd
+05:08:43
+top - 05:08:43 up  2:11,  1 user,  load average: 5.12, 5.83, 7.99
+Tasks: 506 total,   2 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  4.0 us,  1.7 sy,  6.8 ni, 86.9 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7640.6 free,  21643.8 used,   7267.4 buff/cache     
+MiB Swap:   8192.0 total,   4862.1 free,   3329.9 used.   9743.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 302164 root      35  15 8069444   2.3g   1.1g S  90.9   7.6   0:02.96 ray::Ha+
+  73685 root      20   0 4066748 207464  50056 S  27.3   0.6   0:05.53 ray::Da+
+   6341 sujal     20   0   25.6g 160808  87828 S  18.2   0.5   4:19.88 Xorg
+  12667 sujal     20   0 1448.4g 398180 133648 R  18.2   1.2   4:56.52 code
+  11569 sujal     20   0 1454.0g 395264 129760 S   9.1   1.2   2:57.48 code
+  72973 root      20   0  908532 104060   9780 S   9.1   0.3   0:09.67 gcs_ser+
+ 248816 root      20   0 6911020 243572 100856 S   9.1   0.8   0:12.32 python
+ 302261 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.15 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:08:46
+top - 05:08:46 up  2:11,  1 user,  load average: 5.03, 5.80, 7.97
+Tasks: 507 total,   3 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  6.8 us,  9.7 sy,  5.7 ni, 75.6 id,  2.3 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6423.3 free,  21397.3 used,   8293.4 buff/cache     
+MiB Swap:   8192.0 total,   4862.2 free,   3329.8 used.   9989.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  88329 root      35  15 5734632   2.4g   2.4g S  90.9   7.8   0:15.47 ray::ID+
+ 304236 root      35  15 6883908 188184  89644 R  90.9   0.6   0:01.11 ray::Ha+
+  72486 root      20   0       0      0      0 I  18.2   0.0   0:10.88 kworker+
+ 248816 root      20   0 6911020 244612 100856 S  18.2   0.8   0:13.09 python
+   8833 sujal     20   0   12.1g 561696 175512 S   9.1   1.7   8:08.01 firefox
+  11584 sujal     20   0   48.4g 158256 128652 S   9.1   0.5   8:48.05 code
+  12667 sujal     20   0 1448.4g 399456 133968 S   9.1   1.2   4:57.41 code
+  73641 root      20   0  457068  49252  37832 S   9.1   0.2   0:03.50 python3+
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.17 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:08:49
+top - 05:08:49 up  2:11,  1 user,  load average: 5.03, 5.80, 7.97
+Tasks: 506 total,   1 running, 504 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.1 us,  1.1 sy,  6.3 ni, 91.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6401.4 free,  22555.0 used,   7157.6 buff/cache     
+MiB Swap:   8192.0 total,   4862.3 free,   3329.7 used.   8831.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 304236 root      35  15 8144348   2.4g   1.1g S  90.9   7.9   0:04.39 ray::Ha+
+  73200 root      20   0 3464696 211120  95520 S   9.1   0.7   0:07.03 ray-das+
+ 248816 root      20   0 6911020 244612 100856 S   9.1   0.8   0:13.45 python
+ 305881 sujal     20   0   14840   5728   3560 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.18 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:08:52
+top - 05:08:53 up  2:11,  1 user,  load average: 4.71, 5.72, 7.93
+Tasks: 506 total,   1 running, 504 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.1 us,  2.9 sy,  4.0 ni, 92.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7447.5 free,  21371.5 used,   7294.6 buff/cache     
+MiB Swap:   8192.0 total,   4862.3 free,   3329.7 used.  10015.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 302164 root      35  15 8298932   2.8g   1.6g S 100.0   9.1   0:06.36 ray::Ha+
+   6596 sujal     20   0 5358264 237892  48672 S   9.1   0.7   4:25.10 gnome-s+
+  12667 sujal     20   0 1448.4g 389896 132084 S   9.1   1.2   4:57.99 code
+  69439 root      20   0       0      0      0 I   9.1   0.0   0:01.73 kworker+
+  74869 root      35  15 5372200 255928  88388 S   9.1   0.8   0:08.20 ray::_S+
+ 248816 root      20   0 6911020 245204 100856 S   9.1   0.8   0:14.45 python
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.19 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:08:56
+top - 05:08:56 up  2:11,  1 user,  load average: 4.49, 5.66, 7.90
+Tasks: 506 total,   3 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  3.4 us,  2.8 sy,  5.1 ni, 88.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7458.6 free,  20909.0 used,   7743.6 buff/cache     
+MiB Swap:   8192.0 total,   4862.4 free,   3329.6 used.  10477.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 304236 root      35  15 8308204   2.3g   1.6g R 109.1   7.6   0:05.88 ray::Ha+
+  73812 root      20   0 8869888   2.6g   2.4g S  36.4   8.4   1:05.65 raylet
+  73811 root      20   0 8781880   2.6g   2.4g S  27.3   8.3   1:03.08 raylet
+ 248816 root      20   0 6912044 247896 100856 S  27.3   0.8   0:15.20 python
+  11584 sujal     20   0   48.4g 157212 127340 S   9.1   0.5   8:48.43 code
+  73205 root      20   0 2397628 208800  93200 S   9.1   0.6   0:06.71 ray-das+
+  73809 root      20   0  450924  41436  37596 R   9.1   0.1   0:09.54 python3+
+  74869 root      35  15 5372200 255936  88388 S   9.1   0.8   0:08.26 ray::_S+
+  87388 root      35  15 5734628   2.4g   2.4g S   9.1   7.8   0:16.37 ray::ID+
+ 314118 sujal     20   0   14840   5716   3552 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.20 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+05:08:59
+top - 05:08:59 up  2:11,  1 user,  load average: 4.49, 5.66, 7.90
+Tasks: 504 total,   2 running, 501 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 21.2 us, 26.1 sy, 22.3 ni, 28.3 id,  0.5 wa,  0.0 hi,  1.6 si,  0.0 st 
+MiB Mem :  31386.9 total,   6627.0 free,  21724.3 used,   7762.7 buff/cache     
+MiB Swap:   8192.0 total,   4862.4 free,   3329.6 used.   9662.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  73685 root      20   0 4067772 212780  50056 S  66.7   0.7   0:05.80 ray::Da+
+  73811 root      20   0 8781880   2.6g   2.4g S  66.7   8.4   1:03.84 raylet
+ 248816 root      20   0 6912044 247900 100856 S  66.7   0.8   0:15.97 python
+  73812 root      20   0 8869888   2.6g   2.4g S  50.0   8.3   1:06.30 raylet
+ 249415 root      35  15 8677000   2.6g   1.9g S  41.7   8.6   0:06.11 ray::ID+
+ 249416 root      35  15 8677208   2.4g   1.4g S  41.7   7.8   0:05.33 ray::ID+
+  12667 sujal     20   0 1448.4g 391972 134260 R  33.3   1.2   4:58.62 code
+  11584 sujal     20   0   48.4g 158008 128116 S  25.0   0.5   8:48.67 code
+ 249396 root      35  15 8742644   2.0g   1.3g S  25.0   6.5   0:05.12 ray::ID+
+  74869 root      35  15 5372200 253208  88388 S  16.7   0.8   0:08.54 ray::_S+
+    429 root      20   0       0      0      0 I   8.3   0.0   0:00.46 kworker+
+   6341 sujal     20   0   25.6g 160808  87828 S   8.3   0.5   4:20.08 Xorg
+   6596 sujal     20   0 5358264 237892  48672 S   8.3   0.7   4:25.20 gnome-s+
+05:09:02
+top - 05:09:02 up  2:11,  1 user,  load average: 4.53, 5.65, 7.89
+Tasks: 504 total,   4 running, 499 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.7 us,  7.5 sy,  5.7 ni, 85.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7245.4 free,  22014.5 used,   7312.6 buff/cache     
+MiB Swap:   8192.0 total,   4862.4 free,   3329.6 used.   9372.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 302164 root      35  15 8386316   3.2g   1.9g S 109.1  10.3   0:10.83 ray::Ha+
+  47787 root      20   0       0      0      0 R 100.0   0.0   0:51.61 kworker+
+  13803 sujal     20   0 5645852 263800  58076 R  63.6   0.8   1:06.71 claude
+  12667 sujal     20   0 1448.4g 405224 135444 S  36.4   1.3   4:59.39 code
+  11584 sujal     20   0   48.4g 173396 145752 S  18.2   0.5   8:49.19 code
+   6341 sujal     20   0   25.6g 160808  87828 S   9.1   0.5   4:20.27 Xorg
+   8833 sujal     20   0   12.1g 561812 175512 S   9.1   1.7   8:08.14 firefox
+  34314 sujal     20   0 2802132 239084 108248 S   9.1   0.7   0:29.20 Isolate+
+  73201 root      20   0  738536  62736  46808 S   9.1   0.2   0:01.21 ray-das+
+  73809 root      20   0  450924  41440  37596 S   9.1   0.1   0:09.76 python3+
+ 122072 root      35  15 5734612   2.4g   2.3g S   9.1   7.7   0:07.22 ray::ID+
+ 248816 root      20   0 6912044 248452 100856 S   9.1   0.8   0:16.72 python
+ 249402 root      35  15 8677032   2.6g   1.9g S   9.1   8.5   0:06.46 ray::ID+
+05:09:06
+top - 05:09:06 up  2:11,  1 user,  load average: 4.49, 5.62, 7.87
+Tasks: 504 total,   1 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.3 us,  2.9 sy,  4.6 ni, 90.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6566.4 free,  21581.1 used,   7987.2 buff/cache     
+MiB Swap:   8192.0 total,   4862.4 free,   3329.6 used.   9805.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 304236 root      35  15 8384272   3.4g   2.2g S 100.0  11.1   0:10.27 ray::Ha+
+  72765 root      20   0 1233872  11732   7408 S  18.2   0.0   0:01.89 contain+
+   9430 sujal     20   0 2769980 187616 104236 S   9.1   0.6   0:19.71 Privile+
+  11584 sujal     20   0   48.4g 175576 146008 S   9.1   0.5   8:49.68 code
+  11599 sujal     20   0 1449.9g  74908  56792 S   9.1   0.2   0:06.76 code
+  12667 sujal     20   0 1448.4g 405004 135444 S   9.1   1.3   5:00.02 code
+  73809 root      20   0  450924  41440  37596 S   9.1   0.1   0:09.87 python3+
+  73810 root      20   0  450924  41532  37876 S   9.1   0.1   0:07.84 python3+
+  73811 root      20   0 8781880   2.5g   2.4g S   9.1   8.2   1:04.78 raylet
+  74869 root      35  15 5372200 253224  88388 S   9.1   0.8   0:08.63 ray::_S+
+ 248816 root      20   0 6912044 249164 100856 S   9.1   0.8   0:17.38 python
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.20 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+05:09:09
+top - 05:09:09 up  2:11,  1 user,  load average: 4.49, 5.62, 7.87
+Tasks: 504 total,   1 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 11.9 us,  3.4 sy,  2.8 ni, 81.2 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6384.5 free,  21851.9 used,   7876.2 buff/cache     
+MiB Swap:   8192.0 total,   4862.5 free,   3329.5 used.   9535.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  12667 sujal     20   0 1448.4g 403592 133108 S 236.4   1.3   5:00.65 code
+  73206 root      20   0  920808 239552  49080 S 100.0   0.7   0:27.71 ray-das+
+  74869 root      35  15 5372200 253224  88388 S  90.9   0.8   0:08.75 ray::_S+
+ 248816 root      20   0 6912044 249688 100856 S  63.6   0.8   0:18.28 python
+ 249397 root      35  15 8742756   2.4g   1.8g S  45.5   7.9   0:06.82 ray::ID+
+  73812 root      20   0 8869888   2.5g   2.4g S  36.4   8.3   1:07.54 raylet
+  73811 root      20   0 8781880   2.6g   2.4g S  27.3   8.3   1:05.08 raylet
+  11584 sujal     20   0   48.4g 157472 127700 S  18.2   0.5   8:49.98 code
+  11493 sujal     20   0 1450.2g 142584  93056 S   9.1   0.4   1:06.65 code
+  32404 root      20   0       0      0      0 I   9.1   0.0   0:00.43 kworker+
+  72765 root      20   0 1233872  12040   7408 S   9.1   0.0   0:01.92 contain+
+  73200 root      20   0 3464696 211260  95520 S   9.1   0.7   0:07.17 ray-das+
+ 327289 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.01 top
+05:09:12
+top - 05:09:12 up  2:11,  1 user,  load average: 4.21, 5.54, 7.83
+Tasks: 503 total,   1 running, 501 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  7.4 us,  2.3 sy,  6.2 ni, 83.5 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6401.5 free,  21854.2 used,   7878.5 buff/cache     
+MiB Swap:   8192.0 total,   4862.6 free,   3329.4 used.   9532.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 302164 root      35  15 8386192   3.5g   2.1g S 109.1  11.4   0:15.27 ray::Ha+
+   8595 sujal     20   0  898964  58984  26068 S  45.5   0.2   0:52.06 gnome-t+
+   6341 sujal     20   0   25.6g 160808  87828 S  18.2   0.5   4:20.52 Xorg
+   6596 sujal     20   0 5360312 237948  48672 S   9.1   0.7   4:25.78 gnome-s+
+  73811 root      20   0 8781880   2.6g   2.4g S   9.1   8.3   1:05.26 raylet
+  73901 root      20   0 3991488  70128  50032 S   9.1   0.2   0:07.21 ray::Da+
+ 248816 root      20   0 6912044 250384 100856 S   9.1   0.8   0:18.73 python
+ 328059 sujal     20   0   14840   5728   3560 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.23 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:09:15
+top - 05:09:16 up  2:11,  1 user,  load average: 3.95, 5.47, 7.79
+Tasks: 504 total,   1 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.7 us,  1.1 sy,  6.3 ni, 90.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6424.1 free,  21871.5 used,   7838.5 buff/cache     
+MiB Swap:   8192.0 total,   4862.8 free,   3329.2 used.   9515.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 304236 root      35  15 8384396   3.6g   2.3g S 100.0  11.8   0:14.82 ray::Ha+
+ 248816 root      20   0 6912044 251000 100856 S   9.1   0.8   0:19.54 python
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.24 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     14 root      20   0       0      0      0 S   0.0   0.0   0:00.28 ksoftir+
+05:09:19
+top - 05:09:19 up  2:11,  1 user,  load average: 3.95, 5.47, 7.79
+Tasks: 506 total,   2 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.1 us,  2.9 sy,  4.6 ni, 91.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8435.6 free,  21352.5 used,   6760.2 buff/cache     
+MiB Swap:   8192.0 total,   4862.8 free,   3329.2 used.  10034.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 302164 root      35  15 8393864   2.7g   2.2g R 100.0   8.7   0:16.35 ray::Ha+
+  73641 root      20   0  457068  49400  37832 S   9.1   0.2   0:03.73 python3+
+  73810 root      20   0  450924  41532  37876 S   9.1   0.1   0:08.16 python3+
+ 248816 root      20   0 6912044 251040 100856 S   9.1   0.8   0:20.65 python
+ 336553 sujal     20   0   14840   5712   3548 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.27 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:09:22
+top - 05:09:22 up  2:11,  1 user,  load average: 4.12, 5.48, 7.78
+Tasks: 506 total,   3 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  8.1 us, 18.4 sy, 22.7 ni, 39.5 id, 10.8 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :  31386.9 total,   6982.5 free,  21959.5 used,   7166.9 buff/cache     
+MiB Swap:   8192.0 total,   4862.8 free,   3329.2 used.   9427.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 248816 root      20   0 6912044 251852 100856 S  45.5   0.8   0:21.18 python
+  87368 root      35  15 5734628   2.4g   2.4g S  27.3   7.8   0:07.69 ray::ID+
+  47787 root      20   0       0      0      0 I  18.2   0.0   0:51.99 kworker+
+ 249403 root      35  15 8677196   2.5g   1.8g S  18.2   8.3   0:06.83 ray::ID+
+ 304236 root      35  15 8390696   3.8g   2.3g R  18.2  12.3   0:16.22 ray::Ha+
+   6596 sujal     20   0 5360312 237880  48672 S   9.1   0.7   4:26.07 gnome-s+
+  30117 root      20   0       0      0      0 I   9.1   0.0   1:02.30 kworker+
+  73810 root      20   0  450924  41532  37876 S   9.1   0.1   0:08.23 python3+
+ 302164 root      35  15 8388828   3.7g   2.3g S   9.1  12.2   0:19.44 ray::ID+
+ 337793 sujal     20   0   14840   5716   3548 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.27 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+05:09:25
+top - 05:09:25 up  2:11,  1 user,  load average: 3.95, 5.42, 7.75
+Tasks: 505 total,   2 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.1 us,  1.1 sy,  6.3 ni, 91.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8265.3 free,  20821.0 used,   7021.8 buff/cache     
+MiB Swap:   8192.0 total,   4862.9 free,   3329.1 used.  10565.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 304236 root      35  15 8389852   3.8g   2.4g R  90.9  12.4   0:19.50 ray::Ha+
+  74869 root      35  15 5372200 253252  88388 S  27.3   0.8   0:09.18 ray::_S+
+  73901 root      20   0 3991488  70352  50032 S  18.2   0.2   0:07.45 ray::Da+
+ 248816 root      20   0 6912044 253220 100856 S  18.2   0.8   0:21.65 python
+  73810 root      20   0  450924  41532  37876 S   9.1   0.1   0:08.30 python3+
+  73811 root      20   0 8781880   2.6g   2.4g S   9.1   8.4   1:08.28 raylet
+  73888 root      20   0 3991712  70912  50160 S   9.1   0.2   0:06.81 ray::Da+
+ 249396 root      35  15 8742644   2.6g   1.9g S   9.1   8.6   0:06.90 ray::ID+
+ 339936 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.27 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:09:28
+top - 05:09:29 up  2:12,  1 user,  load average: 3.95, 5.42, 7.75
+Tasks: 506 total,   2 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.1 us,  3.4 sy,  4.0 ni, 91.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7069.9 free,  21202.4 used,   7835.8 buff/cache     
+MiB Swap:   8192.0 total,   4862.9 free,   3329.1 used.  10184.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 345171 root      35  15 6986104 894224 432024 R  90.9   2.8   0:01.24 ray::Ha+
+  74869 root      35  15 5372200 253252  88388 S   9.1   0.8   0:09.20 ray::_S+
+ 248816 root      20   0 6914868 256124 100856 S   9.1   0.8   0:22.74 python
+ 345223 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.27 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:09:32
+top - 05:09:32 up  2:12,  1 user,  load average: 3.71, 5.35, 7.71
+Tasks: 505 total,   8 running, 496 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.9 us,  3.4 sy,  5.7 ni, 87.4 id,  0.0 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,   7134.5 free,  21319.9 used,   7653.4 buff/cache     
+MiB Swap:   8192.0 total,   4862.9 free,   3329.1 used.  10066.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  73812 root      20   0 8892928   2.5g   2.4g S 150.0   8.2   1:12.99 raylet
+  73811 root      20   0 8781880   2.6g   2.4g S 108.3   8.5   1:09.38 raylet
+ 345171 root      35  15 8305300   2.7g   1.3g S  75.0   8.9   0:04.54 ray::ID+
+ 248816 root      20   0 6914868 256216 100856 R  58.3   0.8   0:23.21 python
+ 249396 root      35  15 8742660   2.7g   2.0g R  25.0   8.8   0:07.49 ray::Ma+
+ 249415 root      35  15 8677016   2.9g   2.1g R  25.0   9.4   0:07.81 ray::Ma+
+ 121981 root      35  15 5734628   2.3g   2.3g S  16.7   7.5   0:06.62 ray::ID+
+ 122622 root      35  15 5734636   2.3g   2.3g S  16.7   7.6   0:07.27 ray::ID+
+ 249397 root      35  15 8742772   2.5g   1.9g R  16.7   8.2   0:07.98 ray::Ma+
+ 249401 root      35  15 8677112   2.7g   2.0g R  16.7   8.8   0:07.99 ray::Ma+
+ 249403 root      35  15 8677212   2.6g   1.9g R  16.7   8.5   0:07.31 ray::Ma+
+ 345272 sujal     20   0   14840   5708   3544 R  16.7   0.0   0:00.03 top
+   6341 sujal     20   0   25.6g 160808  87828 S   8.3   0.5   4:21.40 Xorg
+05:09:35
+top - 05:09:35 up  2:12,  1 user,  load average: 3.49, 5.27, 7.68
+Tasks: 505 total,   1 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.1 us,  1.1 sy,  5.7 ni, 92.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7142.3 free,  21115.6 used,   7849.9 buff/cache     
+MiB Swap:   8192.0 total,   4863.3 free,   3328.7 used.  10271.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 304236 root      35  15 8384048   3.8g   2.4g S 100.0  12.3   0:23.20 ray::Ha+
+ 248816 root      20   0 6914868 256264 100856 S  18.2   0.8   0:23.78 python
+  73809 root      20   0  450924  41540  37596 S   9.1   0.1   0:10.82 python3+
+  73901 root      20   0 3991488  70472  50032 S   9.1   0.2   0:07.58 ray::Da+
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.30 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:09:38
+top - 05:09:39 up  2:12,  1 user,  load average: 3.49, 5.27, 7.68
+Tasks: 505 total,   2 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.7 us,  2.8 sy,  5.6 ni, 89.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7697.3 free,  20448.9 used,   7961.4 buff/cache     
+MiB Swap:   8192.0 total,   4863.3 free,   3328.7 used.  10938.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 345171 root      35  15 8305640   2.3g   1.6g R 100.0   7.5   0:05.35 ray::Ha+
+   6341 sujal     20   0   25.6g 160808  87828 S   9.1   0.5   4:21.51 Xorg
+   8595 sujal     20   0  899268  60280  26404 S   9.1   0.2   0:52.67 gnome-t+
+  34314 sujal     20   0 2798020 236660 108368 S   9.1   0.7   0:29.83 Isolate+
+  72973 root      20   0  913652 107676   9780 S   9.1   0.3   0:11.38 gcs_ser+
+  73809 root      20   0  450924  41544  37596 S   9.1   0.1   0:10.94 python3+
+ 248816 root      20   0 6914868 256472 100856 S   9.1   0.8   0:25.16 python
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.32 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:09:42
+top - 05:09:42 up  2:12,  1 user,  load average: 3.29, 5.20, 7.64
+Tasks: 506 total,   4 running, 501 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  6.2 us,  4.5 sy,  4.5 ni, 84.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7626.0 free,  20351.4 used,   8130.2 buff/cache     
+MiB Swap:   8192.0 total,   4863.3 free,   3328.7 used.  11035.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 304236 root      35  15 8385820   2.9g   2.4g R 100.0   9.6   0:24.26 ray::Ha+
+ 355003 root      20   0   84036  54476  28184 R 100.0   0.2   0:00.38 python3+
+  88201 root      35  15 5734612 736764 701236 S   9.1   2.3   0:04.25 ray::ID+
+ 122072 root      35  15 5734612   2.4g   2.4g S   9.1   7.8   0:07.58 ray::ID+
+ 248816 root      20   0 6915892 272424 100856 S   9.1   0.8   0:25.53 python
+ 249403 root      35  15 8677196   2.7g   2.0g S   9.1   8.9   0:07.87 ray::ID+
+ 355006 sujal     20   0   14840   5716   3552 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.32 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:09:45
+top - 05:09:45 up  2:12,  1 user,  load average: 3.11, 5.13, 7.61
+Tasks: 512 total,  12 running, 499 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 51.1 us, 18.7 sy,  1.6 ni, 28.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6827.0 free,  21634.0 used,   7646.4 buff/cache     
+MiB Swap:   8192.0 total,   4863.5 free,   3328.5 used.   9752.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  73206 root      20   0  925416 254052  49080 S 100.0   0.8   0:31.39 ray-das+
+ 249403 root      35  15 6095832 882896 100552 R 100.0   2.7   0:08.03 ray::ID+
+ 356307 root      20   0   99048  69708  30780 R 100.0   0.2   0:00.27 python3+
+ 356311 root      20   0   97416  67532  30688 R 100.0   0.2   0:00.24 python3+
+ 249401 root      35  15 6087536 839696 100620 R  91.7   2.6   0:08.47 ray::ID+
+ 249415 root      35  15 6087440 894916 100436 R  91.7   2.8   0:08.63 ray::ID+
+ 356306 root      20   0   99056  69740  30740 R  91.7   0.2   0:00.27 python3+
+ 356308 root      20   0   97420  67564  30688 R  91.7   0.2   0:00.25 python3+
+ 356309 root      20   0   93884  64700  30064 R  91.7   0.2   0:00.25 python3+
+ 356310 root      20   0   88776  59236  28508 R  91.7   0.2   0:00.24 python3+
+ 356313 root      20   0   93608  63976  30100 R  91.7   0.2   0:00.24 python3+
+ 356312 root      20   0   87488  58600  28584 R  83.3   0.2   0:00.23 python3+
+ 248816 root      20   0 6915892 285660 100856 S  16.7   0.9   0:25.94 python
+05:09:48
+top - 05:09:48 up  2:12,  1 user,  load average: 3.11, 5.13, 7.61
+Tasks: 504 total,   2 running, 501 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  5.1 us,  2.9 sy,  2.3 ni, 86.9 id,  2.9 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7583.5 free,  21265.3 used,   7260.1 buff/cache     
+MiB Swap:   8192.0 total,   4863.6 free,   3328.4 used.  10121.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 356313 root      35  15 7140284 958060 527260 R 109.1   3.0   0:02.79 ray::Ha+
+  73809 root      20   0  450924  41564  37596 S   9.1   0.1   0:11.25 python3+
+  73810 root      20   0  450924  41712  37876 S   9.1   0.1   0:08.83 python3+
+ 248816 root      20   0 6915892 288224 100956 S   9.1   0.9   0:26.88 python
+ 356990 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.32 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:09:51
+top - 05:09:52 up  2:12,  1 user,  load average: 3.18, 5.11, 7.59
+Tasks: 505 total,   1 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  4.0 us,  1.7 sy,  6.2 ni, 86.9 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7531.5 free,  21293.6 used,   7327.2 buff/cache     
+MiB Swap:   8192.0 total,   4863.7 free,   3328.3 used.  10093.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 304236 root      35  15 8387076   4.1g   2.4g S  83.3  13.2   0:30.07 ray::Jo+
+  11584 sujal     20   0   48.4g 163588 147920 S   8.3   0.5   8:51.66 code
+  72973 root      20   0  913652 104360   9780 S   8.3   0.3   0:11.67 gcs_ser+
+  73809 root      20   0  450924  41564  37596 S   8.3   0.1   0:11.35 python3+
+  73901 root      20   0 3991488  70548  50032 S   8.3   0.2   0:07.77 ray::Da+
+  87368 root      35  15 5734612   2.4g   2.4g S   8.3   7.8   0:07.99 ray::ID+
+ 248816 root      20   0 6915892 290408 101264 S   8.3   0.9   0:27.27 python
+ 357084 sujal     20   0   14840   5732   3564 R   8.3   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.32 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:09:55
+top - 05:09:55 up  2:12,  1 user,  load average: 3.25, 5.09, 7.57
+Tasks: 505 total,   1 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.1 us,  1.7 sy,  5.7 ni, 90.9 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6936.8 free,  22240.0 used,   7399.6 buff/cache     
+MiB Swap:   8192.0 total,   4863.8 free,   3328.2 used.   9146.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 345171 root      35  15 8387920   3.6g   2.0g S 100.0  11.8   0:10.83 ray::Jo+
+  11493 sujal     20   0 1450.2g 145296  93704 D   9.1   0.5   1:07.07 code
+  11569 sujal     20   0 1454.1g 404556 134352 S   9.1   1.3   2:59.36 code
+  11584 sujal     20   0   48.4g 155444 133248 S   9.1   0.5   8:52.15 code
+  72973 root      20   0  913652 105064   9780 S   9.1   0.3   0:11.75 gcs_ser+
+ 248816 root      20   0 6915892 291644 101264 S   9.1   0.9   0:27.91 python
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.32 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:09:58
+top - 05:09:58 up  2:12,  1 user,  load average: 3.25, 5.09, 7.57
+Tasks: 505 total,   3 running, 501 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  4.6 us,  5.2 sy,  3.4 ni, 86.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7490.5 free,  21262.7 used,   7399.5 buff/cache     
+MiB Swap:   8192.0 total,   4863.8 free,   3328.2 used.  10124.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 304236 root      35  15 8387076   3.3g   2.4g R  90.9  10.9   0:31.02 ray::Jo+
+    837 systemd+  20   0   22240  13276  10268 S   9.1   0.0   0:01.05 systemd+
+   8833 sujal     20   0   12.1g 562556 175864 S   9.1   1.8   8:08.88 firefox
+  34314 sujal     20   0 2798036 242828 108368 R   9.1   0.8   0:30.03 Isolate+
+ 248816 root      20   0 6915892 296624 101468 S   9.1   0.9   0:28.87 python
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.33 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:10:01
+top - 05:10:01 up  2:12,  1 user,  load average: 3.15, 5.04, 7.54
+Tasks: 506 total,   2 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.2 us,  3.5 sy,  4.1 ni, 90.7 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7525.2 free,  21171.0 used,   7456.0 buff/cache     
+MiB Swap:   8192.0 total,   4863.8 free,   3328.2 used.  10215.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 345171 root      35  15 8387920   3.2g   2.3g R 100.0  10.4   0:11.91 ray::Jo+
+   6596 sujal     20   0 5356216 238116  48712 S  27.3   0.7   4:27.97 gnome-s+
+   6341 sujal     20   0   25.6g 160892  87908 S  18.2   0.5   4:22.49 Xorg
+   9259 sujal     20   0 2062656   7848   2816 S   9.1   0.0   0:00.18 snap
+  73685 root      20   0 4067772 226140  50056 S   9.1   0.7   0:06.66 ray::Da+
+  73810 root      20   0  450924  41712  37876 S   9.1   0.1   0:09.14 python3+
+ 248816 root      20   0 6915892 299564 101852 S   9.1   0.9   0:29.38 python
+ 304236 root      35  15 8386052   4.1g   2.4g S   9.1  13.3   0:33.24 ray::ID+
+ 356306 root      35  15 7279532   1.3g 712592 S   9.1   4.3   0:03.45 ray::ID+
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.33 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:10:05
+top - 05:10:05 up  2:12,  1 user,  load average: 3.45, 5.08, 7.53
+Tasks: 506 total,   4 running, 501 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 11.5 us,  5.7 sy,  6.3 ni, 73.0 id,  3.4 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6408.4 free,  22266.5 used,   7450.3 buff/cache     
+MiB Swap:   8192.0 total,   4863.9 free,   3328.1 used.   9120.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 356308 root      35  15 7345324   1.3g 811216 R 100.0   4.3   0:04.60 ray::Ha+
+ 356312 root      35  15 7279680   1.4g 915072 R 100.0   4.5   0:05.66 ray::Ha+
+ 356311 root      35  15 7213984   1.2g 633164 R  83.3   3.8   0:04.33 ray::Ha+
+   6596 sujal     20   0 5360312 238272  48736 S  25.0   0.7   4:28.48 gnome-s+
+   6341 sujal     20   0   25.6g 160892  87908 S   8.3   0.5   4:22.71 Xorg
+  72973 root      20   0  916212 101968   9780 S   8.3   0.3   0:11.94 gcs_ser+
+  73811 root      20   0 8784440   2.5g   2.4g S   8.3   8.0   1:12.87 raylet
+ 248816 root      20   0 6915892 301300 101852 S   8.3   0.9   0:30.13 python
+ 356309 root      35  15 7279656   1.3g 871496 S   8.3   4.4   0:04.57 ray::ID+
+ 358884 sujal     20   0   14840   5728   3560 R   8.3   0.0   0:00.02 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.33 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+05:10:08
+top - 05:10:08 up  2:12,  1 user,  load average: 3.45, 5.08, 7.53
+Tasks: 506 total,   2 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.1 us,  1.7 sy,  5.7 ni, 91.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6410.9 free,  22299.9 used,   7414.3 buff/cache     
+MiB Swap:   8192.0 total,   4863.9 free,   3328.1 used.   9087.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 304236 root      35  15 8387076   3.9g   2.4g S 100.0  12.9   0:35.58 ray::Jo+
+   6596 sujal     20   0 5360312 238372  48736 R   9.1   0.7   4:28.83 gnome-s+
+  73809 root      20   0  450924  41564  37596 S   9.1   0.1   0:11.90 python3+
+  73810 root      20   0  450924  41712  37876 S   9.1   0.1   0:09.30 python3+
+ 121498 root      35  15 5734612   2.4g   2.3g S   9.1   7.7   0:07.68 ray::ID+
+ 246996 sujal     20   0 2620140  88848  71244 S   9.1   0.3   0:00.05 Isolate+
+ 359003 sujal     20   0   14840   5716   3548 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.33 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:10:11
+top - 05:10:11 up  2:12,  1 user,  load average: 3.50, 5.06, 7.51
+Tasks: 507 total,   3 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 12.4 us, 13.5 sy,  4.5 ni, 69.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6055.7 free,  22309.5 used,   8224.5 buff/cache     
+MiB Swap:   8192.0 total,   4863.9 free,   3328.1 used.   9077.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11584 sujal     20   0   48.4g 177336 148544 S 100.0   0.6   8:55.10 code
+  47787 root      20   0       0      0      0 R 100.0   0.0   0:53.44 kworker+
+ 359399 root      35  15 7002592   1.8g 898200 R 100.0   5.8   0:01.71 ray::Jo+
+   6341 sujal     20   0   25.6g 160892  87908 S  36.4   0.5   4:23.38 Xorg
+   8595 sujal     20   0  899268  60352  26404 S  36.4   0.2   0:53.50 gnome-t+
+  73097 root      20   0  795952  79040  49444 S  36.4   0.2   0:07.18 python3+
+   6596 sujal     20   0 5358264 238240  48736 S  27.3   0.7   4:29.53 gnome-s+
+  11569 sujal     20   0 1454.1g 424200 152680 S   9.1   1.3   3:00.56 code
+  73206 root      20   0  925416 252068  49080 S   9.1   0.8   0:33.72 ray-das+
+  73207 root      20   0  724180  58476  46376 S   9.1   0.2   0:00.92 ray-das+
+  73809 root      20   0  450924  41604  37596 S   9.1   0.1   0:12.02 python3+
+  73811 root      20   0 8787000   2.5g   2.4g S   9.1   8.0   1:13.17 raylet
+ 248816 root      20   0 6915892 306004 101952 S   9.1   1.0   0:31.29 python
+05:10:14
+top - 05:10:15 up  2:12,  1 user,  load average: 3.30, 4.99, 7.48
+Tasks: 507 total,   5 running, 501 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  4.6 us, 10.9 sy,  9.8 ni, 67.2 id,  6.9 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,   6231.6 free,  21636.3 used,   8282.1 buff/cache     
+MiB Swap:   8192.0 total,   4863.0 free,   3329.0 used.   9750.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 356310 root      35  15 7279540   1.6g   1.0g R 109.1   5.2   0:05.23 ray::Ha+
+ 356312 root      35  15 7279680   1.6g   1.0g R 109.1   5.1   0:07.14 ray::Ha+
+ 356308 root      35  15 7345324   1.6g   1.0g R 100.0   5.3   0:06.09 ray::Ha+
+ 356309 root      35  15 7279656   1.5g   1.0g R 100.0   4.9   0:05.82 ray::Ha+
+ 248816 root      20   0 6989624 310196 102076 S  27.3   1.0   0:31.95 python
+    309 root      20   0       0      0      0 I   9.1   0.0   0:00.35 kworker+
+  72765 root      20   0 1233872  11848   7408 S   9.1   0.0   0:02.05 contain+
+  73810 root      20   0  450924  41712  37876 S   9.1   0.1   0:09.47 python3+
+  73811 root      20   0 8787000   2.5g   2.4g S   9.1   8.0   1:13.40 raylet
+  73901 root      20   0 3991488  70612  50032 S   9.1   0.2   0:08.13 ray::Da+
+  74869 root      35  15 5372200 253844  89376 S   9.1   0.8   0:10.62 ray::_S+
+ 359886 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.35 systemd
+05:10:18
+top - 05:10:18 up  2:12,  1 user,  load average: 3.30, 4.99, 7.48
+Tasks: 506 total,   1 running, 504 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.7 us,  1.1 sy,  6.3 ni, 90.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7325.8 free,  20653.1 used,   8146.5 buff/cache     
+MiB Swap:   8192.0 total,   4863.0 free,   3329.0 used.  10733.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 304236 root      35  15 8387076   4.0g   2.4g S 100.0  13.0   0:38.42 ray::Jo+
+  72973 root      20   0  916212 105992   9780 S   9.1   0.3   0:12.22 gcs_ser+
+ 248816 root      20   0 6989624 311752 102560 S   9.1   1.0   0:32.53 python
+ 356306 root      35  15 7279532   1.5g 864932 S   9.1   4.8   0:04.72 ray::ID+
+ 360016 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.35 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:10:21
+top - 05:10:21 up  2:12,  1 user,  load average: 3.11, 4.92, 7.44
+Tasks: 506 total,   1 running, 504 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  5.7 us,  1.7 sy,  6.2 ni, 86.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5855.3 free,  22089.7 used,   8179.7 buff/cache     
+MiB Swap:   8192.0 total,   4863.0 free,   3329.0 used.   9297.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 360405 root      35  15 8132748   2.4g   1.1g S 109.1   7.8   0:01.97 ray::Jo+
+   6596 sujal     20   0 5362360 238420  48736 S  18.2   0.7   4:30.26 gnome-s+
+ 248816 root      20   0 6989624 315084 102764 S  18.2   1.0   0:33.11 python
+ 360459 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.35 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:10:23
+top - 05:10:23 up  2:12,  1 user,  load average: 3.11, 4.92, 7.44
+Tasks: 505 total,   7 running, 496 sleeping,   0 stopped,   2 zombie
+%Cpu(s):  6.6 us, 10.1 sy, 45.5 ni, 37.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6325.8 free,  21670.8 used,   8128.0 buff/cache     
+MiB Swap:   8192.0 total,   4863.1 free,   3328.9 used.   9716.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 356307 root      35  15 7279556   1.5g 912624 R 108.3   4.9   0:04.99 ray::Ha+
+ 356308 root      35  15 7345324   1.7g   1.1g R 100.0   5.6   0:06.94 ray::Ha+
+ 356309 root      35  15 7279656   1.8g   1.3g R 100.0   5.9   0:07.26 ray::Ha+
+ 356311 root      35  15 7279520   1.4g   1.0g R 100.0   4.5   0:06.94 ray::Ha+
+ 356310 root      35  15 7279540   1.8g   1.2g S  91.7   5.9   0:06.32 ray::ID+
+ 356312 root      35  15 7279680   1.7g   1.2g S  91.7   5.5   0:08.13 ray::ID+
+ 356313 root      35  15 7279688   1.8g   1.2g S  83.3   6.0   0:06.72 ray::ID+
+ 356306 root      35  15 7279532   1.6g 990908 S  58.3   5.1   0:05.42 ray::ID+
+  73888 root      20   0 3991712  71384  50160 R  41.7   0.2   0:07.59 ray::Da+
+  73901 root      20   0 3991488  70684  50032 R  41.7   0.2   0:08.26 ray::Da+
+ 248816 root      20   0 7063356 319668 102780 S  33.3   1.0   0:33.54 python
+  73811 root      20   0 8787000   2.5g   2.4g S  16.7   8.1   1:13.77 raylet
+ 360769 sujal     20   0   14840   5716   3548 R  16.7   0.0   0:00.03 top
+05:10:26
+top - 05:10:27 up  2:12,  1 user,  load average: 3.02, 4.87, 7.41
+Tasks: 504 total,   2 running, 501 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.7 us,  1.7 sy,  5.7 ni, 90.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6489.9 free,  21549.0 used,   8089.0 buff/cache     
+MiB Swap:   8192.0 total,   4863.1 free,   3328.9 used.   9837.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 304236 root      35  15 8387076   3.9g   2.4g S 100.0  12.7   0:40.87 ray::Jo+
+   6341 sujal     20   0   25.6g 160892  87908 S  18.2   0.5   4:24.21 Xorg
+   6596 sujal     20   0 5376136 239004  48764 S  18.2   0.7   4:31.10 gnome-s+
+  34314 sujal     20   0 2800068 252176 108368 S   9.1   0.8   0:30.33 Isolate+
+  73809 root      20   0  450924  41568  37596 S   9.1   0.1   0:12.55 python3+
+  73810 root      20   0  450924  41680  37876 S   9.1   0.1   0:09.76 python3+
+ 248816 root      20   0 7063356 322076 103164 S   9.1   1.0   0:34.25 python
+ 360405 root      35  15 8295644   3.0g   1.3g S   9.1   9.7   0:03.75 ray::ID+
+ 360985 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.36 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:10:30
+top - 05:10:30 up  2:13,  1 user,  load average: 2.94, 4.83, 7.39
+Tasks: 504 total,   2 running, 501 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  9.0 us,  1.1 sy,  6.2 ni, 83.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6188.2 free,  22191.4 used,   8186.0 buff/cache     
+MiB Swap:   8192.0 total,   4863.1 free,   3328.9 used.   9195.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 360405 root      35  15 8297820   3.2g   1.5g R 100.0  10.4   0:05.15 ray::Jo+
+  73206 root      20   0  930024 258068  49080 S  90.9   0.8   0:35.85 ray-das+
+  13126 sujal     20   0 2805724 149904 106884 S  18.2   0.5   0:59.01 Isolate+
+  34314 sujal     20   0 2801092 235784 108368 S  18.2   0.7   0:30.38 Isolate+
+  73642 root      20   0 2150272 136036 108192 S   9.1   0.4   0:06.73 raylet
+  73812 root      20   0 8892928   2.5g   2.4g S   9.1   8.1   1:19.03 raylet
+ 248816 root      20   0 7066180 326880 103184 S   9.1   1.0   0:34.80 python
+ 361378 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.36 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:10:33
+top - 05:10:33 up  2:13,  1 user,  load average: 2.94, 4.83, 7.39
+Tasks: 506 total,   2 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  3.3 us,  5.5 sy,  3.9 ni, 86.2 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7016.3 free,  20864.2 used,   8224.1 buff/cache     
+MiB Swap:   8192.0 total,   4863.2 free,   3328.8 used.  10522.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 304236 root      35  15 8387076   3.3g   2.4g R 100.0  10.7   0:42.87 ray::Jo+
+   6596 sujal     20   0 5358264 238544  48764 S   9.1   0.7   4:31.62 gnome-s+
+  73809 root      20   0  450924  41568  37596 S   9.1   0.1   0:12.77 python3+
+  73810 root      20   0  450924  41680  37876 S   9.1   0.1   0:09.92 python3+
+  73812 root      20   0 8892928   2.5g   2.4g S   9.1   8.1   1:19.30 raylet
+  73888 root      20   0 3991712  71412  50160 S   9.1   0.2   0:07.69 ray::Da+
+ 248816 root      20   0 7066180 331632 103872 S   9.1   1.0   0:35.73 python
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.36 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:10:36
+top - 05:10:37 up  2:13,  1 user,  load average: 3.03, 4.81, 7.37
+Tasks: 506 total,   2 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.3 us,  1.7 sy,  6.3 ni, 89.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6034.9 free,  21715.9 used,   8353.4 buff/cache     
+MiB Swap:   8192.0 total,   4863.2 free,   3328.7 used.   9671.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 356307 root      35  15 7279556   1.9g   1.3g S  63.6   6.2   0:06.73 ray::ID+
+ 248816 root      20   0 7066180 335904 104356 S  54.5   1.0   0:36.43 python
+  73097 root      20   0  795952  78880  49444 S  36.4   0.2   0:07.46 python3+
+ 360405 root      35  15 8371552   3.4g   1.7g R  18.2  11.2   0:06.22 ray::Jo+
+  73199 root      20   0  734400  60960  45444 S   9.1   0.2   0:01.05 ray-das+
+  73812 root      20   0 8892928   2.5g   2.4g S   9.1   8.0   1:19.52 raylet
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.37 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:10:40
+top - 05:10:40 up  2:13,  1 user,  load average: 3.19, 4.82, 7.35
+Tasks: 506 total,   1 running, 504 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  8.0 us,  4.0 sy, 16.7 ni, 71.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5619.8 free,  22039.8 used,   8444.3 buff/cache     
+MiB Swap:   8192.0 total,   4863.3 free,   3328.7 used.   9347.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 248816 root      20   0 7066180 338888 104356 S 109.1   1.1   0:37.16 python
+   6341 sujal     20   0   25.6g 163512  87944 S   9.1   0.5   4:25.38 Xorg
+   6596 sujal     20   0 5356216 238816  48764 S   9.1   0.7   4:32.39 gnome-s+
+  12762 sujal     20   0 5604788  91980  53060 S   9.1   0.3   0:07.67 claude
+  72486 root      20   0       0      0      0 I   9.1   0.0   0:13.74 kworker+
+ 234708 sujal     20   0 2862840 202192 129028 S   9.1   0.6   0:10.15 nautilus
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.37 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:10:43
+top - 05:10:43 up  2:13,  1 user,  load average: 3.19, 4.82, 7.35
+Tasks: 501 total,   1 running, 499 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  6.2 us,  2.3 sy,  6.2 ni, 84.7 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5719.5 free,  21942.9 used,   8443.5 buff/cache     
+MiB Swap:   8192.0 total,   4863.3 free,   3328.7 used.   9443.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  73206 root      20   0  931048 265872  49080 S 109.1   0.8   0:36.85 ray-das+
+  11584 sujal     20   0   48.4g 176068 144000 S 100.0   0.5   8:56.13 code
+ 304236 root      35  15 8387076   4.1g   2.4g S 100.0  13.3   0:47.86 ray::Jo+
+  11569 sujal     20   0 1454.1g 410116 147880 S  63.6   1.3   3:01.16 code
+ 234708 sujal     20   0 2825948 202028 129020 S  36.4   0.6   0:10.50 nautilus
+   6596 sujal     20   0 5358264 238672  48764 S  27.3   0.7   4:32.63 gnome-s+
+  11651 sujal     20   0 1449.9g 173888  57140 S  27.3   0.5   0:24.88 code
+  11493 sujal     20   0 1450.2g 156224 105924 S  18.2   0.5   1:07.63 code
+   6341 sujal     20   0   25.6g 163508  87936 S   9.1   0.5   4:25.58 Xorg
+  73809 root      20   0  450924  41680  37596 S   9.1   0.1   0:13.12 python3+
+ 248816 root      20   0 7066180 341252 104740 S   9.1   1.1   0:37.60 python
+ 356311 root      35  15 7279520   1.9g   1.4g S   9.1   6.3   0:11.28 ray::ID+
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.37 systemd
+05:10:46
+top - 05:10:46 up  2:13,  1 user,  load average: 3.09, 4.77, 7.33
+Tasks: 501 total,   1 running, 499 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  3.4 us,  1.7 sy,  6.3 ni, 87.9 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5552.2 free,  22188.8 used,   8387.3 buff/cache     
+MiB Swap:   8192.0 total,   4863.3 free,   3328.7 used.   9198.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 360405 root      35  15 8372564   4.0g   2.1g S  81.8  12.9   0:10.85 ray::ID+
+  73812 root      20   0 8892928   2.5g   2.4g S  72.7   8.1   1:20.08 raylet
+  73811 root      20   0 8787000   2.5g   2.4g S  63.6   8.1   1:15.11 raylet
+ 248816 root      20   0 7066180 344444 104740 S  63.6   1.1   0:38.33 python
+ 356306 root      35  15 7279532   1.9g   1.2g S  27.3   6.1   0:07.22 ray::Ha+
+ 356307 root      35  15 7279556   2.0g   1.3g S  27.3   6.4   0:07.50 ray::Ha+
+ 356313 root      35  15 7279688   2.1g   1.5g S  27.3   6.9   0:08.87 ray::Ha+
+ 356308 root      35  15 7345324   2.1g   1.5g S  18.2   7.0   0:09.95 ray::Ha+
+    450 root       0 -20       0      0      0 I   9.1   0.0   0:00.11 kworker+
+  13803 sujal     20   0 5645852 243620  58716 S   9.1   0.8   1:07.38 claude
+  45403 root      20   0       0      0      0 I   9.1   0.0   0:29.86 kworker+
+  72486 root      20   0       0      0      0 I   9.1   0.0   0:13.78 kworker+
+  73642 root      20   0 2150272 135884 108232 S   9.1   0.4   0:06.88 raylet
+05:10:49
+top - 05:10:50 up  2:13,  1 user,  load average: 3.00, 4.72, 7.30
+Tasks: 501 total,   1 running, 499 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.1 us,  9.5 sy,  6.1 ni, 82.1 id,  0.0 wa,  0.0 hi,  1.1 si,  0.0 st 
+MiB Mem :  31386.9 total,   5778.2 free,  21935.8 used,   8391.6 buff/cache     
+MiB Swap:   8192.0 total,   4863.3 free,   3328.7 used.   9451.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 304236 root      35  15 8452612   3.9g   2.4g S 109.1  12.7   0:49.82 ray::Jo+
+  73810 root      20   0  450924  41680  37876 S   9.1   0.1   0:10.32 python3+
+  73901 root      20   0 3991488  70724  50032 S   9.1   0.2   0:08.64 ray::Da+
+ 248816 root      20   0 7066180 345420 104740 S   9.1   1.1   0:39.09 python
+ 356310 root      35  15 7279540   2.2g   1.6g S   9.1   7.2   0:09.70 ray::ID+
+ 363758 sujal     20   0   14840   5712   3548 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.39 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:10:53
+top - 05:10:53 up  2:13,  1 user,  load average: 3.00, 4.72, 7.30
+Tasks: 501 total,   2 running, 498 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  3.4 us,  1.1 sy,  6.3 ni, 89.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5574.6 free,  22105.1 used,   8432.0 buff/cache     
+MiB Swap:   8192.0 total,   4863.4 free,   3328.6 used.   9281.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 360405 root      35  15 8372564   4.2g   2.4g S 100.0  13.8   0:12.21 ray::Jo+
+   6341 sujal     20   0   25.6g 163508  87936 S   9.1   0.5   4:26.29 Xorg
+   6596 sujal     20   0 5358260 238532  48764 R   9.1   0.7   4:33.61 gnome-s+
+ 248816 root      20   0 7066180 348596 104740 S   9.1   1.1   0:39.76 python
+ 364166 sujal     20   0   14840   5712   3548 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.39 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:10:56
+top - 05:10:56 up  2:13,  1 user,  load average: 2.84, 4.66, 7.26
+Tasks: 508 total,   4 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.3 us,  5.2 sy, 15.6 ni, 76.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6208.3 free,  21761.5 used,   8158.3 buff/cache     
+MiB Swap:   8192.0 total,   4885.8 free,   3306.2 used.   9625.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 304236 root      35  15 8451588   3.7g   2.4g S 100.0  12.0   0:52.54 ray::Jo+
+ 364592 root      35  15 6972880 682160 315960 R  90.9   2.1   0:01.22 ray::Jo+
+ 360405 root      35  15 8372724   4.2g   2.4g S  63.6  13.9   0:14.54 ray::ID+
+  74869 root      35  15 5372200 256280  91744 S  36.4   0.8   0:11.97 ray::_S+
+   6596 sujal     20   0 5358260 238656  48764 R  27.3   0.7   4:33.90 gnome-s+
+ 248816 root      20   0 7066180 352760 104740 S  27.3   1.1   0:40.55 python
+  73812 root      20   0 8892928   2.5g   2.4g S  18.2   8.1   1:20.73 raylet
+   6341 sujal     20   0   25.6g 163504  87932 S   9.1   0.5   4:26.58 Xorg
+ 364661 sujal     20   0   14840   5720   3556 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.40 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:10:59
+top - 05:10:59 up  2:13,  1 user,  load average: 3.82, 4.83, 7.30
+Tasks: 508 total,   2 running, 505 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  6.8 us, 11.4 sy,  0.0 ni, 81.2 id,  0.0 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,   6734.6 free,  21225.7 used,   8143.2 buff/cache     
+MiB Swap:   8192.0 total,   4886.0 free,   3306.0 used.  10161.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 365359 root      20   0   93456  63812  30124 R 100.0   0.2   0:00.24 python3+
+ 356310 root      35  15 7279496   2.4g   1.7g S  90.9   8.0   0:11.22 ray::Jo+
+ 356307 root      35  15 7279556   2.1g   1.5g S  72.7   6.9   0:08.75 ray::Jo+
+ 356308 root      35  15 7345388   2.6g   1.9g S  72.7   8.5   0:12.48 ray::Jo+
+  73812 root      20   0 8892928   2.6g   2.4g S  63.6   8.3   1:21.88 raylet
+ 356311 root      35  15 7279668   2.3g   1.8g S  63.6   7.6   0:14.92 ray::Jo+
+ 248816 root      20   0 7067204 361096 108148 S  45.5   1.1   0:41.65 python
+  73811 root      20   0 8787000   2.6g   2.4g S  36.4   8.3   1:16.93 raylet
+ 356309 root      35  15 8329892   3.6g   2.0g S  27.3  11.6   0:12.66 ray::ID+
+ 356313 root      35  15 8328556   2.7g   1.8g S  27.3   8.9   0:10.75 ray::ID+
+    201 root      20   0       0      0      0 I   9.1   0.0   1:52.79 kworker+
+   6596 sujal     20   0 5358260 238664  48772 S   9.1   0.7   4:34.35 gnome-s+
+   8833 sujal     20   0   12.1g 566920 176464 S   9.1   1.8   8:10.65 firefox
+05:11:02
+top - 05:11:03 up  2:13,  1 user,  load average: 3.82, 4.83, 7.30
+Tasks: 507 total,   2 running, 504 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.1 us,  8.5 sy,  5.7 ni, 84.1 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5099.9 free,  22769.2 used,   8233.5 buff/cache     
+MiB Swap:   8192.0 total,   4797.8 free,   3394.2 used.   8617.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  73812 root      20   0 8892928   2.5g   2.4g R 100.0   8.3   1:22.83 raylet
+ 364592 root      35  15 8240760   2.7g   1.3g S 100.0   8.7   0:03.36 ray::Jo+
+  72767 root      20   0 1234128  11904   7288 S   9.1   0.0   0:01.99 contain+
+ 248816 root      20   0 7067204 362624 108532 S   9.1   1.1   0:42.08 python
+ 365465 sujal     20   0   14840   5724   3556 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.43 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:11:06
+top - 05:11:06 up  2:13,  1 user,  load average: 3.75, 4.80, 7.28
+Tasks: 506 total,   3 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  1.1 us,  5.1 sy,  4.0 ni, 88.6 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8738.1 free,  18940.7 used,   8859.0 buff/cache     
+MiB Swap:   8192.0 total,   4829.5 free,   3362.5 used.  12446.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 364592 root      35  15 8388288   2.6g   1.7g R 100.0   8.5   0:05.66 ray::Jo+
+  72486 root      20   0       0      0      0 D  36.4   0.0   0:15.15 kworker+
+  73809 root      20   0  450924  41016  37596 S  18.2   0.1   0:13.91 python3+
+  74806 root      35  15 5454432 177448  87532 S   9.1   0.6   0:08.74 ray::_A+
+ 122622 root      35  15 5734636   2.3g   2.3g S   9.1   7.6   0:07.87 ray::ID+
+ 248816 root      20   0 7067204 364416 108532 S   9.1   1.1   0:42.75 python
+ 355003 root      35  15 7273900 368348 157300 S   9.1   1.1   0:02.02 ray::ID+
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.43 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:11:09
+top - 05:11:09 up  2:13,  1 user,  load average: 3.75, 4.80, 7.28
+Tasks: 507 total,   2 running, 504 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  6.7 us,  4.5 sy,  4.5 ni, 83.7 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7981.4 free,  19015.7 used,   9099.3 buff/cache     
+MiB Swap:   8192.0 total,   4829.6 free,   3362.4 used.  12371.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 355003 root      35  15 8373332   2.4g   1.2g R  91.7   7.9   0:03.07 ray::Jo+
+  73206 root      20   0  926952 261688  49080 S  66.7   0.8   0:40.57 ray-das+
+   8833 sujal     20   0   12.1g 571332 177060 S  58.3   1.8   8:12.52 firefox
+  72973 root      20   0  918772 106636   9780 S  33.3   0.3   0:13.50 gcs_ser+
+  34314 sujal     20   0   10.7g 291192 108540 S  25.0   0.9   0:33.10 Isolate+
+   6341 sujal     20   0   25.6g 163504  87932 S   8.3   0.5   4:27.26 Xorg
+   6596 sujal     20   0 5358260 238408  48772 S   8.3   0.7   4:34.79 gnome-s+
+ 122621 root      35  15 5734608   2.4g   2.4g S   8.3   7.8   0:09.50 ray::ID+
+ 122624 root      35  15 5734628   2.3g   2.3g S   8.3   7.5   0:07.01 ray::ID+
+ 248816 root      20   0 7067204 366248 108648 S   8.3   1.1   0:43.14 python
+ 365359 root      35  15 5660880  84312  40640 S   8.3   0.3   0:00.84 ray::ID+
+ 366147 sujal     20   0   14840   5712   3548 R   8.3   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.43 systemd
+05:11:12
+top - 05:11:12 up  2:13,  1 user,  load average: 3.93, 4.82, 7.27
+Tasks: 510 total,   6 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 17.8 us, 13.9 sy, 15.6 ni, 51.1 id,  0.0 wa,  0.0 hi,  1.7 si,  0.0 st 
+MiB Mem :  31386.9 total,   4969.7 free,  23319.8 used,   7807.9 buff/cache     
+MiB Swap:   8192.0 total,   4830.6 free,   3361.4 used.   8067.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 356311 root      35  15 8329272   3.2g   2.1g S 100.0  10.5   0:17.37 ray::Jo+
+ 356308 root      35  15 8394344   3.3g   1.9g R  91.7  10.9   0:13.90 ray::Jo+
+ 356309 root      35  15 8330344   2.8g   2.0g S  91.7   9.2   0:13.69 ray::Jo+
+ 366571 root      35  15 5820284 172316  83864 R  91.7   0.5   0:01.00 ray::ID+
+ 366581 root      20   0   80832  51416  27040 R  91.7   0.2   0:00.48 python3+
+  73811 root      20   0 8787000   2.6g   2.4g R  50.0   8.4   1:17.60 raylet
+ 366576 root      35  15 5587148  83848  40296 S  33.3   0.3   0:00.68 ray::ID+
+   6596 sujal     20   0 5358260 238408  48772 S  16.7   0.7   4:35.19 gnome-s+
+   8833 sujal     20   0   12.1g 571516 177060 S  16.7   1.8   8:13.56 firefox
+   6341 sujal     20   0   25.6g 163504  87932 S   8.3   0.5   4:27.59 Xorg
+  34314 sujal     20   0   10.7g 238740 108584 R   8.3   0.7   0:33.57 Isolate+
+  72767 root      20   0 1234128  11968   7288 S   8.3   0.0   0:02.00 contain+
+  73809 root      20   0  450924  41076  37596 S   8.3   0.1   0:14.12 python3+
+05:11:16
+top - 05:11:16 up  2:13,  1 user,  load average: 3.94, 4.81, 7.26
+Tasks: 508 total,   1 running, 506 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  3.5 us,  2.9 sy,  5.8 ni, 87.3 id,  0.0 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,   5570.1 free,  22032.2 used,   8492.8 buff/cache     
+MiB Swap:   8192.0 total,   4735.6 free,   3456.4 used.   9354.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 364592 root      35  15 8388288   3.8g   2.3g S 100.0  12.3   0:10.10 ray::Jo+
+   8833 sujal     20   0   12.1g 572436 177244 S  27.3   1.8   8:14.76 firefox
+  73810 root      20   0  450924  41240  37876 S  18.2   0.1   0:10.95 python3+
+   6596 sujal     20   0 5358260 238500  48772 S   9.1   0.7   4:35.69 gnome-s+
+  73809 root      20   0  450924  41120  37596 S   9.1   0.1   0:14.24 python3+
+ 248816 root      20   0 7067204 364644 109532 S   9.1   1.1   0:44.33 python
+ 356310 root      35  15 8329136   2.9g   2.0g S   9.1   9.4   0:13.38 ray::ID+
+ 366773 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.46 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:11:19
+top - 05:11:19 up  2:13,  1 user,  load average: 3.94, 4.81, 7.26
+Tasks: 509 total,   5 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  3.5 us,  2.9 sy,  6.9 ni, 86.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7287.8 free,  20396.4 used,   8410.8 buff/cache     
+MiB Swap:   8192.0 total,   4738.9 free,   3453.1 used.  10990.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 367074 root      35  15 8074460   2.5g   1.1g R  90.9   8.1   0:02.28 ray::Jo+
+  74869 root      35  15 5372200 260332  92832 S  72.7   0.8   0:12.73 ray::_S+
+  73685 root      20   0 4067452 226316  50056 R  36.4   0.7   0:07.85 ray::Da+
+   8833 sujal     20   0   12.1g 571696 177244 S  27.3   1.8   8:15.77 firefox
+ 248816 root      20   0 7067204 369992 110920 S  18.2   1.2   0:44.76 python
+   6596 sujal     20   0 5358260 238500  48772 S   9.1   0.7   4:36.05 gnome-s+
+  34314 sujal     20   0   10.7g 253056 108604 R   9.1   0.8   0:34.49 Isolate+
+  73809 root      20   0  450924  41120  37596 S   9.1   0.1   0:14.36 python3+
+  73888 root      20   0 3991712  69076  50160 R   9.1   0.2   0:08.34 ray::Da+
+ 367158 sujal     20   0   14840   5712   3548 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.46 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+05:11:22
+top - 05:11:22 up  2:13,  1 user,  load average: 3.86, 4.78, 7.23
+Tasks: 509 total,   3 running, 505 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.3 us,  2.3 sy,  5.7 ni, 89.1 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7462.0 free,  20029.1 used,   8625.0 buff/cache     
+MiB Swap:   8192.0 total,   4741.6 free,   3450.4 used.  11357.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 367074 root      35  15 8238380   3.5g   2.1g R 109.1  11.4   0:05.32 ray::Jo+
+ 228600 root      20   0       0      0      0 R  36.4   0.0   0:02.36 kworker+
+   8833 sujal     20   0   12.1g 571700 177244 S  18.2   1.8   8:16.63 firefox
+  11584 sujal     20   0   48.4g 177864 143204 S   9.1   0.6   8:58.54 code
+  12667 sujal     20   0 1448.4g 374540 133044 S   9.1   1.2   5:02.79 code
+  73809 root      20   0  450924  41080  37596 S   9.1   0.1   0:14.47 python3+
+  73812 root      20   0 8892928   2.6g   2.4g S   9.1   8.3   1:23.77 raylet
+ 248816 root      20   0 7067204 372648 110920 S   9.1   1.2   0:45.29 python
+ 367468 sujal     20   0   14840   5712   3544 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.46 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:11:25
+top - 05:11:26 up  2:13,  1 user,  load average: 4.83, 4.96, 7.28
+Tasks: 509 total,   5 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  5.6 us, 15.3 sy,  6.2 ni, 72.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5120.2 free,  23507.2 used,   7484.1 buff/cache     
+MiB Swap:   8192.0 total,   4643.9 free,   3548.1 used.   7879.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  73812 root      20   0 8892928   2.6g   2.4g R 100.0   8.3   1:24.74 raylet
+ 365359 root      35  15 8237932   1.4g 359740 S 100.0   4.7   0:03.08 ray::Jo+
+ 366571 root      35  15 8238936   2.2g 765628 R 100.0   7.1   0:03.13 ray::Jo+
+  11584 sujal     20   0   48.4g 158044 129316 S  27.3   0.5   8:58.66 code
+   6341 sujal     20   0   25.6g 163504  87932 S  18.2   0.5   4:28.81 Xorg
+   8833 sujal     20   0   12.1g 571176 177244 S  18.2   1.8   8:17.39 firefox
+ 248816 root      20   0 7067204 378440 116452 S  18.2   1.2   0:46.30 python
+      1 root      20   0   23972  14228   9256 S   9.1   0.0   0:10.48 systemd
+    557 root      20   0       0      0      0 I   9.1   0.0   1:55.78 kworker+
+  72973 root      20   0  918772  93012   9780 S   9.1   0.3   0:13.79 gcs_ser+
+  73203 root      20   0  758012  78920  49072 S   9.1   0.2   0:03.10 ray-das+
+  73204 root      20   0  781084  68860  48848 S   9.1   0.2   0:01.91 ray-das+
+  73888 root      20   0 3991712  69164  50160 S   9.1   0.2   0:08.42 ray::Da+
+05:11:29
+top - 05:11:29 up  2:14,  1 user,  load average: 4.83, 4.96, 7.28
+Tasks: 508 total,   2 running, 504 sleeping,   0 stopped,   2 zombie
+%Cpu(s):  3.4 us, 23.7 sy,  1.1 ni, 70.6 id,  0.6 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,   5301.7 free,  22444.1 used,   8344.1 buff/cache     
+MiB Swap:   8192.0 total,   3882.9 free,   4309.1 used.   8942.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  87368 root      35  15 5734628   2.4g   2.4g S 100.0   7.8   0:10.88 ray::ID+
+  88329 root      35  15 5734632   2.4g   2.4g S 100.0   7.8   0:19.31 ray::ID+
+ 366571 root      35  15       0      0      0 Z 100.0   0.0   0:03.54 ray::ID+
+ 367847 root      35  15 6987104   1.0g 541408 R 100.0   3.4   0:02.04 ray::Jo+
+ 365359 root      35  15    9.9g   4.1g   1.3g S  72.7  13.3   0:05.84 ray::Jo+
+   8833 sujal     20   0   12.1g 571048 177244 S  18.2   1.8   8:18.21 firefox
+  32088 root      20   0       0      0      0 I  18.2   0.0   1:23.67 kworker+
+  73096 root      20   0  655828  55592  45228 S  18.2   0.2   0:01.40 python3+
+  88438 root      35  15 5734612   2.4g   2.4g S  18.2   7.8   0:24.03 ray::ID+
+ 248816 root      20   0 7067204 380756 116836 S  18.2   1.2   0:46.81 python
+   6341 sujal     20   0   25.6g 163504  87932 S   9.1   0.5   4:29.00 Xorg
+  11584 sujal     20   0   48.4g 160884 126524 S   9.1   0.5   8:58.77 code
+  12667 sujal     20   0 1448.4g 374844 132660 S   9.1   1.2   5:02.97 code
+05:11:32
+top - 05:11:32 up  2:14,  1 user,  load average: 4.85, 4.97, 7.27
+Tasks: 506 total,   1 running, 504 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 10.2 us, 15.3 sy,  0.0 ni, 71.8 id,  2.3 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,   8120.6 free,  18913.6 used,   9051.0 buff/cache     
+MiB Swap:   8192.0 total,   3307.2 free,   4884.8 used.  12473.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  88329 root      35  15 5734632   2.4g   2.4g S 100.0   7.8   0:22.57 ray::ID+
+ 248816 root      20   0 7067204 385424 116836 S 100.0   1.2   0:47.61 python
+   8833 sujal     20   0   12.1g 571212 177312 S  18.2   1.8   8:18.88 firefox
+   6341 sujal     20   0   25.6g 163504  87932 S   9.1   0.5   4:29.17 Xorg
+  73812 root      20   0 8892928   2.5g   2.4g S   9.1   8.2   1:26.16 raylet
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.53 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:11:35
+top - 05:11:35 up  2:14,  1 user,  load average: 4.62, 4.92, 7.24
+Tasks: 507 total,   3 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.3 us,  6.3 sy,  1.7 ni, 89.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8278.1 free,  18652.8 used,   9155.5 buff/cache     
+MiB Swap:   8192.0 total,   2466.9 free,   5725.1 used.  12734.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 368251 root      35  15 7091224   1.6g 821588 R 100.0   5.4   0:03.15 ray::Jo+
+   8833 sujal     20   0   12.1g 571380 177312 R  18.2   1.8   8:19.48 firefox
+  11651 sujal     20   0 1449.9g 174892  57140 S  18.2   0.5   0:25.08 code
+      1 root      20   0   23972  14228   9256 S   9.1   0.0   0:10.56 systemd
+   6341 sujal     20   0   25.6g 163504  87932 S   9.1   0.5   4:29.31 Xorg
+  73642 root      20   0 2150272 139892 108392 S   9.1   0.4   0:07.34 raylet
+  74869 root      35  15 5372200 257844  93280 S   9.1   0.8   0:13.21 ray::_S+
+ 248816 root      20   0 7067204 385428 116836 S   9.1   1.2   0:48.09 python
+ 356306 root      35  15 7279532   1.6g   1.4g S   9.1   5.4   0:08.91 ray::ID+
+ 356312 root      35  15 7278852   1.6g   1.5g S   9.1   5.3   0:12.56 ray::ID+
+ 368335 sujal     20   0   14840   5724   3560 R   9.1   0.0   0:00.01 top
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+05:11:38
+top - 05:11:39 up  2:14,  1 user,  load average: 4.62, 4.92, 7.24
+Tasks: 507 total,   2 running, 504 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  4.0 us,  6.3 sy,  2.3 ni, 87.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8573.1 free,  18356.6 used,   9158.0 buff/cache     
+MiB Swap:   8192.0 total,   1671.2 free,   6520.8 used.  13030.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 368251 root      35  15 8233668   2.7g   1.1g R 100.0   8.7   0:06.43 ray::Jo+
+   8833 sujal     20   0   12.1g 571424 177312 S  18.2   1.8   8:20.26 firefox
+  12667 sujal     20   0 1448.4g 379388 134580 S  18.2   1.2   5:03.58 code
+   6341 sujal     20   0   25.6g 163504  87932 S   9.1   0.5   4:29.44 Xorg
+  11584 sujal     20   0   48.4g 158388 128104 S   9.1   0.5   8:59.17 code
+  13803 sujal     20   0 5645852 249904  58808 S   9.1   0.8   1:07.74 claude
+  73201 root      20   0  738536  67476  46808 S   9.1   0.2   0:01.45 ray-das+
+  73641 root      20   0  457068  49360  37832 S   9.1   0.2   0:04.68 python3+
+  73901 root      20   0 3991488  67932  50032 S   9.1   0.2   0:09.34 ray::Da+
+  88330 root      35  15 5734612   2.4g   2.4g S   9.1   7.8   0:06.96 ray::ID+
+ 248816 root      20   0 7067204 385460 116836 S   9.1   1.2   0:48.40 python
+ 356312 root      35  15 7278852   1.6g   1.5g S   9.1   5.3   0:12.58 ray::ID+
+ 368385 sujal     20   0   14840   5716   3548 R   9.1   0.0   0:00.01 top
+05:11:42
+top - 05:11:42 up  2:14,  1 user,  load average: 4.41, 4.87, 7.21
+Tasks: 507 total,   2 running, 504 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  7.3 us,  2.8 sy,  0.6 ni, 88.1 id,  0.6 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,   8234.4 free,  18649.4 used,   9645.3 buff/cache     
+MiB Swap:   8192.0 total,   2840.2 free,   5351.8 used.  12737.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  72486 root      20   0       0      0      0 R  90.9   0.0   0:16.67 kworker+
+ 248816 root      20   0 7067204 393580 117952 S  63.6   1.2   0:49.16 python
+ 356311 root      35  15 9380060   2.4g   2.3g S  36.4   7.8   0:23.14 ray::ID+
+   8833 sujal     20   0   12.1g 571440 177312 S  18.2   1.8   8:20.89 firefox
+  12667 sujal     20   0 1448.4g 395308 134852 S  18.2   1.2   5:04.53 code
+   6341 sujal     20   0   25.6g 163504  87932 S   9.1   0.5   4:29.63 Xorg
+  11493 sujal     20   0 1450.2g 153244 102676 S   9.1   0.5   1:08.33 code
+  73809 root      20   0  450924  41316  37596 S   9.1   0.1   0:15.18 python3+
+  73811 root      20   0 8787000   2.4g   2.4g S   9.1   7.9   1:19.87 raylet
+ 356310 root      35  15 8329136   2.2g   2.0g S   9.1   7.0   0:14.64 ray::ID+
+ 368917 sujal     20   0   14840   5712   3544 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.57 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+05:11:45
+top - 05:11:45 up  2:14,  1 user,  load average: 4.46, 4.87, 7.20
+Tasks: 507 total,   2 running, 504 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  4.0 us,  2.3 sy,  5.8 ni, 87.3 id,  0.0 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,   7793.0 free,  18874.4 used,   9426.9 buff/cache     
+MiB Swap:   8192.0 total,   3110.5 free,   5081.5 used.  12512.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 368251 root      35  15 8397524   3.3g   1.9g R 100.0  10.7   0:08.47 ray::Jo+
+   8833 sujal     20   0   12.1g 571452 177312 S  16.7   1.8   8:21.57 firefox
+  12667 sujal     20   0 1448.4g 403412 137668 S  16.7   1.3   5:05.67 code
+  73888 root      20   0 3991712  67076  50160 S  16.7   0.2   0:08.64 ray::Da+
+  11584 sujal     20   0   48.4g 165164 130808 S   8.3   0.5   8:59.94 code
+ 248816 root      20   0 7067204 397676 119948 S   8.3   1.2   0:50.01 python
+ 366576 root      35  15 7189304 208460  96916 S   8.3   0.6   0:01.67 ray::ID+
+ 367847 root      35  15 8465960   3.8g   2.0g S   8.3  12.5   0:07.37 ray::ID+
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.57 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:11:48
+top - 05:11:48 up  2:14,  1 user,  load average: 4.46, 4.87, 7.20
+Tasks: 507 total,   2 running, 504 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.3 us,  1.1 sy,  6.3 ni, 90.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5581.2 free,  20905.8 used,   9608.7 buff/cache     
+MiB Swap:   8192.0 total,   3987.7 free,   4204.3 used.  10481.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 367847 root      35  15 8465960   4.0g   2.1g R  90.9  12.9   0:07.60 ray::Jo+
+   8833 sujal     20   0   12.1g 571452 177312 S  27.3   1.8   8:22.26 firefox
+  11584 sujal     20   0   48.4g 166740 132088 S   9.1   0.5   9:00.13 code
+  87388 root      35  15 5734628   2.4g   2.4g S   9.1   7.8   0:17.08 ray::ID+
+ 248816 root      20   0 7067204 400684 120864 S   9.1   1.2   0:50.64 python
+ 366576 root      35  15 7189304 209084  97184 S   9.1   0.7   0:01.72 ray::ID+
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.58 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:11:51
+top - 05:11:52 up  2:14,  1 user,  load average: 4.18, 4.81, 7.16
+Tasks: 507 total,   1 running, 505 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  4.0 us,  5.1 sy,  2.3 ni, 88.0 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7185.1 free,  20833.3 used,   8076.4 buff/cache     
+MiB Swap:   8192.0 total,   4096.0 free,   4096.0 used.  10553.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 356306 root      35  15 8328236   2.6g   1.5g S  90.9   8.4   0:10.23 ray::Jo+
+  74869 root      35  15 5372200 258748  94176 S  27.3   0.8   0:13.74 ray::_S+
+   8833 sujal     20   0   12.1g 571460 177312 S  18.2   1.8   8:22.84 firefox
+ 369581 sujal     20   0   14840   5740   3572 R  18.2   0.0   0:00.02 top
+   6341 sujal     20   0   25.6g 163504  87932 S   9.1   0.5   4:30.26 Xorg
+  73205 root      20   0 2397628 209344  93200 S   9.1   0.7   0:08.28 ray-das+
+  73641 root      20   0  457068  49400  37832 S   9.1   0.2   0:04.76 python3+
+  73642 root      20   0 2150272 139780 108444 S   9.1   0.4   0:07.46 raylet
+  73811 root      20   0 8799288   2.6g   2.4g S   9.1   8.5   1:20.47 raylet
+  88329 root      35  15 5734616   2.4g   2.4g S   9.1   7.8   0:22.75 ray::ID+
+ 228600 root      20   0       0      0      0 I   9.1   0.0   0:03.82 kworker+
+ 248816 root      20   0 7067204 403512 121680 S   9.1   1.3   0:51.25 python
+ 356308 root      35  15 8394872   2.3g   2.1g S   9.1   7.4   0:16.52 ray::ID+
+05:11:55
+top - 05:11:55 up  2:14,  1 user,  load average: 4.08, 4.78, 7.14
+Tasks: 507 total,   2 running, 504 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  7.0 us,  5.8 sy,  7.6 ni, 79.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7168.7 free,  20945.3 used,   7974.9 buff/cache     
+MiB Swap:   8192.0 total,   4107.8 free,   4084.2 used.  10441.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 356306 root      35  15 8329152   1.9g   1.7g S  81.8   6.1   0:10.74 ray::Jo+
+ 356309 root      35  15 8330344   2.3g   2.2g S  72.7   7.6   0:17.32 ray::ID+
+ 248816 root      20   0 7067204 407992 121964 S  54.5   1.3   0:51.86 python
+ 356310 root      35  15 8329136   2.9g   2.1g S  45.5   9.5   0:15.64 ray::ID+
+   8833 sujal     20   0   12.1g 571480 177312 S  36.4   1.8   8:23.50 firefox
+  12667 sujal     20   0 1448.4g 408324 132276 R  36.4   1.3   5:07.15 code
+  73812 root      20   0 8892928   2.6g   2.4g S  27.3   8.3   1:26.80 raylet
+  73811 root      20   0 8799288   2.6g   2.4g S  18.2   8.4   1:20.58 raylet
+ 369629 sujal     20   0   14840   5712   3548 R  18.2   0.0   0:00.02 top
+  73642 root      20   0 2150272 139708 108460 S   9.1   0.4   0:07.49 raylet
+  73809 root      20   0  450924  41316  37596 S   9.1   0.1   0:15.63 python3+
+ 356308 root      35  15 8394872   2.3g   2.1g S   9.1   7.4   0:16.62 ray::ID+
+ 356311 root      35  15 9380060   2.4g   2.3g S   9.1   7.9   0:24.65 ray::ID+
+05:11:58
+top - 05:11:58 up  2:14,  1 user,  load average: 4.08, 4.78, 7.14
+Tasks: 505 total,   3 running, 501 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.3 us,  8.6 sy,  5.7 ni, 83.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7240.9 free,  22004.2 used,   7281.8 buff/cache     
+MiB Swap:   8192.0 total,   4151.4 free,   4040.6 used.   9382.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 236677 root      20   0       0      0      0 R 100.0   0.0   0:01.85 kworker+
+ 356306 root      35  15    9.9g   4.8g   1.8g S 100.0  15.5   0:13.81 ray::Jo+
+   8833 sujal     20   0   12.1g 571480 177312 S   9.1   1.8   8:24.16 firefox
+  73810 root      20   0  450924  41196  37876 S   9.1   0.1   0:11.97 python3+
+ 248816 root      20   0 7067204 412456 126128 S   9.1   1.3   0:52.61 python
+ 369953 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.60 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:12:01
+top - 05:12:01 up  2:14,  1 user,  load average: 4.08, 4.76, 7.12
+Tasks: 505 total,   2 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  7.9 us,  3.4 sy,  0.6 ni, 87.0 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6740.8 free,  19811.2 used,   9537.0 buff/cache     
+MiB Swap:   8192.0 total,   3697.2 free,   4494.8 used.  11575.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 369995 root      20   0   84172  54584  28036 R 100.0   0.2   0:00.47 python3+
+  73206 root      20   0  919784 234688  49080 S  63.6   0.7   0:43.19 ray-das+
+   8833 sujal     20   0   12.1g 571484 177312 S  18.2   1.8   8:24.79 firefox
+   6341 sujal     20   0   25.6g 163504  87932 S   9.1   0.5   4:30.76 Xorg
+  10366 sujal     20   0 3084096 298952 108028 S   9.1   0.9   0:34.67 Isolate+
+  34314 sujal     20   0 2814420 254276 108604 S   9.1   0.8   0:36.13 Isolate+
+  73809 root      20   0  450924  41316  37596 S   9.1   0.1   0:15.86 python3+
+ 248816 root      20   0 7067204 412464 126128 S   9.1   1.3   0:53.12 python
+ 369998 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.62 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:12:05
+top - 05:12:05 up  2:14,  1 user,  load average: 4.55, 4.85, 7.14
+Tasks: 505 total,   2 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  8.0 us,  6.9 sy,  3.4 ni, 81.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7022.2 free,  20117.7 used,   8841.5 buff/cache     
+MiB Swap:   8192.0 total,   3294.5 free,   4897.5 used.  11269.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 369995 root      35  15 8149848   2.2g   1.0g R 100.0   7.0   0:03.70 ray::Jo+
+   8833 sujal     20   0   12.1g 571484 177312 S  27.3   1.8   8:25.37 firefox
+   6341 sujal     20   0   25.6g 163504  87932 S   9.1   0.5   4:30.93 Xorg
+   6596 sujal     20   0 5358260 238476  48772 S   9.1   0.7   4:36.86 gnome-s+
+  72973 root      20   0  921332  85004   9780 S   9.1   0.3   0:14.27 gcs_ser+
+  73809 root      20   0  450924  41316  37596 S   9.1   0.1   0:15.97 python3+
+  73901 root      20   0 3991488  68288  50032 S   9.1   0.2   0:09.63 ray::Da+
+ 122624 root      35  15 5734628   2.2g   2.1g S   9.1   7.0   0:07.85 ray::ID+
+ 248816 root      20   0 7067204 412504 126128 S   9.1   1.3   0:53.56 python
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.64 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:12:08
+top - 05:12:08 up  2:14,  1 user,  load average: 4.55, 4.85, 7.14
+Tasks: 505 total,   1 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.3 us,  5.1 sy,  4.6 ni, 84.0 id,  4.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8152.8 free,  19508.7 used,   8410.4 buff/cache     
+MiB Swap:   8192.0 total,   4113.0 free,   4079.0 used.  11878.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 356311 root      35  15 9380060   2.8g   2.2g S  90.9   9.1   0:25.75 ray::ID+
+ 356312 root      35  15 7281272   1.8g   1.5g S  45.5   5.8   0:13.49 ray::Jo+
+   8833 sujal     20   0   12.1g 571504 177312 S  27.3   1.8   8:25.99 firefox
+ 248816 root      20   0 7067204 414704 126128 S  18.2   1.3   0:53.98 python
+  73097 root      20   0  795952  79128  49444 S   9.1   0.2   0:08.55 python3+
+  73642 root      20   0 2150272 139712 108500 S   9.1   0.4   0:07.61 raylet
+  73809 root      20   0  450924  41316  37596 S   9.1   0.1   0:16.08 python3+
+  73810 root      20   0  450924  40884  37876 S   9.1   0.1   0:12.21 python3+
+  74806 root      35  15 5454432 177472  87532 S   9.1   0.6   0:09.54 ray::_A+
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.64 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:12:11
+top - 05:12:11 up  2:14,  1 user,  load average: 4.67, 4.87, 7.13
+Tasks: 505 total,   1 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  4.5 us,  2.3 sy,  5.7 ni, 87.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7677.7 free,  19580.9 used,   8827.9 buff/cache     
+MiB Swap:   8192.0 total,   4127.9 free,   4064.1 used.  11806.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 369995 root      35  15 8393124   3.3g   1.7g S 100.0  10.8   0:08.46 ray::Jo+
+   8833 sujal     20   0   12.1g 571508 177312 S  18.2   1.8   8:26.56 firefox
+  13803 sujal     20   0 5645852 247576  58808 S  18.2   0.8   1:08.02 claude
+  12667 sujal     20   0 1448.4g 408968 132020 S   9.1   1.3   5:07.67 code
+  34314 sujal     20   0 2816468 258300 108604 S   9.1   0.8   0:36.41 Isolate+
+  73809 root      20   0  450924  41316  37596 S   9.1   0.1   0:16.19 python3+
+  73888 root      20   0 3991712  67100  50160 S   9.1   0.2   0:08.92 ray::Da+
+ 248816 root      20   0 7067204 414704 126128 S   9.1   1.3   0:54.54 python
+ 370459 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.64 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:12:14
+top - 05:12:15 up  2:14,  1 user,  load average: 4.86, 4.90, 7.13
+Tasks: 505 total,   5 running, 499 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  4.0 us, 12.6 sy,  9.8 ni, 70.1 id,  3.4 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5718.0 free,  20327.2 used,  10043.6 buff/cache     
+MiB Swap:   8192.0 total,   4138.6 free,   4053.4 used.  11059.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 367847 root      35  15 8465960   4.4g   2.4g R 100.0  14.4   0:10.50 ray::Jo+
+  88438 root      35  15 5734628   2.4g   2.4g S  36.4   7.8   0:24.65 ray::ID+
+    557 root      20   0       0      0      0 I  27.3   0.0   1:56.09 kworker+
+  72486 root      20   0       0      0      0 I  27.3   0.0   0:18.12 kworker+
+  88201 root      35  15 5734612 965008 929736 S  27.3   3.0   0:05.10 ray::ID+
+   8833 sujal     20   0   12.1g 571516 177312 S  18.2   1.8   8:27.20 firefox
+      1 root      20   0   23972  14228   9256 S   9.1   0.0   0:10.66 systemd
+    201 root      20   0       0      0      0 I   9.1   0.0   1:54.24 kworker+
+  73809 root      20   0  450924  41316  37596 S   9.1   0.1   0:16.30 python3+
+ 248816 root      20   0 7132740 416800 126128 S   9.1   1.3   0:55.50 python
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:12:18
+top - 05:12:18 up  2:14,  1 user,  load average: 4.86, 4.90, 7.13
+Tasks: 506 total,   2 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.9 us, 10.3 sy,  9.2 ni, 77.0 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6519.3 free,  20774.5 used,   9233.4 buff/cache     
+MiB Swap:   8192.0 total,   4157.8 free,   4034.2 used.  10612.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 228600 root      20   0       0      0      0 R 100.0   0.0   0:04.37 kworker+
+ 356310 root      35  15 9378452   3.6g   2.3g S  90.9  11.6   0:19.24 ray::ID+
+ 356312 root      35  15 8330040   2.7g   1.6g S  90.9   8.9   0:14.66 ray::Jo+
+  73901 root      20   0 3991488  68380  50032 S  18.2   0.2   0:09.76 ray::Da+
+ 248816 root      20   0 7132740 424600 127808 S  18.2   1.3   0:55.93 python
+   6341 sujal     20   0   25.6g 163504  87932 S   9.1   0.5   4:31.53 Xorg
+   8833 sujal     20   0   12.1g 571524 177312 S   9.1   1.8   8:27.83 firefox
+  73812 root      20   0 8892928   2.6g   2.4g S   9.1   8.4   1:27.69 raylet
+ 371121 sujal     20   0   14840   5708   3540 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.66 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:12:21
+top - 05:12:21 up  2:14,  1 user,  load average: 4.55, 4.84, 7.10
+Tasks: 505 total,   2 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  6.9 us,  4.6 sy,  5.8 ni, 81.5 id,  0.6 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,   5983.4 free,  21602.0 used,   8503.6 buff/cache     
+MiB Swap:   8192.0 total,   4163.2 free,   4028.8 used.   9784.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 248816 root      20   0 7132740 426548 127808 S 100.0   1.3   0:56.59 python
+   8833 sujal     20   0   12.1g 571524 177312 S  18.2   1.8   8:28.46 firefox
+ 371158 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.67 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:12:24
+top - 05:12:24 up  2:14,  1 user,  load average: 4.55, 4.84, 7.10
+Tasks: 504 total,   2 running, 501 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  4.0 us,  9.2 sy, 16.7 ni, 69.0 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8296.2 free,  19524.9 used,   8269.8 buff/cache     
+MiB Swap:   8192.0 total,   4607.1 free,   3584.9 used.  11862.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 356310 root      35  15 9379676   2.6g   2.3g S 100.0   8.6   0:19.63 ray::Jo+
+ 356311 root      35  15 9380060   2.9g   2.2g S 100.0   9.5   0:26.32 ray::Jo+
+ 356312 root      35  15 9379204   2.7g   2.0g S 100.0   8.9   0:16.86 ray::Jo+
+ 356306 root      35  15    9.9g   2.6g   1.9g S  81.8   8.5   0:16.37 ray::Jo+
+   8833 sujal     20   0   12.1g 571528 177312 S  27.3   1.8   8:29.12 firefox
+ 248816 root      20   0 7132740 430768 129304 S  27.3   1.3   0:57.14 python
+  73809 root      20   0  450924  41316  37596 S  18.2   0.1   0:16.64 python3+
+  73096 root      20   0  655828  55536  45228 S   9.1   0.2   0:01.46 python3+
+  73811 root      20   0 8846392   2.5g   2.3g S   9.1   8.2   1:23.75 raylet
+  73812 root      20   0 8892928   2.5g   2.4g S   9.1   8.3   1:28.08 raylet
+ 371761 sujal     20   0   14840   5716   3548 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.68 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+05:12:27
+top - 05:12:28 up  2:14,  1 user,  load average: 4.50, 4.83, 7.08
+Tasks: 503 total,   3 running, 499 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  5.7 us,  6.3 sy,  0.0 ni, 75.9 id, 12.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5958.0 free,  20883.4 used,   9249.3 buff/cache     
+MiB Swap:   8192.0 total,   4688.9 free,   3503.1 used.  10503.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 371799 root      20   0   89124  60292  28736 D  72.7   0.2   0:00.20 python3+
+    201 root      20   0       0      0      0 I   9.1   0.0   1:55.01 kworker+
+   6341 sujal     20   0   25.6g 163504  87932 S   9.1   0.5   4:31.98 Xorg
+   8833 sujal     20   0   12.1g 571524 177312 S   9.1   1.8   8:29.86 firefox
+  72765 root      20   0 1233872  12356   7408 S   9.1   0.0   0:02.56 contain+
+  73809 root      20   0  450924  41316  37596 S   9.1   0.1   0:16.75 python3+
+  87368 root      35  15 5734612   2.4g   2.4g S   9.1   7.8   0:11.43 ray::ID+
+  88329 root      35  15 5734632   2.4g   2.4g S   9.1   7.8   0:25.80 ray::ID+
+ 248816 root      20   0 7132740 431236 129688 S   9.1   1.3   0:57.77 python
+ 356308 root      35  15 8394864   2.3g   2.1g S   9.1   7.5   0:17.11 ray::ID+
+ 356310 root      35  15 9379676   3.3g   2.3g S   9.1  10.8   0:20.48 ray::ID+
+ 371803 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.69 systemd
+05:12:31
+top - 05:12:31 up  2:15,  1 user,  load average: 4.30, 4.78, 7.06
+Tasks: 504 total,   2 running, 501 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 17.5 us,  3.4 sy,  5.6 ni, 73.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6322.0 free,  21328.8 used,   8439.7 buff/cache     
+MiB Swap:   8192.0 total,   4714.9 free,   3477.1 used.  10058.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 371799 root      35  15 8069128   2.7g   1.1g R 100.0   8.9   0:03.43 ray::Jo+
+  11569 sujal     20   0 1454.0g 390000 129036 S  36.4   1.2   3:03.41 code
+  73809 root      20   0  450924  41316  37596 S  18.2   0.1   0:16.87 python3+
+   8833 sujal     20   0   12.1g 571552 177312 S   9.1   1.8   8:30.50 firefox
+  72973 root      20   0  921332  90084   9780 S   9.1   0.3   0:14.59 gcs_ser+
+  73203 root      20   0  758012  79664  49072 S   9.1   0.2   0:03.32 ray-das+
+  73641 root      20   0  457068  49372  37832 S   9.1   0.2   0:05.01 python3+
+ 248816 root      20   0 7132740 431236 129688 S   9.1   1.3   0:58.10 python
+ 371929 sujal     20   0   14840   5712   3548 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.71 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:12:34
+top - 05:12:34 up  2:15,  1 user,  load average: 4.30, 4.78, 7.06
+Tasks: 504 total,   1 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.8 us,  2.3 sy,  6.2 ni, 88.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7736.1 free,  19652.3 used,   9139.9 buff/cache     
+MiB Swap:   8192.0 total,   4722.3 free,   3469.7 used.  11734.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 371799 root      35  15 8300972   3.4g   1.8g S 109.1  11.0   0:06.19 ray::Jo+
+   8833 sujal     20   0   12.1g 571576 177312 S  18.2   1.8   8:31.11 firefox
+  72973 root      20   0  921332  89048   9780 S   9.1   0.3   0:14.62 gcs_ser+
+ 122623 root      35  15 5734616   2.4g   2.3g S   9.1   7.7   0:08.09 ray::ID+
+ 248816 root      20   0 7132740 433344 129864 S   9.1   1.3   0:58.73 python
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.71 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:12:37
+top - 05:12:37 up  2:15,  1 user,  load average: 4.28, 4.77, 7.04
+Tasks: 504 total,   1 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.3 us,  1.1 sy,  6.8 ni, 89.2 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7294.5 free,  20057.3 used,   8738.5 buff/cache     
+MiB Swap:   8192.0 total,   4728.1 free,   3463.9 used.  11329.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 371799 root      35  15 8384508   4.0g   2.2g S 100.0  13.0   0:08.35 ray::Jo+
+  73097 root      20   0  795952  79148  49444 S  36.4   0.2   0:08.88 python3+
+   8833 sujal     20   0   12.1g 571936 177312 S   9.1   1.8   8:31.96 firefox
+  73203 root      20   0  758012  79676  49072 S   9.1   0.2   0:03.34 ray-das+
+  73809 root      20   0  450924  41316  37596 S   9.1   0.1   0:17.09 python3+
+  73812 root      20   0 8892928   2.5g   2.4g S   9.1   8.3   1:28.32 raylet
+ 248816 root      20   0 7133764 433952 129864 S   9.1   1.4   0:59.49 python
+ 372584 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.72 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:12:40
+top - 05:12:41 up  2:15,  1 user,  load average: 4.18, 4.74, 7.02
+Tasks: 504 total,   3 running, 500 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.3 us,  1.7 sy, 12.5 ni, 82.4 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7265.3 free,  19939.5 used,   8886.0 buff/cache     
+MiB Swap:   8192.0 total,   4752.1 free,   3439.9 used.  11447.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 367847 root      35  15 8468176   4.4g   2.4g S 100.0  14.5   0:15.66 ray::Jo+
+ 371799 root      35  15 8384508   4.2g   2.4g S 100.0  13.8   0:10.11 ray::Jo+
+   8833 sujal     20   0   12.1g 571948 177312 S  27.3   1.8   8:32.66 firefox
+   6341 sujal     20   0   25.6g 163500  87928 S   9.1   0.5   4:32.54 Xorg
+  73809 root      20   0  450924  41316  37596 R   9.1   0.1   0:17.20 python3+
+  73888 root      20   0 3991712  67928  50160 S   9.1   0.2   0:09.25 ray::Da+
+ 248816 root      20   0 7133764 436672 130088 S   9.1   1.4   1:00.60 python
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.72 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:12:44
+top - 05:12:44 up  2:15,  1 user,  load average: 4.18, 4.74, 7.02
+Tasks: 507 total,   6 running, 500 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 11.2 us, 11.2 sy,  5.9 ni, 68.2 id,  3.5 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7854.8 free,  19334.0 used,   8902.8 buff/cache     
+MiB Swap:   8192.0 total,   4760.4 free,   3431.6 used.  12052.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 356306 root      35  15    9.9g   2.3g   2.1g S 109.1   7.4   0:18.12 ray::Jo+
+ 373833 root      20   0   70228  41292  24308 R 100.0   0.1   0:00.11 python3+
+ 356308 root      35  15 8395888   2.4g   2.1g S  90.9   7.8   0:17.39 ray::Jo+
+ 356312 root      35  15 9381856   2.5g   2.3g R  90.9   8.3   0:22.81 ray::Jo+
+ 366576 root      35  15 7191724 349876 108820 R  90.9   1.1   0:02.45 ray::Jo+
+ 373832 root      20   0   71044  42932  24440 R  90.9   0.1   0:00.11 python3+
+ 373834 root      20   0   68184  40020  24720 R  72.7   0.1   0:00.08 python3+
+  73811 root      20   0 8959032   2.6g   2.3g S  36.4   8.4   1:26.67 raylet
+   8833 sujal     20   0   12.1g 571968 177312 S  27.3   1.8   8:33.28 firefox
+  73812 root      20   0 8942080   2.5g   2.4g S  27.3   8.3   1:28.94 raylet
+ 248816 root      20   0 7133764 446984 132404 S  18.2   1.4   1:01.10 python
+    201 root      20   0       0      0      0 I   9.1   0.0   1:56.11 kworker+
+  72973 root      20   0  921332  88552   9780 S   9.1   0.3   0:14.74 gcs_ser+
+05:12:47
+top - 05:12:47 up  2:15,  1 user,  load average: 5.76, 5.06, 7.11
+Tasks: 515 total,   6 running, 508 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  9.9 us, 15.4 sy, 47.3 ni, 27.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6577.0 free,  21028.2 used,   8485.2 buff/cache     
+MiB Swap:   8192.0 total,   4798.5 free,   3393.5 used.  10358.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 356308 root      35  15 8403256   2.9g   2.2g S 109.1   9.3   0:19.53 ray::Jo+
+ 356306 root      35  15   10.0g   2.6g   2.1g S 100.0   8.6   0:19.93 ray::Jo+
+ 356312 root      35  15 9460624   3.6g   2.3g R 100.0  11.6   0:25.15 ray::Jo+
+ 366576 root      35  15 8321800   1.2g 178832 R 100.0   4.0   0:04.87 ray::Jo+
+ 373832 root      35  15 7048048 488928 114320 R 100.0   1.5   0:02.17 ray::Jo+
+ 373833 root      35  15 7192944 907960 201780 S 100.0   2.8   0:02.29 ray::Jo+
+ 373843 root      35  15 7060672 853676 146612 R 100.0   2.7   0:02.42 ray::Jo+
+ 373834 root      35  15 7047328 487796 113436 R  90.9   1.5   0:02.16 ray::Jo+
+ 373840 root      35  15 7041224 983.9m 177400 S  90.9   3.1   0:02.24 ray::Jo+
+ 356310 root      35  15 9382548   3.3g   2.3g S  72.7  10.8   0:23.19 ray::Jo+
+ 373841 root      35  15 7190448 287224 114868 S  72.7   0.9   0:01.71 ray::Jo+
+ 248816 root      20   0 7133764 451460 135836 S  45.5   1.4   1:02.16 python
+ 373847 root      35  15 7190484 235824 100436 S  45.5   0.7   0:01.63 ray::ID+
+05:12:50
+top - 05:12:51 up  2:15,  1 user,  load average: 6.58, 5.24, 7.16
+Tasks: 512 total,   7 running, 504 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 10.4 us, 15.4 sy, 47.8 ni, 24.2 id,  2.2 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6946.3 free,  22316.1 used,   6817.2 buff/cache     
+MiB Swap:   8192.0 total,   4593.6 free,   3598.4 used.   9070.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 374981 root      20   0   97568  68080  30612 R 100.0   0.2   0:00.36 python3+
+ 356312 root      35  15 9450280   3.1g   2.3g S 100.0  10.1   0:28.05 ray::Jo+
+ 373833 root      35  15 8316916   1.6g 201360 R 100.0   5.1   0:05.19 ray::Jo+
+ 373841 root      35  15 7267520 656892 192096 S 100.0   2.0   0:04.32 ray::Jo+
+ 373847 root      35  15 9380704   2.0g 258872 R 100.0   6.4   0:04.06 ray::Jo+
+ 374709 root      35  15 5816664 169248  84256 R 100.0   0.5   0:01.25 ray::ID+
+ 366576 root      35  15 8317800 901620 259456 S  90.9   2.8   0:07.44 ray::Jo+
+ 373840 root      35  15 8182004   1.4g 178196 R  90.9   4.6   0:05.14 ray::Jo+
+ 374703 root      35  15 6967356 201656  92204 R  90.9   0.6   0:01.58 ray::Jo+
+ 374706 root      35  15 6965036 204240  93628 S  90.9   0.6   0:01.58 ray::Jo+
+ 374705 root      35  15 6964792 209148  94864 S  63.6   0.7   0:01.53 ray::Jo+
+  73811 root      20   0 8971320   2.5g   2.3g S  27.3   8.3   1:28.69 raylet
+   8833 sujal     20   0   12.1g 572020 177312 S  18.2   1.8   8:35.13 firefox
+05:12:54
+top - 05:12:54 up  2:15,  1 user,  load average: 6.58, 5.24, 7.16
+Tasks: 511 total,   8 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 18.1 us, 20.9 sy, 31.3 ni, 28.6 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7158.4 free,  22122.2 used,   7237.1 buff/cache     
+MiB Swap:   8192.0 total,   4633.5 free,   3558.5 used.   9264.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 374706 root      35  15 8242968   1.3g 170336 S 109.1   4.1   0:04.04 ray::Jo+
+  72486 root      20   0       0      0      0 R 100.0   0.0   0:19.15 kworker+
+ 373833 root      35  15 8319912   1.2g 353552 S 100.0   3.9   0:08.23 ray::Jo+
+ 373840 root      35  15 8331968 692964 211504 R 100.0   2.2   0:07.95 ray::Jo+
+ 373847 root      35  15 9369460   2.4g 258872 R  90.9   7.7   0:07.01 ray::Jo+
+ 375150 root      35  15 6978072 296720 102140 R  90.9   0.9   0:01.52 ray::Jo+
+ 375257 root      20   0   84332  55172  28080 R  90.9   0.2   0:00.56 python3+
+ 375149 root      35  15 6964848 476228 145848 S  81.8   1.5   0:01.56 ray::Jo+
+ 375255 root      35  15 5761396 121264  66460 R  81.8   0.4   0:00.73 ray::ID+
+ 375256 root      35  15 5681740 108296  59840 R  81.8   0.3   0:00.71 ray::ID+
+ 366576 root      35  15 8392968   1.4g 259456 S  72.7   4.5   0:10.38 ray::Jo+
+   8833 sujal     20   0   12.1g 572052 177312 S  36.4   1.8   8:36.04 firefox
+  72973 root      20   0  921332  87976   9780 S  18.2   0.3   0:15.08 gcs_ser+
+05:12:57
+top - 05:12:57 up  2:15,  1 user,  load average: 6.94, 5.33, 7.18
+Tasks: 507 total,   7 running, 498 sleeping,   0 stopped,   2 zombie
+%Cpu(s):  4.0 us, 31.2 sy, 19.3 ni, 44.9 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5598.6 free,  23456.7 used,   6420.7 buff/cache     
+MiB Swap:   8192.0 total,   3672.6 free,   4519.4 used.   7930.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 373840 root      35  15 8392172   2.1g 530832 S 109.1   6.8   0:09.93 ray::Jo+
+ 375255 root      35  15 8021756   1.1g 159796 R 109.1   3.5   0:03.93 ray::Jo+
+  73811 root      20   0 8971320   2.4g   2.3g S 100.0   8.0   1:30.24 raylet
+  73812 root      20   0 9063940   2.1g   1.8g R 100.0   6.7   1:35.04 raylet
+ 373833 root      35  15 9451324   2.3g 353484 R 100.0   7.5   0:11.50 ray::Jo+
+ 375149 root      35  15 9075976   2.6g 316812 R 100.0   8.4   0:04.73 ray::Jo+
+ 374706 root      35  15 8317604 986760 212368 R  90.9   3.1   0:06.17 ray::Jo+
+ 373847 root      35  15 9440256   2.3g 247604 D  81.8   7.6   0:10.06 ray::Jo+
+   8833 sujal     20   0   12.1g 572648 177312 S  27.3   1.8   8:36.98 firefox
+ 356312 root      35  15       0      0      0 Z  27.3   0.0   0:29.87 ray::ID+
+   6341 sujal     20   0   25.6g 163504  87932 S  18.2   0.5   4:33.57 Xorg
+    479 root      20   0   32772   9460   5216 S   9.1   0.0   0:00.69 systemd+
+  11621 sujal     20   0 1449.9g  68796  53820 S   9.1   0.2   0:25.92 code
+05:13:00
+top - 05:13:00 up  2:15,  1 user,  load average: 6.94, 5.36, 7.18
+Tasks: 507 total,   9 running, 497 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 20.3 us, 17.0 sy, 25.3 ni, 33.5 id,  3.3 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :  31386.9 total,   7583.8 free,  21062.2 used,   6701.9 buff/cache     
+MiB Swap:   8192.0 total,   3494.2 free,   4697.8 used.  10324.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 373847 root      35  15 9442140   1.9g 359480 R 100.0   6.1   0:12.80 ray::Jo+
+ 375149 root      35  15 9956.2m   2.9g 316020 R 100.0   9.6   0:07.99 ray::Jo+
+ 375503 root      35  15 8028660   1.8g 243260 R 100.0   5.9   0:02.96 ray::Jo+
+ 375670 root      20   0   68740  40740  24468 R 100.0   0.1   0:00.45 python3+
+ 375444 root      35  15 8013852   1.5g 368016 S  91.7   5.0   0:03.18 ray::Jo+
+ 375504 root      35  15 7190648 568508 164680 S  91.7   1.8   0:01.62 ray::Jo+
+ 375671 root      20   0   68576  40084  24180 R  91.7   0.1   0:00.44 python3+
+ 375672 root      20   0   68576  40436  24512 R  91.7   0.1   0:00.42 python3+
+ 373833 root      35  15 9441364   1.3g 359144 S  50.0   4.1   0:14.63 ray::Jo+
+ 375677 root      20   0   50376  21956  14580 R  33.3   0.1   0:00.04 python3+
+   8833 sujal     20   0   12.1g 573816 177312 S  25.0   1.8   8:37.85 firefox
+ 248816 root      20   0 7133764 452192 135828 S  16.7   1.4   1:04.83 python
+   6341 sujal     20   0   25.6g 163504  87932 S   8.3   0.5   4:33.76 Xorg
+05:13:03
+top - 05:13:04 up  2:15,  1 user,  load average: 6.94, 5.36, 7.18
+Tasks: 507 total,   2 running, 502 sleeping,   0 stopped,   3 zombie
+%Cpu(s):  4.0 us, 12.1 sy, 21.8 ni, 56.3 id,  5.7 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6504.3 free,  22748.6 used,   5803.7 buff/cache     
+MiB Swap:   8192.0 total,   2873.0 free,   5319.0 used.   8638.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  73812 root      20   0 9080324   1.9g   1.6g S 109.1   6.1   1:37.26 raylet
+ 373847 root      35  15 9441388   2.3g 359392 S 109.1   7.6   0:15.82 ray::Jo+
+ 375503 root      35  15 9162104   2.3g 242456 R 109.1   7.5   0:05.82 ray::Jo+
+ 375672 root      35  15 8013912   1.8g 415212 S  81.8   5.8   0:03.21 ray::Jo+
+ 375149 root      35  15    9.9g   2.9g 317608 S  72.7   9.5   0:10.75 ray::Jo+
+  11621 sujal     20   0 1449.9g  68796  53820 S  36.4   0.2   0:26.48 code
+ 375504 root      35  15 8316920 694852 164460 S  36.4   2.2   0:04.44 ray::ID+
+   8833 sujal     20   0   12.1g 573880 177312 S  27.3   1.8   8:38.74 firefox
+ 248816 root      20   0 7133764 452224 135828 S  18.2   1.4   1:05.41 python
+ 375683 root      35  15       0      0      0 Z  18.2   0.0   0:01.58 ray::ID+
+ 375691 root      35  15       0      0      0 Z  18.2   0.0   0:01.49 ray::ID+
+   6341 sujal     20   0   25.6g 163504  87932 S   9.1   0.5   4:33.97 Xorg
+  72973 root      20   0  921332  86660   9780 S   9.1   0.3   0:15.33 gcs_ser+
+05:13:07
+top - 05:13:07 up  2:15,  1 user,  load average: 7.19, 5.44, 7.19
+Tasks: 508 total,   6 running, 501 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 15.0 us, 13.9 sy, 41.1 ni, 30.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8673.3 free,  20142.1 used,   5857.8 buff/cache     
+MiB Swap:   8192.0 total,   2550.4 free,   5641.6 used.  11244.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 376601 root      20   0   76332  50016  26800 R 100.0   0.2   0:00.49 python3+
+ 376176 root      35  15 7196660 365372 110768 S  91.7   1.1   0:02.10 ray::Jo+
+ 376182 root      35  15 7041404 979520 185360 S  91.7   3.0   0:02.24 ray::Jo+
+ 376345 root      35  15 7057568 415252 110664 R  91.7   1.3   0:01.98 ray::Jo+
+ 376507 root      35  15 5587148  83860  40284 S  91.7   0.3   0:00.70 ray::ID+
+ 375692 root      35  15 8169644   1.9g 216948 R  83.3   6.1   0:04.83 ray::Jo+
+ 376439 root      35  15 6965252 202584  93388 S  75.0   0.6   0:01.31 ray::Jo+
+  73812 root      20   0 9123332   1.9g   1.6g S  58.3   6.2   1:38.54 raylet
+ 375149 root      35  15    9.9g   2.7g 317956 R  58.3   8.9   0:13.62 ray::Jo+
+ 376443 root      35  15 7041600 207240  97044 R  58.3   0.6   0:01.29 ray::Jo+
+  73811 root      20   0 9015356   1.8g   1.6g S  50.0   5.9   1:33.90 raylet
+ 248816 root      20   0 7133764 452248 135828 S  33.3   1.4   1:06.13 python
+ 376181 root      35  15 7041300 226100 101736 S  33.3   0.7   0:01.53 ray::Jo+
+05:13:10
+top - 05:13:10 up  2:15,  1 user,  load average: 7.73, 5.58, 7.23
+Tasks: 509 total,   9 running, 499 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 17.6 us, 14.2 sy, 41.5 ni, 26.1 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6615.3 free,  22587.9 used,   5618.6 buff/cache     
+MiB Swap:   8192.0 total,   2688.8 free,   5503.2 used.   8799.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 375692 root      35  15 9365872   1.4g 418244 S 109.1   4.7   0:08.14 ray::Jo+
+ 375149 root      35  15    9.9g   1.9g 426532 R 100.0   6.2   0:16.21 ray::Jo+
+ 376439 root      35  15 8247360   1.6g 217476 R 100.0   5.2   0:04.25 ray::Jo+
+ 376507 root      35  15 8022228   1.6g 227236 R 100.0   5.3   0:03.15 ray::Jo+
+ 376793 root      20   0   90936  62088  28852 R 100.0   0.2   0:00.67 python3+
+ 376345 root      35  15 8243600   1.8g 245712 R  90.9   5.9   0:04.69 ray::Jo+
+ 376503 root      35  15 6969160 218916  96316 R  90.9   0.7   0:01.44 ray::Jo+
+ 376791 root      20   0   97720  68132  31040 R  90.9   0.2   0:00.71 python3+
+ 376176 root      35  15 7269764 549656 165548 S  81.8   1.7   0:02.63 ray::Jo+
+ 376182 root      35  15 8242208   1.3g 188372 S  81.8   4.3   0:05.42 ray::Jo+
+ 376792 root      35  15 5587152  83880  40304 S  81.8   0.3   0:00.76 ray::ID+
+ 376443 root      35  15 8242884   1.7g 402264 S  54.5   5.6   0:03.83 ray::Jo+
+   8833 sujal     20   0   12.1g 573996 177316 S  36.4   1.8   8:40.60 firefox
+05:13:13
+top - 05:13:14 up  2:15,  1 user,  load average: 7.73, 5.58, 7.23
+Tasks: 504 total,   4 running, 499 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 17.0 us, 12.6 sy, 41.8 ni, 27.5 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6212.8 free,  23046.7 used,   4200.2 buff/cache     
+MiB Swap:   8192.0 total,   1284.4 free,   6907.6 used.   8340.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 375692 root      35  15   10.0g   3.2g 516096 S 100.0  10.5   0:11.39 ray::Jo+
+ 376439 root      35  15 9365864   1.7g 217340 S 100.0   5.6   0:07.53 ray::Jo+
+ 376507 root      35  15 9151964   2.0g 224284 R 100.0   6.6   0:06.42 ray::Jo+
+ 376793 root      35  15 8016188   1.5g 220532 S 100.0   4.8   0:02.66 ray::Jo+
+   8833 sujal     20   0   12.1g 574060 177312 S  91.7   1.8   8:41.73 firefox
+ 375149 root      35  15   10.0g   2.0g 287884 S  91.7   6.7   0:19.35 ray::Jo+
+ 376345 root      35  15 9366384   1.6g 245260 S  91.7   5.3   0:08.00 ray::Jo+
+ 376792 root      35  15 6892004 196220  90668 S  91.7   0.6   0:01.47 ray::Jo+
+  73812 root      20   0 9213444   1.0g 906016 R  83.3   3.4   1:40.26 raylet
+ 376182 root      35  15 8316928   1.0g 234096 S  83.3   3.3   0:08.33 ray::Jo+
+   6596 sujal     20   0 5358260 238560  48772 S  33.3   0.7   4:37.68 gnome-s+
+  11621 sujal     20   0 1449.9g  68804  53820 S  33.3   0.2   0:28.14 code
+   6341 sujal     20   0   25.6g 163504  87932 R  25.0   0.5   4:35.28 Xorg
+05:13:17
+top - 05:13:17 up  2:15,  1 user,  load average: 8.08, 5.69, 7.25
+Tasks: 509 total,   5 running, 503 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 10.1 us, 14.6 sy, 23.0 ni, 46.6 id,  5.1 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  31386.9 total,  11586.5 free,  16867.7 used,   5209.2 buff/cache     
+MiB Swap:   8192.0 total,   1869.8 free,   6322.2 used.  14519.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 376182 root      35  15 8398796   1.3g 279656 R 109.1   4.3   0:10.43 ray::Jo+
+ 376793 root      35  15 9290228   1.5g 223924 S 100.0   4.9   0:05.94 ray::Jo+
+ 377002 root      35  15 7212488 423296 119376 R 100.0   1.3   0:02.06 ray::Jo+
+ 377247 root      20   0  101840  70652  30996 R 100.0   0.2   0:00.62 python3+
+ 375149 root      35  15   10.0g   1.1g 358384 S  90.9   3.6   0:21.73 ray::Jo+
+ 376345 root      35  15 9440116   1.9g 476652 S  90.9   6.1   0:10.84 ray::Jo+
+  73811 root      20   0 9187388   1.4g   1.2g S  54.5   4.6   1:36.94 raylet
+ 376507 root      35  15 9366164   1.4g 355660 S  54.5   4.5   0:09.40 ray::Jo+
+  73812 root      20   0 9213444   1.2g 988.8m S  45.5   4.1   1:41.70 raylet
+   8833 sujal     20   0   12.1g 574132 177312 S  36.4   1.8   8:42.96 firefox
+   6341 sujal     20   0   25.6g 163504  87932 S  18.2   0.5   4:35.76 Xorg
+   6596 sujal     20   0 5358260 238568  48772 S  18.2   0.7   4:38.24 gnome-s+
+  11621 sujal     20   0 1449.9g  68812  53820 S  18.2   0.2   0:28.87 code
+05:13:20
+top - 05:13:20 up  2:15,  1 user,  load average: 8.39, 5.79, 7.28
+Tasks: 506 total,   7 running, 498 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  6.3 us, 17.2 sy, 28.7 ni, 47.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6227.5 free,  22735.2 used,   4504.4 buff/cache     
+MiB Swap:   8192.0 total,   1394.4 free,   6797.6 used.   8651.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 377247 root      35  15 5799592 154528  81756 R 109.1   0.5   0:00.85 ray::ID+
+ 375149 root      35  15   10.0g   3.6g 462928 S 100.0  11.7   0:24.60 ray::Jo+
+ 376345 root      35  15   11.0g   4.0g 519764 R 100.0  12.9   0:13.99 ray::Jo+
+ 376507 root      35  15 9440244   2.4g 350092 R 100.0   7.8   0:12.65 ray::Jo+
+ 376793 root      35  15 9364956   1.0g 259748 S 100.0   3.4   0:09.00 ray::Jo+
+ 377218 root      35  15 7210620   1.1g 175460 R 100.0   3.5   0:02.97 ray::Jo+
+ 377005 root      35  15 7038540 387728 128248 S  90.9   1.2   0:02.01 ray::Jo+
+   8833 sujal     20   0   12.1g 575320 177356 S  27.3   1.8   8:44.27 firefox
+  11621 sujal     20   0 1449.9g  68812  53820 S  18.2   0.2   0:29.30 code
+  73901 root      20   0 3991488  65588  50032 S  18.2   0.2   0:10.76 ray::Da+
+   6341 sujal     20   0   25.6g 163504  87932 R   9.1   0.5   4:36.09 Xorg
+   6596 sujal     20   0 5358260 238568  48772 R   9.1   0.7   4:38.75 gnome-s+
+  72767 root      20   0 1234128  12384   7288 S   9.1   0.0   0:02.36 contain+
+05:13:23
+top - 05:13:24 up  2:15,  1 user,  load average: 8.39, 5.79, 7.28
+Tasks: 505 total,   8 running, 496 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 15.0 us,  8.1 sy, 30.1 ni, 46.2 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8140.3 free,  21218.4 used,   4073.3 buff/cache     
+MiB Swap:   8192.0 total,   1220.0 free,   6972.0 used.  10168.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 375149 root      35  15   11.0g   4.1g 460660 R 100.0  13.5   0:27.71 ray::Jo+
+ 376345 root      35  15   11.0g   4.4g 519744 R  91.7  14.5   0:17.23 ray::Jo+
+ 376507 root      35  15   10.0g   2.2g 348172 S  91.7   7.0   0:15.83 ray::Jo+
+ 377443 root      35  15 6984020 647488 124464 R  91.7   2.0   0:02.08 ray::Jo+
+ 377444 root      35  15 5821584 173732  84564 R  91.7   0.5   0:01.04 ray::ID+
+ 377681 root      35  15 5790768 149028  80768 R  91.7   0.5   0:00.75 ray::ID+
+  73901 root      20   0 3992672  66600  50032 S  33.3   0.2   0:10.86 ray::Da+
+   8833 sujal     20   0   12.1g 574792 177356 S  25.0   1.8   8:45.25 firefox
+  73888 root      20   0 3991864  67916  50160 S  25.0   0.2   0:10.11 ray::Da+
+   6341 sujal     20   0   25.6g 163504  87932 S   8.3   0.5   4:36.48 Xorg
+   6596 sujal     20   0 5356212 238600  48772 S   8.3   0.7   4:39.52 gnome-s+
+  11621 sujal     20   0 1449.9g  68880  53820 S   8.3   0.2   0:29.52 code
+  30117 root      20   0       0      0      0 I   8.3   0.0   1:05.58 kworker+
+05:13:27
+top - 05:13:27 up  2:15,  1 user,  load average: 8.60, 5.88, 7.30
+Tasks: 503 total,   7 running, 495 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 17.0 us, 13.1 sy, 23.3 ni, 45.5 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7209.4 free,  22201.2 used,   4564.4 buff/cache     
+MiB Swap:   8192.0 total,   1782.6 free,   6409.4 used.   9185.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 377893 root      20   0   87724  58532  28332 R 100.0   0.2   0:00.56 python3+
+ 375149 root      35  15   12.0g   4.8g 460252 R  91.7  15.6   0:30.87 ray::Jo+
+ 376345 root      35  15   12.0g   5.1g 519804 R  91.7  16.6   0:20.44 ray::Jo+
+ 377843 root      35  15 6884172 186576  87380 R  91.7   0.6   0:01.21 ray::Jo+
+ 376507 root      35  15   10.0g   1.6g 477804 S  83.3   5.3   0:18.34 ray::Jo+
+ 377445 root      35  15 6967688   1.1g 236024 S  83.3   3.5   0:02.01 ray::Jo+
+   8833 sujal     20   0   12.1g 574880 177356 S  75.0   1.8   8:46.39 firefox
+   6341 sujal     20   0   25.6g 163504  87932 S  50.0   0.5   4:37.01 Xorg
+   8595 sujal     20   0  899532  60752  26480 R  50.0   0.2   0:55.56 gnome-t+
+  32088 root      20   0       0      0      0 R  50.0   0.0   1:24.10 kworker+
+   6596 sujal     20   0 5389212 238972  48772 S  25.0   0.7   4:40.55 gnome-s+
+    886 root      20   0       0      0      0 S   8.3   0.0   0:02.41 nv_queue
+  11569 sujal     20   0 1454.0g 395608 128732 S   8.3   1.2   3:04.06 code
+05:13:30
+top - 05:13:30 up  2:16,  1 user,  load average: 8.31, 5.86, 7.29
+Tasks: 502 total,   3 running, 498 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  4.0 us,  4.0 sy, 17.9 ni, 73.4 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   9073.9 free,  20096.9 used,   4979.3 buff/cache     
+MiB Swap:   8192.0 total,   1693.6 free,   6498.4 used.  11289.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 376345 root      35  15   13.0g   4.6g 519804 S 100.0  15.1   0:23.58 ray::Jo+
+ 375149 root      35  15   12.0g   3.1g 459776 S  90.9  10.2   0:33.92 ray::Jo+
+ 377893 root      35  15 5792092 149480  80456 R  90.9   0.5   0:00.84 ray::ID+
+ 377980 root      35  15 6964792 267760 106340 S  90.9   0.8   0:01.09 ray::Jo+
+   8833 sujal     20   0   12.1g 574668 177356 S  18.2   1.8   8:47.16 firefox
+  11621 sujal     20   0 1449.9g  68108  53820 S  18.2   0.2   0:30.25 code
+  12667 sujal     20   0 1448.4g 415624 134392 S   9.1   1.3   5:08.81 code
+  73812 root      20   0 9213444   1.2g   1.0g S   9.1   3.9   1:46.13 raylet
+  74806 root      35  15 5454432 177504  87532 S   9.1   0.6   0:10.38 ray::_A+
+ 248816 root      20   0 7133764 452480 135828 S   9.1   1.4   1:10.45 python
+ 378074 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.94 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+05:13:33
+top - 05:13:33 up  2:16,  1 user,  load average: 8.31, 5.86, 7.29
+Tasks: 512 total,  16 running, 495 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 35.0 us, 14.2 sy, 29.5 ni, 21.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   9471.2 free,  19645.8 used,   5084.5 buff/cache     
+MiB Swap:   8192.0 total,   2332.4 free,   5859.6 used.  11741.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 377981 root      35  15 9067656   2.0g 261736 R 108.3   6.5   0:02.85 ray::Jo+
+ 378139 root      35  15 5820316 172364  84404 R 100.0   0.5   0:01.24 ray::ID+
+ 377980 root      35  15 9071012   2.0g 237008 R  91.7   6.5   0:04.27 ray::Jo+
+ 378136 root      35  15 5817664 169620  84096 R  91.7   0.5   0:01.24 ray::ID+
+ 378138 root      35  15 5821752 173772  84520 R  91.7   0.5   0:01.26 ray::ID+
+ 378155 root      20   0   96380  66944  30484 R  91.7   0.2   0:00.81 python3+
+ 378157 root      20   0   97720  67888  30828 R  91.7   0.2   0:00.80 python3+
+ 377893 root      35  15 9138880   2.8g 356916 S  83.3   9.2   0:03.74 ray::Jo+
+ 378153 root      20   0 1724192  74744  34584 R  83.3   0.2   0:00.85 python3+
+ 378154 root      20   0   94248  65152  30120 R  83.3   0.2   0:00.79 python3+
+ 378152 root      20   0 1871912  78824  38024 R  75.0   0.2   0:00.84 ray::ID+
+ 378156 root      20   0  101852  70312  30708 R  75.0   0.2   0:00.82 python3+
+   6596 sujal     20   0 5360308 238760  48772 R  33.3   0.7   4:41.05 gnome-s+
+05:13:36
+top - 05:13:37 up  2:16,  1 user,  load average: 8.53, 5.95, 7.31
+Tasks: 510 total,   4 running, 505 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  6.7 us, 38.0 sy, 20.1 ni, 34.6 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   6186.3 free,  23220.2 used,   4672.9 buff/cache     
+MiB Swap:   8192.0 total,   2344.5 free,   5847.5 used.   8166.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 378153 root      35  15 8240264   1.5g 277488 S 109.1   5.0   0:03.10 ray::Jo+
+  73811 root      20   0 9187388   1.7g   1.5g R 100.0   5.6   1:41.82 raylet
+ 377980 root      35  15 9365120   2.3g 238748 S 100.0   7.5   0:07.29 ray::Jo+
+ 377981 root      35  15 9227196   2.4g 261736 R 100.0   7.9   0:05.87 ray::Jo+
+ 378152 root      35  15 7045420   1.0g 161188 R 100.0   3.3   0:03.37 ray::Jo+
+ 377893 root      35  15    9.8g   3.4g 357624 D  90.9  11.0   0:06.50 ray::Jo+
+   8833 sujal     20   0   12.1g 574704 177356 S  36.4   1.8   8:49.27 firefox
+ 378136 root      35  15 7192140 930684 143940 S  36.4   2.9   0:04.05 ray::ID+
+  11621 sujal     20   0 1449.9g  68188  53820 S  18.2   0.2   0:31.08 code
+ 248816 root      20   0 7133764 452508 135828 S  18.2   1.4   1:11.64 python
+  11584 sujal     20   0   48.4g 182324 147568 S   9.1   0.6   9:05.51 code
+ 378155 root      35  15 7040928 200624  94524 S   9.1   0.6   0:01.73 ray::ID+
+ 378905 sujal     20   0   14840   5736   3564 R   9.1   0.0   0:00.02 top
+05:13:40
+top - 05:13:40 up  2:16,  1 user,  load average: 9.20, 6.13, 7.36
+Tasks: 508 total,   8 running, 499 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  9.9 us, 30.2 sy, 26.4 ni, 33.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   5766.5 free,  23497.5 used,   4570.5 buff/cache     
+MiB Swap:   8192.0 total,   2173.2 free,   6018.8 used.   7889.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 378808 root      35  15 8089932   1.3g 266236 S 100.0   4.2   0:02.76 ray::Jo+
+ 378935 root      35  15 6879528 181052  86704 R 100.0   0.6   0:01.28 ray::Jo+
+  73812 root      20   0 9213444 993320 743296 R  91.7   3.1   1:48.56 raylet
+ 377893 root      35  15   10.9g   4.0g 357504 R  91.7  13.0   0:09.68 ray::Jo+
+ 377980 root      35  15 9438876   2.0g 354452 S  91.7   6.5   0:09.71 ray::Jo+
+ 378509 root      35  15 9212424   2.5g 405988 S  91.7   8.2   0:03.80 ray::Jo+
+  11584 sujal     20   0   48.4g 165072 130384 S  75.0   0.5   9:06.87 code
+ 378136 root      35  15 8315524   1.4g 200796 D  75.0   4.7   0:06.07 ray::Jo+
+  73811 root      20   0 9187388   1.6g   1.4g R  66.7   5.2   1:42.87 raylet
+  12667 sujal     20   0 1448.4g 416948 134536 R  58.3   1.3   5:10.85 code
+ 377981 root      35  15   10.0g   2.8g 264224 S  50.0   9.0   0:08.84 ray::Jo+
+   8833 sujal     20   0   12.1g 574468 177356 S  25.0   1.8   8:50.17 firefox
+   6341 sujal     20   0   25.6g 163504  87932 S  16.7   0.5   4:38.75 Xorg
+05:13:43
+top - 05:13:43 up  2:16,  1 user,  load average: 9.20, 6.13, 7.36
+Tasks: 505 total,   7 running, 497 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 13.6 us, 11.9 sy, 26.6 ni, 47.5 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,  10401.5 free,  18729.7 used,   4654.8 buff/cache     
+MiB Swap:   8192.0 total,   2141.5 free,   6050.5 used.  12657.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 377980 root      35  15 9444296   2.6g 354308 R 100.0   8.4   0:12.97 ray::Jo+
+ 379213 root      35  15 7192328 521076 158496 S 100.0   1.6   0:01.60 ray::Jo+
+ 377893 root      35  15   10.9g   2.0g 359972 S  91.7   6.4   0:12.95 ray::Jo+
+ 378136 root      35  15 8391452   1.7g 289756 R  91.7   5.5   0:09.12 ray::Jo+
+ 379102 root      35  15 9071188   2.1g 273344 R  91.7   6.9   0:03.48 ray::Jo+
+  11584 sujal     20   0   48.4g 165812 131256 S  50.0   0.5   9:07.57 code
+   6341 sujal     20   0   25.6g 163504  87932 S  16.7   0.5   4:39.09 Xorg
+   8833 sujal     20   0   12.1g 574468 177356 S  16.7   1.8   8:51.00 firefox
+  11621 sujal     20   0 1449.9g  68276  53820 S  16.7   0.2   0:32.05 code
+  12667 sujal     20   0 1448.4g 420224 136328 R   8.3   1.3   5:12.00 code
+  73642 root      20   0 2150272 137276 108832 S   8.3   0.4   0:08.69 raylet
+  73812 root      20   0 9244164   1.1g 835736 S   8.3   3.6   1:49.67 raylet
+ 248816 root      20   0 7133764 452632 135828 S   8.3   1.4   1:12.78 python
+05:13:46
+top - 05:13:47 up  2:16,  1 user,  load average: 8.87, 6.11, 7.35
+Tasks: 505 total,   3 running, 501 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  3.4 us,  7.4 sy, 11.4 ni, 77.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8437.4 free,  20866.7 used,   4918.6 buff/cache     
+MiB Swap:   8192.0 total,   2144.4 free,   6047.6 used.  10520.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  47787 root      20   0       0      0      0 R 100.0   0.0   0:54.17 kworker+
+ 379102 root      35  15 9291060   2.8g 275908 S 100.0   9.2   0:06.75 ray::Jo+
+ 379213 root      35  15 9367660   2.5g 272688 R 100.0   8.1   0:04.85 ray::Jo+
+   8833 sujal     20   0   12.1g 574216 177356 S  18.2   1.8   8:51.70 firefox
+  30117 root      20   0       0      0      0 I   9.1   0.0   1:06.38 kworker+
+  72973 root      20   0  953596  93712   9780 S   9.1   0.3   0:16.38 gcs_ser+
+ 121452 root      35  15 5734612 863048 858664 S   9.1   2.7   0:10.81 ray::ID+
+ 248816 root      20   0 7133764 452640 135828 S   9.1   1.4   1:13.14 python
+ 377980 root      35  15 9439720   1.3g 354308 S   9.1   4.4   0:15.17 ray::ID+
+ 379476 sujal     20   0   14840   5716   3548 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.98 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+05:13:50
+top - 05:13:50 up  2:16,  1 user,  load average: 8.40, 6.06, 7.32
+Tasks: 505 total,   2 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.9 us,  0.6 sy,  0.0 ni, 96.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7942.0 free,  20677.4 used,   5164.6 buff/cache     
+MiB Swap:   8192.0 total,   2144.9 free,   6047.1 used.  10709.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  34314 sujal     20   0 2802132 235404 108640 S  18.2   0.7   0:41.85 Isolate+
+ 248816 root      20   0 7133764 452640 135828 S  18.2   1.4   1:13.45 python
+   8833 sujal     20   0   12.1g 574220 177356 S   9.1   1.8   8:52.25 firefox
+  12667 sujal     20   0 1448.4g 415732 133496 S   9.1   1.3   5:12.75 code
+ 379526 sujal     20   0   14840   5736   3572 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.98 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:13:53
+top - 05:13:53 up  2:16,  1 user,  load average: 8.40, 6.06, 7.32
+Tasks: 504 total,   2 running, 501 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.9 us,  1.2 sy,  0.0 ni, 95.4 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8083.2 free,  20536.6 used,   5164.0 buff/cache     
+MiB Swap:   8192.0 total,   2151.7 free,   6040.3 used.  10850.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   8833 sujal     20   0   12.1g 574220 177356 S   9.1   1.8   8:52.70 firefox
+  12667 sujal     20   0 1448.4g 400696 133768 S   9.1   1.2   5:13.25 code
+  34314 sujal     20   0 2802132 235168 108640 S   9.1   0.7   0:41.92 Isolate+
+  72973 root      20   0  953596  94528   9780 S   9.1   0.3   0:16.45 gcs_ser+
+  73206 root      20   0  914664 227876  49080 S   9.1   0.7   0:47.99 ray-das+
+  73641 root      20   0  457068  49368  37832 S   9.1   0.2   0:05.56 python3+
+ 248816 root      20   0 7133764 452640 135828 S   9.1   1.4   1:13.73 python
+ 379584 sujal     20   0   14840   5708   3540 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.98 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:13:56
+top - 05:13:56 up  2:16,  1 user,  load average: 7.81, 5.98, 7.29
+Tasks: 504 total,   1 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.3 us,  1.1 sy,  0.0 ni, 96.0 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   8169.5 free,  20450.2 used,   5168.1 buff/cache     
+MiB Swap:   8192.0 total,   2152.0 free,   6040.0 used.  10936.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11584 sujal     20   0   48.4g 165164 130932 S  27.3   0.5   9:08.38 code
+  12667 sujal     20   0 1448.4g 424348 136664 S  27.3   1.3   5:14.01 code
+  11569 sujal     20   0 1454.0g 396784 129036 S  18.2   1.2   3:05.51 code
+ 248816 root      20   0 7133764 452652 135828 S  18.2   1.4   1:14.03 python
+   6341 sujal     20   0   25.6g 163504  87932 S   9.1   0.5   4:39.67 Xorg
+   8833 sujal     20   0   12.1g 574232 177356 S   9.1   1.8   8:53.17 firefox
+  11493 sujal     20   0 1450.2g 153464 102676 S   9.1   0.5   1:09.67 code
+  11651 sujal     20   0 1449.9g 177076  57164 S   9.1   0.6   0:25.90 code
+  73809 root      20   0  450924  42304  37612 S   9.1   0.1   0:20.32 python3+
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.98 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:13:59
+top - 05:14:00 up  2:16,  1 user,  load average: 7.26, 5.90, 7.26
+Tasks: 504 total,   1 running, 502 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.8 us,  3.4 sy,  1.1 ni, 89.8 id,  2.8 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   9475.6 free,  19143.3 used,   5372.6 buff/cache     
+MiB Swap:   8192.0 total,   2356.3 free,   5835.7 used.  12243.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 379102 root      35  15 9439572   1.8g 529108 S  45.5   5.7   0:09.86 ray::Jo+
+  34314 sujal     20   0 2807252 242100 108640 S  27.3   0.8   0:42.08 Isolate+
+   8833 sujal     20   0   12.1g 574248 177356 S  18.2   1.8   8:53.68 firefox
+   6341 sujal     20   0   25.6g 163504  87932 S   9.1   0.5   4:39.81 Xorg
+   9430 sujal     20   0 2772028 193016 104236 S   9.1   0.6   0:20.00 Privile+
+  11584 sujal     20   0   48.4g 165316 130932 S   9.1   0.5   9:08.53 code
+  72973 root      20   0  953596  96288   9780 S   9.1   0.3   0:16.51 gcs_ser+
+  73201 root      20   0  738536  67988  46808 S   9.1   0.2   0:01.65 ray-das+
+  73901 root      20   0 3992672 115608  50032 S   9.1   0.4   0:11.55 ray::Da+
+ 248816 root      20   0 7133764 452664 135828 S   9.1   1.4   1:14.33 python
+ 379662 sujal     20   0   14840   5716   3552 R   9.1   0.0   0:00.02 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.98 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+05:14:03
+top - 05:14:03 up  2:16,  1 user,  load average: 7.26, 5.90, 7.26
+Tasks: 504 total,   3 running, 500 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  3.4 us, 13.8 sy,  2.9 ni, 79.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7541.7 free,  21660.5 used,   5271.5 buff/cache     
+MiB Swap:   8192.0 total,   2404.6 free,   5787.4 used.   9726.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  30117 root      20   0       0      0      0 R 100.0   0.0   1:06.95 kworker+
+ 379102 root      35  15   11.0g   4.0g 589008 R 100.0  13.1   0:12.91 ray::Jo+
+   8833 sujal     20   0   12.1g 574260 177356 S  18.2   1.8   8:54.23 firefox
+  73810 root      20   0  450924  41760  37876 S   9.1   0.1   0:16.31 python3+
+  88329 root      35  15 5734616 793812 791160 S   9.1   2.5   0:26.40 ray::ID+
+ 248816 root      20   0 7133764 452664 135828 S   9.1   1.4   1:14.61 python
+ 377980 root      35  15 9439720   1.3g 354308 S   9.1   4.4   0:15.23 ray::ID+
+ 379721 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.98 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:14:06
+top - 05:14:06 up  2:16,  1 user,  load average: 7.00, 5.86, 7.24
+Tasks: 502 total,   2 running, 499 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.3 us,  1.7 sy,  6.2 ni, 89.2 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7986.8 free,  20776.5 used,   5272.1 buff/cache     
+MiB Swap:   8192.0 total,   2404.8 free,   5787.2 used.  10610.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 379102 root      35  15   12.0g   4.8g 589008 R 100.0  15.7   0:16.18 ray::Jo+
+  11651 sujal     20   0 1449.9g 176816  57164 S  18.2   0.6   0:25.95 code
+   8833 sujal     20   0   12.1g 574276 177356 S   9.1   1.8   8:54.68 firefox
+  11584 sujal     20   0   48.4g 161220 126892 S   9.1   0.5   9:08.63 code
+  12667 sujal     20   0 1448.4g 416624 132616 S   9.1   1.3   5:14.36 code
+  73642 root      20   0 2150272 137456 108832 S   9.1   0.4   0:08.80 raylet
+ 248816 root      20   0 7133764 452664 135828 S   9.1   1.4   1:14.91 python
+ 377893 root      35  15   11.0g   2.0g 360964 S   9.1   6.4   0:14.26 ray::ID+
+ 379753 sujal     20   0   14840   5732   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.98 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:14:09
+top - 05:14:09 up  2:16,  1 user,  load average: 7.00, 5.86, 7.24
+Tasks: 502 total,   1 running, 500 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.3 us,  2.3 sy,  6.2 ni, 88.6 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,   7501.9 free,  21120.4 used,   5413.3 buff/cache     
+MiB Swap:   8192.0 total,   2405.4 free,   5786.6 used.  10266.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 379102 root      35  15   12.0g   5.2g 589008 S 109.1  16.9   0:19.46 ray::Jo+
+  11621 sujal     20   0 1449.9g  69184  53820 S  18.2   0.2   0:33.27 code
+   8833 sujal     20   0   12.1g 574288 177356 S   9.1   1.8   8:55.18 firefox
+  12667 sujal     20   0 1448.4g 415216 132616 S   9.1   1.3   5:14.57 code
+  73810 root      20   0  450924  41760  37876 S   9.1   0.1   0:16.58 python3+
+ 248816 root      20   0 7133764 452664 135828 S   9.1   1.4   1:15.22 python
+ 379790 sujal     20   0   14840   5712   3548 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.98 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+05:14:12
+top - 05:14:13 up  2:16,  1 user,  load average: 6.68, 5.82, 7.21
+Tasks: 494 total,   1 running, 492 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  6.9 us,  8.6 sy,  0.0 ni, 84.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  31386.9 total,  17202.8 free,  11401.0 used,   5431.8 buff/cache     
+MiB Swap:   8192.0 total,   2410.5 free,   5781.5 used.  19985.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11569 sujal     20   0 1454.0g 389780 129052 S 236.4   1.2   3:05.94 code
+   8833 sujal     20   0   12.1g 574320 177356 S  27.3   1.8   8:55.73 firefox
+ 380154 sujal     20   0 2031428  38056  30780 D  27.3   0.1   0:00.03 docker-+
+   6341 sujal     20   0   25.6g 163504  87932 S   9.1   0.5   4:40.28 Xorg
+  30117 root      20   0       0      0      0 I   9.1   0.0   1:07.09 kworker+
+  34314 sujal     20   0 2810324 246972 108660 S   9.1   0.8   0:42.39 Isolate+
+  73205 root      20   0 2397628 209892  93200 S   9.1   0.7   0:09.18 ray-das+
+ 380138 sujal     20   0   14840   5728   3564 R   9.1   0.0   0:00.01 top
+      1 root      20   0   23972  14228   9256 S   0.0   0.0   0:10.98 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+

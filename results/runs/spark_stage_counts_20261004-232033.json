@@ -1,0 +1,46 @@
+{
+  "mode": "stage_counts",
+  "stages": [
+    {
+      "stage": "raw",
+      "rows": 126188813,
+      "removed": null,
+      "seconds": 36.912
+    },
+    {
+      "stage": "drop_nulls",
+      "rows": 118072836,
+      "removed": 8115977,
+      "seconds": 30.784
+    },
+    {
+      "stage": "validity_filters",
+      "rows": 111083668,
+      "removed": 6989168,
+      "seconds": 36.807
+    },
+    {
+      "stage": "dedup",
+      "rows": 111083664,
+      "removed": 4,
+      "seconds": 74.934
+    },
+    {
+      "stage": "join",
+      "rows": 111083664,
+      "removed": 0,
+      "seconds": 92.352
+    },
+    {
+      "stage": "speed_filter",
+      "rows": 111016594,
+      "removed": 67070,
+      "seconds": 113.916
+    }
+  ],
+  "framework": "spark",
+  "join": "shuffle",
+  "master": "spark://spark-master:7077",
+  "input_files": 38,
+  "timestamp": "20261004-232033"
+}
