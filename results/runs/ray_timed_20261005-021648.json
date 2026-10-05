@@ -1,11 +1,11 @@
 {
   "mode": "timed",
-  "wall_seconds": 347.138,
+  "wall_seconds": 344.958,
   "output_rows": 111016594,
   "framework": "ray",
   "join": "shuffle",
   "block_mb": 32,
   "address": "auto",
   "input_files": 38,
-  "timestamp": "20261004-233823"
+  "timestamp": "20261005-021648"
 }

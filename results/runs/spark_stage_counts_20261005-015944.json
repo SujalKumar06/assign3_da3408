@@ -5,43 +5,42 @@
       "stage": "raw",
       "rows": 126188813,
       "removed": null,
-      "seconds": 11.942
+      "seconds": 35.577
     },
     {
       "stage": "drop_nulls",
       "rows": 118072836,
       "removed": 8115977,
-      "seconds": 26.466
+      "seconds": 29.283
     },
     {
       "stage": "validity_filters",
       "rows": 111083668,
       "removed": 6989168,
-      "seconds": 25.058
+      "seconds": 35.859
     },
     {
       "stage": "dedup",
       "rows": 111083664,
       "removed": 4,
-      "seconds": 80.024
+      "seconds": 74.449
     },
     {
       "stage": "join",
       "rows": 111083664,
       "removed": 0,
-      "seconds": 187.127
+      "seconds": 90.67
     },
     {
       "stage": "speed_filter",
       "rows": 111016594,
       "removed": 67070,
-      "seconds": 132.929
+      "seconds": 108.003
     }
   ],
-  "framework": "ray",
+  "framework": "spark",
   "join": "shuffle",
-  "block_mb": 32,
-  "address": "auto",
+  "master": "spark://spark-master:7077",
   "input_files": 38,
-  "timestamp": "20261004-233038"
+  "timestamp": "20261005-015944"
 }

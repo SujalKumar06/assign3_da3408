@@ -1,8 +1,8 @@
 Operator 1 Union: 
 
-Operator 2 ListFiles: 1 tasks executed, 1 blocks produced in 0.16s
-* Remote wall time: 156.77ms min, 156.77ms max, 156.77ms mean, 156.77ms total
-* Remote cpu time: 153.52ms min, 153.52ms max, 153.52ms mean, 153.52ms total
+Operator 2 ListFiles: 1 tasks executed, 1 blocks produced in 0.23s
+* Remote wall time: 234.48ms min, 234.48ms max, 234.48ms mean, 234.48ms total
+* Remote cpu time: 167.99ms min, 167.99ms max, 167.99ms mean, 167.99ms total
 * UDF time: 0us min, 0us max, 0.0us mean, 0us total
 * Output num rows per block: 1 min, 1 max, 1 mean, 1 total
 * Output size bytes per block: 63 min, 63 max, 63 mean, 63 total
@@ -11,13 +11,13 @@ Operator 2 ListFiles: 1 tasks executed, 1 blocks produced in 0.16s
 * Operator throughput:
 	* Total input num rows: 0 rows
 	* Total output num rows: 1 rows
-	* Ray Data throughput: 6.378578101646444 rows/s
-	* Estimated single task throughput: 6.378578101646444 rows/s
+	* Ray Data throughput: 4.264842669697479 rows/s
+	* Estimated single task throughput: 4.264842669697479 rows/s
 
-Operator 3 ReadFilesParquetV2->MapBatches(unify): 1 tasks executed, 10 blocks produced in 3.51s
-* Remote wall time: 2.86ms min, 587.1ms max, 63.88ms mean, 638.84ms total
-* Remote cpu time: 3.06ms min, 584.51ms max, 63.28ms mean, 632.77ms total
-* UDF time: 2.78ms min, 586.35ms max, 63.69ms mean, 636.88ms total
+Operator 3 ReadFilesParquetV2->MapBatches(unify): 1 tasks executed, 10 blocks produced in 3.21s
+* Remote wall time: 3.21ms min, 632.07ms max, 68.08ms mean, 680.79ms total
+* Remote cpu time: 3.52ms min, 557.19ms max, 60.59ms mean, 605.94ms total
+* UDF time: 3.1ms min, 631.46ms max, 67.86ms mean, 678.58ms total
 * Output num rows per block: 229852 min, 248231 max, 246393 mean, 2463931 total
 * Output size bytes per block: 31964143 min, 34597212 max, 34333900 mean, 343339009 total
 * Output rows per task: 2463931 min, 2463931 max, 2463931 mean, 1 tasks used
@@ -25,8 +25,8 @@ Operator 3 ReadFilesParquetV2->MapBatches(unify): 1 tasks executed, 10 blocks pr
 * Operator throughput:
 	* Total input num rows: 1 rows
 	* Total output num rows: 2463931 rows
-	* Ray Data throughput: 701156.5394184708 rows/s
-	* Estimated single task throughput: 3856909.4666713476 rows/s
+	* Ray Data throughput: 768358.8836812703 rows/s
+	* Estimated single task throughput: 3619216.445263043 rows/s
 
 Operator 4 ListFiles: [execution cached]
 
@@ -178,10 +178,10 @@ Operator 77 ReadFilesParquetV2->MapBatches(unify): [execution cached]
 
 Operator 78 UnionOperator(MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify), MapBatches(unify)): 
 
-Operator 79 MapBatches(cleanse): 512 tasks executed, 512 blocks produced in 65.68s
-* Remote wall time: 1.41ms min, 94.14ms max, 30.72ms mean, 15.73s total
-* Remote cpu time: 1.47ms min, 93.59ms max, 30.57ms mean, 15.65s total
-* UDF time: 833.52us min, 92.25ms max, 29.15ms mean, 14.92s total
+Operator 79 MapBatches(cleanse): 512 tasks executed, 512 blocks produced in 60.52s
+* Remote wall time: 1.35ms min, 72.31ms max, 28.68ms mean, 14.68s total
+* Remote cpu time: 1.39ms min, 72.05ms max, 28.82ms mean, 14.75s total
+* UDF time: 799.09us min, 68.55ms max, 27.29ms mean, 13.97s total
 * Output num rows per block: 0 min, 291251 max, 216960 mean, 111083668 total
 * Output size bytes per block: 0 min, 40301864 max, 30021884 mean, 15371204891 total
 * Output rows per task: 0 min, 291251 max, 216960 mean, 512 tasks used
@@ -189,26 +189,26 @@ Operator 79 MapBatches(cleanse): 512 tasks executed, 512 blocks produced in 65.6
 * Operator throughput:
 	* Total input num rows: 0 rows
 	* Total output num rows: 111083668 rows
-	* Ray Data throughput: 1691351.368674818 rows/s
-	* Estimated single task throughput: 7063053.700632038 rows/s
+	* Ray Data throughput: 1835380.5882607389 rows/s
+	* Estimated single task throughput: 7564452.475483568 rows/s
 
-Operator 80 HashShuffleMap(keys=('vendor_id', 'pickup_datetime', 'dropoff_datetime', 'passenger_count', 'trip_distance', 'ratecode_id', 'store_and_fwd_flag', 'pu_location_id', 'do_location_id', 'payment_type', 'fare_amount', 'extra', 'mta_tax', 'tip_amount', 'tolls_amount', 'improvement_surcharge', 'total_amount', 'congestion_surcharge', 'airport_fee'), partitions=200): 1 tasks executed, 16 blocks produced in 64.06s
-* Remote wall time: 125.57ms min, 3.89s max, 3.1s mean, 49.67s total
-* Remote cpu time: 138.09ms min, 3.9s max, 3.12s mean, 49.95s total
+Operator 80 HashShuffleMap(keys=('vendor_id', 'pickup_datetime', 'dropoff_datetime', 'passenger_count', 'trip_distance', 'ratecode_id', 'store_and_fwd_flag', 'pu_location_id', 'do_location_id', 'payment_type', 'fare_amount', 'extra', 'mta_tax', 'tip_amount', 'tolls_amount', 'improvement_surcharge', 'total_amount', 'congestion_surcharge', 'airport_fee'), partitions=200): 1 tasks executed, 17 blocks produced in 60.38s
+* Remote wall time: 635.18us min, 3.59s max, 2.8s mean, 47.67s total
+* Remote cpu time: 631.0us min, 3.61s max, 2.83s mean, 48.05s total
 * UDF time: 0us min, 0us max, 0.0us mean, 0us total
-* Output num rows per block: 221495 min, 7996327 max, 6942729 mean, 111083668 total
-* Output size bytes per block: 30344815 min, 1095496799 max, 951153907 mean, 15218462516 total
+* Output num rows per block: 0 min, 7980171 max, 6534333 mean, 111083668 total
+* Output size bytes per block: 0 min, 1093283427 max, 895203677 mean, 15218462516 total
 * Output rows per task: 111083668 min, 111083668 max, 111083668 mean, 1 tasks used
 * Tasks per node: 1 min, 1 max, 1 mean; 2 nodes used
 * Operator throughput:
 	* Total input num rows: 111083668 rows
 	* Total output num rows: 111083668 rows
-	* Ray Data throughput: 1733974.9037715213 rows/s
-	* Estimated single task throughput: 2236633.144216026 rows/s
+	* Ray Data throughput: 1839860.3839740548 rows/s
+	* Estimated single task throughput: 2330105.4998247446 rows/s
 
-Operator 81 HashShuffleReduce(keys=('vendor_id', 'pickup_datetime', 'dropoff_datetime', 'passenger_count', 'trip_distance', 'ratecode_id', 'store_and_fwd_flag', 'pu_location_id', 'do_location_id', 'payment_type', 'fare_amount', 'extra', 'mta_tax', 'tip_amount', 'tolls_amount', 'improvement_surcharge', 'total_amount', 'congestion_surcharge', 'airport_fee'), partitions=200)->MapBatches(drop_duplicate_rows)->MapBatches(format_timestamps): 1 tasks executed, 600 blocks produced in 68.25s
-* Remote wall time: 7.44us min, 141.33us max, 19.95us mean, 11.97ms total
-* Remote cpu time: 5.72us min, 215.61us max, 22.46us mean, 13.47ms total
+Operator 81 HashShuffleReduce(keys=('vendor_id', 'pickup_datetime', 'dropoff_datetime', 'passenger_count', 'trip_distance', 'ratecode_id', 'store_and_fwd_flag', 'pu_location_id', 'do_location_id', 'payment_type', 'fare_amount', 'extra', 'mta_tax', 'tip_amount', 'tolls_amount', 'improvement_surcharge', 'total_amount', 'congestion_surcharge', 'airport_fee'), partitions=200)->MapBatches(drop_duplicate_rows)->MapBatches(format_timestamps): 1 tasks executed, 600 blocks produced in 61.75s
+* Remote wall time: 7.51us min, 53.2us max, 19.29us mean, 11.57ms total
+* Remote cpu time: 5.69us min, 166.98us max, 19.94us mean, 11.96ms total
 * UDF time: 0us min, 0us max, 0.0us mean, 0us total
 * Output num rows per block: 115122 min, 244923 max, 185139 mean, 111083664 total
 * Output size bytes per block: 19973670 min, 42494143 max, 32121695 mean, 19273017388 total
@@ -217,26 +217,26 @@ Operator 81 HashShuffleReduce(keys=('vendor_id', 'pickup_datetime', 'dropoff_dat
 * Operator throughput:
 	* Total input num rows: 111083668 rows
 	* Total output num rows: 111083664 rows
-	* Ray Data throughput: 1627559.7393944638 rows/s
-	* Estimated single task throughput: 9280586446.77628 rows/s
+	* Ray Data throughput: 1798941.9723889513 rows/s
+	* Estimated single task throughput: 9599526284.898674 rows/s
 
-Operator 82 JoinShuffleMapLeft(keys=('pu_location_id',), parts=200): 1 tasks executed, 19 blocks produced in 68.34s
-* Remote wall time: 963.14ms min, 2.83s max, 2.45s mean, 46.64s total
-* Remote cpu time: 974.43ms min, 2.89s max, 2.48s mean, 47.08s total
+Operator 82 JoinShuffleMapLeft(keys=('pu_location_id',), parts=200): 1 tasks executed, 18 blocks produced in 61.48s
+* Remote wall time: 1.75s min, 2.76s max, 2.4s mean, 43.17s total
+* Remote cpu time: 1.77s min, 2.77s max, 2.42s mean, 43.64s total
 * UDF time: 0us min, 0us max, 0.0us mean, 0us total
-* Output num rows per block: 1901141 min, 6356121 max, 5846508 mean, 111083664 total
-* Output size bytes per block: 328897393 min, 1099608933 max, 1011445993 mean, 19217473872 total
+* Output num rows per block: 5114296 min, 6357807 max, 6171314 mean, 111083664 total
+* Output size bytes per block: 884773208 min, 1099900611 max, 1067637437 mean, 19217473872 total
 * Output rows per task: 111083664 min, 111083664 max, 111083664 mean, 1 tasks used
 * Tasks per node: 1 min, 1 max, 1 mean; 2 nodes used
 * Operator throughput:
 	* Total input num rows: 111083664 rows
 	* Total output num rows: 111083664 rows
-	* Ray Data throughput: 1625359.133510218 rows/s
-	* Estimated single task throughput: 2381574.022806015 rows/s
+	* Ray Data throughput: 1806740.8911102482 rows/s
+	* Estimated single task throughput: 2572976.4165840736 rows/s
 
-Operator 83 JoinShuffleMapRight(keys=('pu_location_id',), parts=200): 1 tasks executed, 1 blocks produced in 0.01s
-* Remote wall time: 13.87ms min, 13.87ms max, 13.87ms mean, 13.87ms total
-* Remote cpu time: 15.11ms min, 15.11ms max, 15.11ms mean, 15.11ms total
+Operator 83 JoinShuffleMapRight(keys=('pu_location_id',), parts=200): 1 tasks executed, 1 blocks produced in 0.02s
+* Remote wall time: 18.37ms min, 18.37ms max, 18.37ms mean, 18.37ms total
+* Remote cpu time: 16.75ms min, 16.75ms max, 16.75ms mean, 16.75ms total
 * UDF time: 0us min, 0us max, 0.0us mean, 0us total
 * Output num rows per block: 265 min, 265 max, 265 mean, 265 total
 * Output size bytes per block: 12923 min, 12923 max, 12923 mean, 12923 total
@@ -245,40 +245,40 @@ Operator 83 JoinShuffleMapRight(keys=('pu_location_id',), parts=200): 1 tasks ex
 * Operator throughput:
 	* Total input num rows: 111083664 rows
 	* Total output num rows: 265 rows
-	* Ray Data throughput: 19105.338111032077 rows/s
-	* Estimated single task throughput: 19105.338111032077 rows/s
+	* Ray Data throughput: 14429.381137590168 rows/s
+	* Estimated single task throughput: 14429.381137590168 rows/s
 
-Operator 84 JoinShuffleReduce(num_partitions=200): 1 tasks executed, 876 blocks produced in 102.37s
-* Remote wall time: 12.44us min, 64.2us max, 18.01us mean, 15.78ms total
-* Remote cpu time: 10.98us min, 113.98us max, 16.85us mean, 14.76ms total
+Operator 84 JoinShuffleReduce(num_partitions=200): 1 tasks executed, 876 blocks produced in 100.77s
+* Remote wall time: 6.5us min, 149.28us max, 17.93us mean, 15.71ms total
+* Remote cpu time: 4.94us min, 119.87us max, 16.96us mean, 14.85ms total
 * UDF time: 0us min, 0us max, 0.0us mean, 0us total
-* Output num rows per block: 0 min, 232220 max, 126807 mean, 111083664 total
-* Output size bytes per block: 0 min, 49919948 max, 27994201 mean, 24522920910 total
+* Output num rows per block: 0 min, 232223 max, 126807 mean, 111083664 total
+* Output size bytes per block: 0 min, 49919796 max, 27994201 mean, 24522920910 total
 * Output rows per task: 111083664 min, 111083664 max, 111083664 mean, 1 tasks used
 * Tasks per node: 1 min, 1 max, 1 mean; 2 nodes used
 * Operator throughput:
 	* Total input num rows: 265 rows
 	* Total output num rows: 111083664 rows
-	* Ray Data throughput: 1085093.586136185 rows/s
-	* Estimated single task throughput: 7039324809.201463 rows/s
+	* Ray Data throughput: 1102361.200223839 rows/s
+	* Estimated single task throughput: 7072980601.94814 rows/s
 
-Operator 85 JoinShuffleMapLeft(keys=('do_location_id',), parts=200): 1 tasks executed, 23 blocks produced in 102.29s
-* Remote wall time: 1.67s min, 5.49s max, 2.74s mean, 62.95s total
-* Remote cpu time: 1.68s min, 5.53s max, 2.76s mean, 63.43s total
+Operator 85 JoinShuffleMapLeft(keys=('do_location_id',), parts=200): 1 tasks executed, 24 blocks produced in 99.53s
+* Remote wall time: 644.26ms min, 5.4s max, 2.54s mean, 60.99s total
+* Remote cpu time: 660.79ms min, 5.48s max, 2.56s mean, 61.41s total
 * UDF time: 0us min, 0us max, 0.0us mean, 0us total
-* Output num rows per block: 3669976 min, 5072830 max, 4829724 mean, 111083664 total
-* Output size bytes per block: 806276325 min, 1106459131 max, 1066213952 mean, 24522920910 total
+* Output num rows per block: 929410 min, 5017953 max, 4628486 mean, 111083664 total
+* Output size bytes per block: 202299382 min, 1107293511 max, 1021788371 mean, 24522920910 total
 * Output rows per task: 111083664 min, 111083664 max, 111083664 mean, 1 tasks used
 * Tasks per node: 1 min, 1 max, 1 mean; 2 nodes used
 * Operator throughput:
 	* Total input num rows: 111083664 rows
 	* Total output num rows: 111083664 rows
-	* Ray Data throughput: 1085941.9651041774 rows/s
-	* Estimated single task throughput: 1764635.8491334887 rows/s
+	* Ray Data throughput: 1116036.036566375 rows/s
+	* Estimated single task throughput: 1821440.996821094 rows/s
 
 Operator 86 JoinShuffleMapRight(keys=('do_location_id',), parts=200): 1 tasks executed, 1 blocks produced in 0.01s
-* Remote wall time: 7.95ms min, 7.95ms max, 7.95ms mean, 7.95ms total
-* Remote cpu time: 9.63ms min, 9.63ms max, 9.63ms mean, 9.63ms total
+* Remote wall time: 10.98ms min, 10.98ms max, 10.98ms mean, 10.98ms total
+* Remote cpu time: 13.03ms min, 13.03ms max, 13.03ms mean, 13.03ms total
 * UDF time: 0us min, 0us max, 0.0us mean, 0us total
 * Output num rows per block: 265 min, 265 max, 265 mean, 265 total
 * Output size bytes per block: 12923 min, 12923 max, 12923 mean, 12923 total
@@ -287,12 +287,12 @@ Operator 86 JoinShuffleMapRight(keys=('do_location_id',), parts=200): 1 tasks ex
 * Operator throughput:
 	* Total input num rows: 111083664 rows
 	* Total output num rows: 265 rows
-	* Ray Data throughput: 33344.34745472312 rows/s
-	* Estimated single task throughput: 33344.34745472312 rows/s
+	* Ray Data throughput: 24136.38423112211 rows/s
+	* Estimated single task throughput: 24136.38423112211 rows/s
 
-Operator 87 JoinShuffleReduce(num_partitions=200)->MapBatches(apply_udf)->MapBatches(speed_filter)->MapBatches(to_output)->Write: 1 tasks executed, 200 blocks produced in 86.45s
-* Remote wall time: 8.43us min, 280.82us max, 24.49us mean, 4.9ms total
-* Remote cpu time: 6.76us min, 91.73us max, 20.99us mean, 4.2ms total
+Operator 87 JoinShuffleReduce(num_partitions=200)->MapBatches(apply_udf)->MapBatches(speed_filter)->MapBatches(to_output)->Write: 1 tasks executed, 200 blocks produced in 100.21s
+* Remote wall time: 13.9us min, 369.5us max, 29.53us mean, 5.91ms total
+* Remote cpu time: 12.28us min, 240.14us max, 25.66us mean, 5.13ms total
 * UDF time: 0us min, 0us max, 0.0us mean, 0us total
 * Output num rows per block: 1 min, 1 max, 1 mean, 200 total
 * Output size bytes per block: 172 min, 172 max, 172 mean, 34400 total
@@ -301,12 +301,12 @@ Operator 87 JoinShuffleReduce(num_partitions=200)->MapBatches(apply_udf)->MapBat
 * Operator throughput:
 	* Total input num rows: 265 rows
 	* Total output num rows: 200 rows
-	* Ray Data throughput: 2.3133866227974487 rows/s
-	* Estimated single task throughput: 40839.82186060902 rows/s
+	* Ray Data throughput: 1.9958778238754964 rows/s
+	* Estimated single task throughput: 33863.99342076535 rows/s
 
 Cluster memory:
-* Spilled to disk: 209020MB
-* Restored from disk: 108553MB
+* Spilled to disk: 210932MB
+* Restored from disk: 105627MB
 
 Dataset throughput:
-	* Ray Data throughput: 0.024382680365974112 rows/s
+	* Ray Data throughput: 0.011296262597261702 rows/s
