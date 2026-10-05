@@ -5,6 +5,9 @@ and in Ray Data, run on a two-worker Docker cluster for each framework, and
 benchmarked on the NYC TLC Yellow Taxi trip data (38 monthly files, 2022-01 to
 2025-02, 126,188,813 rows, ~2 GB).
 
+A video of the whole process is
+[here](https://drive.google.com/file/d/1Xj7BCZRdBJQ_FbPGiC_ctcyST71PzNcC/view?usp=sharing).
+
 Structure of the repository:
 
 ```
