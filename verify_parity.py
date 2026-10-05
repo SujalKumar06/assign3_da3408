@@ -40,13 +40,15 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--spark", default=str(config.OUTPUT_DIR / "spark"))
     parser.add_argument("--ray", default=str(config.OUTPUT_DIR / "ray"))
+    parser.add_argument("--master", default="local[2]")
+    parser.add_argument("--driver-memory", default="2g")
     args = parser.parse_args()
 
     spark = (
         SparkSession.builder.appName("a3-verify-parity")
-        .master("local[2]")
+        .master(args.master)
         .config("spark.sql.session.timeZone", "UTC")
-        .config("spark.driver.memory", "2g")
+        .config("spark.driver.memory", args.driver_memory)
         .config("spark.local.dir", str(config.ROOT / "data" / "tmp" / "spark"))
         .getOrCreate()
     )

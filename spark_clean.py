@@ -160,7 +160,7 @@ def stage_counts(stages: dict[str, DataFrame]) -> list[dict]:
     """Materialize each stage in turn so each step's time excludes the steps before it."""
     rows, previous, cached = [], None, None
     for name in config.STAGES:
-        df = stages[name].persist(StorageLevel.MEMORY_AND_DISK)
+        df = stages[name].persist(StorageLevel.DISK_ONLY)
         start = time.perf_counter()
         n = df.count()
         elapsed = time.perf_counter() - start
